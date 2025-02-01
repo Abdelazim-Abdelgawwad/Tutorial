@@ -5,11 +5,16 @@ url: "https://github.com/Abdelazim-Abdelgawwad/easyPARM.git"
 baseurl: "/Tutorial"
 
 # Theme Settings
-remote_theme: pages-themes/merlot@v0.2.0
 plugins:
-- jekyll-remote-theme
+  - jekyll-remote-theme
+  - jekyll-assets
 markdown: kramdown
+remote_theme: pages-themes/merlot@v0.2.0
 show_downloads: false
+
+# Include the custom stylesheet
+include:
+  - assets/css/style.css
 
 # Author Information
 author:
