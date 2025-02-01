@@ -1,6 +1,5 @@
 # Site Settings
 title: "easyPARM Tutorial"
-nav_label: "Parameterization"
 description: "A comprehensive guide for easyPARM parameterization"
 url: "https://github.com/Abdelazim-Abdelgawwad/easyPARM.git"
 baseurl: "/Tutorial"
