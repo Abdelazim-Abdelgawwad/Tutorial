@@ -4,13 +4,10 @@ description: "A comprehensive guide for easyPARM parameterization"
 url: "https://github.com/Abdelazim-Abdelgawwad/easyPARM.git"
 baseurl: "/Tutorial"
 
-remote_theme: pages-themes/minimal
+remote_theme: mistakes/minimal-mistakes
 plugins:
   - jekyll-remote-theme
 markdown: kramdown
-
-include:
-  - assets/css/style.css
 
 # Author Information
 author:
