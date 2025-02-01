@@ -3,8 +3,9 @@ layout: default
 title: easyPARM Tutorial
 description: A comprehensive guide for metalloprotein parameterization
 ---
-
-# Tutorial on Parameterizing Metalloproteins using easyPARM
+<div style="text-align: justify;">
+<strong>Tutorial on Parameterizing Metalloproteins using easyPARM</strong>
+</div>
 
 ## Table of Contents
 1. [Introduction](#introduction)
