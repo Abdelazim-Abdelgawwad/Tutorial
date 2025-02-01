@@ -1,13 +1,26 @@
 # Site Settings
-title: "Tutorial on Parameterizing Metalloproteins using easyPARM"
-description: "A step-by-step guide to parameterizing metalloproteins with easyPARM"
+title: "easyPARM Metalloprotein Parameterization"
+description: "A comprehensive guide for metalloprotein parameterization"
 url: "https://abdelazim-abdelgawwad.github.io/Tutorial"
 baseurl: "/Tutorial"
 
 # Theme Settings
-theme: jekyll-theme-cayman
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+- jekyll-remote-theme
 markdown: kramdown
-highlighter: rouge
+show_downloads: false
+
+# Theme Customization
+cayman:
+  title_font_size: "3.25rem"
+  header_padding: "3rem 6rem"
+  gradient_start_color: "#155799"
+  gradient_end_color: "#159957"
+  body_width: "64rem"
+  body_font_size: "1.1rem"
+  body_line_height: "1.6"
+  content_padding: "2rem 6rem"
 
 # Author Information
 author:
@@ -19,15 +32,13 @@ author:
     group: "QCEXVAL"
     group_url: "https://qcexval.uv.es"
 
-# Build settings
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
-
-# Custom Variables
+# GitHub Settings
 github:
   is_project_page: true
   repository_url: "https://github.com/Abdelazim-Abdelgawwad/Tutorial"
+  repository_name: "Tutorial"
+  owner_url: "https://github.com/Abdelazim-Abdelgawwad"
+  owner_name: "Abdelazim-Abdelgawwad"
 
 # Remove GitHub Pages attribution
 github_pages:
