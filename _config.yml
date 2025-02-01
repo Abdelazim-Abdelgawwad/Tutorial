@@ -5,7 +5,7 @@ url: "https://github.com/Abdelazim-Abdelgawwad/easyPARM.git"
 baseurl: "/Tutorial"
 
 # Theme Settings
-remote_theme: pages-themes/slate
+remote_theme: pages-themes/minimal
 plugins:
 - jekyll-remote-theme
 markdown: kramdown
@@ -35,7 +35,7 @@ author:
 # GitHub Settings
 github:
   is_project_page: true
-  repository_url: "https://github.com/Abdelazim-Abdelgawwad/Tutorial"
+  repository_url: "https://github.com/Abdelazim-Abdelgawwad/easyPARM.git"
   repository_name: "Tutorial"
   owner_url: "https://github.com/Abdelazim-Abdelgawwad"
   owner_name: "Abdelazim-Abdelgawwad"
