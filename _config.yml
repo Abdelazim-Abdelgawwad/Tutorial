@@ -4,7 +4,7 @@ description: "A comprehensive guide for easyPARM parameterization"
 url: "https://github.com/Abdelazim-Abdelgawwad/easyPARM.git"
 baseurl: "/Tutorial"
 
-remote_theme: mmistakes/minimal-mistakes@4.24.0  # Replace with the latest stable release
+remote_theme: mmistakes/minimal-mistakes  # Replace with the latest stable release
 plugins:
   - jekyll-remote-theme
 markdown: kramdown
