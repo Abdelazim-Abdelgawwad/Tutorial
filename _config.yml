@@ -1,7 +1,7 @@
 # Site Settings
 title: Tutorial on Parameterizing Metalloproteins using easyPARM
 description: A comprehensive step-by-step guide to parameterizing metalloproteins with easyPARM
-remote_theme: pages-themes/cayman@v0.2.0
+remote_theme: pages-themes/cayman
 plugins:
   - jekyll-remote-theme
 
