@@ -1,12 +1,29 @@
+# Site Settings
 title: Tutorial on Parameterizing Metalloproteins using easyPARM
-description: A step-by-step guide to parameterizing metalloproteins with easyPARM.
-theme: jekyll-theme-cayman 
-url: "https://abdelazim-abdelgawwad.github.io/Tutorial"
+description: A comprehensive step-by-step guide to parameterizing metalloproteins with easyPARM
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+  - jekyll-remote-theme
 
-# Contact Information
-email: Abdelazim.abdelgawwad@uv.es
-university: University of Valencia
-institute: Institute of Molecular Science
-group: QCEXVAL
-group_link: https://qcexval.uv.es
-show_downloads: false
+# Site URL
+url: "https://abdelazim-abdelgawwad.github.io/Tutorial"
+baseurl: "/Tutorial"
+
+# Author Information
+author:
+  name: Abdelazim-Abdelgawwad
+  email: Abdelazim.abdelgawwad@uv.es
+  affiliation:
+    university: University of Valencia
+    institute: Institute of Molecular Science
+    group: QCEXVAL
+    group_url: https://qcexval.uv.es
+
+# Google Analytics (optional)
+# google_analytics: [Your tracking ID]
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
