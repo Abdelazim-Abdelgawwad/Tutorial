@@ -1,3 +1,4 @@
 title: My Tutorial Site
-     description: A tutorial site built with Jekyll.
-     theme: minima
+description: A tutorial site built with Jekyll.
+theme: minima
+url: "https://abdelazim-abdelgawwad.github.io/Tutorial/" 
