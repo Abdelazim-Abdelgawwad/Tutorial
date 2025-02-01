@@ -1,10 +1,12 @@
 ---
 layout: default
-title: easyPARM Tutorial
-description: A comprehensive guide for metalloprotein parameterization
 ---
 
-# Tutorial on Parameterizing Metalloproteins using easyPARM
+# easyPARM Metalloprotein Parameterization
+
+A comprehensive guide for parameterizing metalloproteins in molecular dynamics simulations.
+
+[View on GitHub](https://github.com/Abdelazim-Abdelgawwad/Tutorial){: .btn}
 
 
 ## Table of Contents
