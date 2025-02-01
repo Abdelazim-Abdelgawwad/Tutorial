@@ -7,7 +7,7 @@ body {
     font-size: 18px; /* Adjust as needed */
     font-family: 'Arial', sans-serif; /* Replace with your preferred font */
 }
-h1, h2, h3 {
+h1, h2, h3 h4, h5 {
     font-family: 'Georgia', serif; /* Customize headers separately */
 }
 </style>
