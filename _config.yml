@@ -4,32 +4,53 @@ description: "A comprehensive guide for easyPARM parameterization"
 url: "https://github.com/Abdelazim-Abdelgawwad/easyPARM.git"
 baseurl: "/Tutorial"
 
-remote_theme: just-the-docs/just-the-docs
-
+theme: just-the-docs
 # Plugins and Markdown Engine
 plugins:
   - jekyll-remote-theme
 markdown: kramdown
 
-# Navigation Settings
-nav:
-  - title: "Home"
-    url: /
-  - title: "Tutorial"
-    url: /tutorial/
-  - title: "About"
-    url: /about/
-  - title: "Affiliation"
-    children:
-      - title: "University of Valencia"
-        url: "https://www.uv.es"
-      - title: "Institute of Molecular Science"
-        url: "https://www.uv.es/institute"
-      - title: "QCEXVAL"
-        url: "https://qcexval.uv.es"
-  - title: "Contact"
-    url: /contact/
+# Color scheme and Appearance
+color_scheme: light
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: false
 
+# Auxiliary Links
+aux_links:
+  "easyPARM on GitHub":
+    - "//github.com/Abdelazim-Abdelgawwad/easyPARM"
+aux_links_new_tab: true
+
+# Navigation Settings
+nav_external_links:
+  - title: easyPARM on GitHub
+    url: https://github.com/Abdelazim-Abdelgawwad/easyPARM
+    hide_icon: false
+
+# Footer Content
+footer_content: "Copyright &copy; 2024 Abdelazim Abdelgawwad. Distributed under an MIT license."
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Collections for organizing content
+collections:
+  docs:
+    permalink: "/:collection/:path/"
+    output: true
+
+just_the_docs:
+  collections:
+    docs:
+      name: Documentation
 # Author Information
 author:
   name: "Abdelazim-Abdelgawwad"
