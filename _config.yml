@@ -5,7 +5,7 @@ description: "A comprehensive guide for easyPARM parameterization"
 url: "https://github.com/Abdelazim-Abdelgawwad/easyPARM.git"
 baseurl: "/Tutorial"
 
-remote_theme: just-the-docs/just-the-docs@2.6.0  # Replace with the latest stable version if needed
+remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-remote-theme
 markdown: kramdown
