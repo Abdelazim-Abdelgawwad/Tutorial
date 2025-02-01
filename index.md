@@ -4,6 +4,14 @@ Welcome to this tutorial on parameterizing metalloproteins using **easyPARM**. T
 
 ---
 
+## Contact Information
+- **Email**: {{ site.email }}
+- **University**: {{ site.university }}
+- **Institute**: {{ site.institute }}
+- **Research Group**: [{{ site.group }}]({{ site.group_link }})
+
+---
+
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Installation](#installation)
@@ -44,9 +52,12 @@ Before running easyPARM, you need to prepare the following input files:
 - **Metal Ion Parameters**: A file containing the force field parameters for the metal ion.
 - **Configuration File**: A YAML file specifying the simulation parameters.
 
-Example configuration file (`config.yml`):
-```yaml
-protein: protein.pdb
-metal_ion: Zn
-forcefield: amber99sb
-output: output_params
+[Download Example Configuration File](/Tutorial/files/config.yml)
+
+---
+
+## Running easyPARM
+Once your input files are ready, you can run easyPARM using the following command:
+
+```bash
+easyparm config.yml
