@@ -20,11 +20,6 @@ search:
   rel_url: true
   button: false
 
-# Navigation Settings
-nav_external_links:
-  - title: easyPARM on GitHub
-    url: https://github.com/Abdelazim-Abdelgawwad/easyPARM
-    hide_icon: false
 
 # Footer Content
 footer_content: "Copyright &copy; 2024 Abdelazim Abdelgawwad. Distributed under an MIT license."
@@ -34,7 +29,7 @@ back_to_top: true
 back_to_top_text: "Back to top"
 
 # Navigation Settings
-nav:
+nav_external_links:
   - title: "Home"
     url: /
   - title: "Tutorial"
