@@ -16,7 +16,9 @@ description: A comprehensive guide for metalloprotein parameterization
 
 ## Introduction
 
-Metalloproteins are proteins that contain metal ions as essential components of their structure. Parameterizing these proteins for molecular dynamics simulations presents unique challenges due to the complex interactions between metal ions and protein structures. **easyPARM** is a specialized tool designed to streamline and simplify this parameterization process.
+<div style="text-align: justify;">
+Metalloproteins are proteins that contain metal ions as essential components of their structure. Parameterizing these proteins for molecular dynamics simulations presents unique challenges due to the complex interactions between metal ions and protein structures. <strong>easyPARM</strong> is a specialized tool designed to streamline and simplify this parameterization process.
+</div>
 
 ## Installation
 
