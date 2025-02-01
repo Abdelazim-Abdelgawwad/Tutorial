@@ -12,11 +12,12 @@ plugins:
 markdown: kramdown
 
 # Navigation Settings
-# This section creates a sidebar with grouped links.
 nav:
-  - title: "Tutorial Home"
+  - title: "Home"
     url: /
-  - title: "About the Tutorial"
+  - title: "Tutorial"
+    url: /tutorial/
+  - title: "About"
     url: /about/
   - title: "Affiliation"
     children:
