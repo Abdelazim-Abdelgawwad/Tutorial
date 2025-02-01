@@ -5,7 +5,7 @@ url: "https://github.com/Abdelazim-Abdelgawwad/easyPARM.git"
 baseurl: "/Tutorial"
 
 # Theme Settings
-remote_theme: pages-themes/cayman@v0.2.0
+remote_theme: pages-themes/architect
 plugins:
 - jekyll-remote-theme
 markdown: kramdown
