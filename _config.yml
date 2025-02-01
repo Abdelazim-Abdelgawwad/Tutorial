@@ -1,14 +1,12 @@
-# Site Settings
+
+
 title: "easyPARM Tutorial"
 description: "A comprehensive guide for easyPARM parameterization"
 url: "https://github.com/Abdelazim-Abdelgawwad/easyPARM.git"
 baseurl: "/Tutorial"
 
-theme: just-the-docs
-# Plugins and Markdown Engine
-plugins:
-  - jekyll-remote-theme
-markdown: kramdown
+# Theme Settings
+remote_theme: just-the-docs/just-the-docs
 
 # Color scheme and Appearance
 color_scheme: light
@@ -21,12 +19,6 @@ search:
   tokenizer_separator: /[\s/]+/
   rel_url: true
   button: false
-
-# Auxiliary Links
-aux_links:
-  "easyPARM on GitHub":
-    - "//github.com/Abdelazim-Abdelgawwad/easyPARM"
-aux_links_new_tab: true
 
 # Navigation Settings
 nav_external_links:
@@ -41,16 +33,25 @@ footer_content: "Copyright &copy; 2024 Abdelazim Abdelgawwad. Distributed under 
 back_to_top: true
 back_to_top_text: "Back to top"
 
-# Collections for organizing content
-collections:
-  docs:
-    permalink: "/:collection/:path/"
-    output: true
+# Navigation Settings
+nav:
+  - title: "Home"
+    url: /
+  - title: "Tutorial"
+    url: /tutorial/
+  - title: "About"
+    url: /about/
+  - title: "Affiliation"
+    children:
+      - title: "University of Valencia"
+        url: "https://www.uv.es"
+      - title: "Institute of Molecular Science"
+        url: "https://www.uv.es/institute"
+      - title: "QCEXVAL"
+        url: "https://qcexval.uv.es"
+  - title: "Contact"
+    url: /contact/
 
-just_the_docs:
-  collections:
-    docs:
-      name: Documentation
 # Author Information
 author:
   name: "Abdelazim-Abdelgawwad"
