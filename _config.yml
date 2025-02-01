@@ -5,9 +5,29 @@ url: "https://github.com/Abdelazim-Abdelgawwad/easyPARM.git"
 baseurl: "/Tutorial"
 
 remote_theme: just-the-docs/just-the-docs
+
+# Plugins and Markdown Engine
 plugins:
   - jekyll-remote-theme
 markdown: kramdown
+
+# Navigation Settings
+# This section creates a sidebar with grouped links.
+nav:
+  - title: "Tutorial Home"
+    url: /
+  - title: "About the Tutorial"
+    url: /about/
+  - title: "Affiliation"
+    children:
+      - title: "University of Valencia"
+        url: "https://www.uv.es"
+      - title: "Institute of Molecular Science"
+        url: "https://www.uv.es/institute"
+      - title: "QCEXVAL"
+        url: "https://qcexval.uv.es"
+  - title: "Contact"
+    url: /contact/
 
 # Author Information
 author:
