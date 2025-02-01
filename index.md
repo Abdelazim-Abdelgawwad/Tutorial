@@ -6,9 +6,6 @@ layout: default
 
 A comprehensive guide for parameterizing metalloproteins in molecular dynamics simulations.
 
-[View on GitHub](https://github.com/Abdelazim-Abdelgawwad/Tutorial){: .btn}
-
-
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Installation](#installation)
