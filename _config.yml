@@ -1,7 +1,7 @@
 # Site Settings
-title: "easyPARM Metalloprotein Parameterization"
-description: "A comprehensive guide for metalloprotein parameterization"
-url: "https://abdelazim-abdelgawwad.github.io/Tutorial"
+title: "easyPARM Tutorial"
+description: "A comprehensive guide for easyPARM parameterization"
+url: "https://github.com/Abdelazim-Abdelgawwad/easyPARM.git"
 baseurl: "/Tutorial"
 
 # Theme Settings
