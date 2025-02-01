@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Tutorial: Parameterizing Metalloproteins using easyPARM
+# {{ site.title }}
 
 Welcome to this tutorial on parameterizing metalloproteins using **easyPARM**. This guide will walk you through the steps required to set up and use easyPARM for metalloprotein parameterization.
 
