@@ -1,35 +1,34 @@
----
-layout: default
-title: Home
----
+# Site Settings
+title: "Tutorial on Parameterizing Metalloproteins using easyPARM"
+description: "A step-by-step guide to parameterizing metalloproteins with easyPARM"
+url: "https://abdelazim-abdelgawwad.github.io/Tutorial"
+baseurl: "/Tutorial"
 
-# Tutorial on Parameterizing Metalloproteins using easyPARM
+# Theme Settings
+theme: jekyll-theme-cayman
+markdown: kramdown
+highlighter: rouge
 
-A comprehensive guide to simplify the parameterization of metalloproteins for molecular dynamics simulations.
+# Author Information
+author:
+  name: "Abdelazim-Abdelgawwad"
+  email: "Abdelazim.abdelgawwad@uv.es"
+  affiliation:
+    university: "University of Valencia"
+    institute: "Institute of Molecular Science"
+    group: "QCEXVAL"
+    group_url: "https://qcexval.uv.es"
 
-## Table of Contents
-1. [Introduction](#introduction)
-2. [Installation](#installation)
-3. [Preparing Input Files](#preparing-input-files)
-4. [Running easyPARM](#running-easyparm)
-5. [Analyzing Results](#analyzing-results)
-6. [Conclusion](#conclusion)
+# Build settings
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
-## Introduction
+# Custom Variables
+github:
+  is_project_page: true
+  repository_url: "https://github.com/Abdelazim-Abdelgawwad/Tutorial"
 
-Metalloproteins are complex biomolecules that contain metal ions as integral components of their structure. Their parameterization for molecular dynamics simulations presents unique challenges due to the intricate interactions between metal ions and protein structures. easyPARM streamlines this process by providing automated tools and workflows.
-
-## Installation
-
-### Prerequisites
-- Python 3.x
-- pip package manager
-
-### Step-by-step Installation
-1. **Download easyPARM**
-   - Visit the [easyPARM GitHub repository](https://github.com/easyPARM)
-   - Download the latest release or clone the repository
-
-2. **Install Dependencies**
-   ```bash
-   pip install numpy scipy
+# Remove GitHub Pages attribution
+github_pages:
+  is_generated_page: false
