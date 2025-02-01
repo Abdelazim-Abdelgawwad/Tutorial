@@ -11,17 +11,6 @@ plugins:
 markdown: kramdown
 show_downloads: false
 
-# Theme Customization
-cayman:
-  title_font_size: "3.25rem"
-  header_padding: "3rem 6rem"
-  gradient_start_color: "#155799"
-  gradient_end_color: "#159957"
-  body_width: "64rem"
-  body_font_size: "1.1rem"
-  body_line_height: "1.6"
-  content_padding: "2rem 6rem"
-
 # Author Information
 author:
   name: "Abdelazim-Abdelgawwad"
