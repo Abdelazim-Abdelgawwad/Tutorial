@@ -1,14 +1,10 @@
+---
+layout: default
+---
+
 # Tutorial: Parameterizing Metalloproteins using easyPARM
 
 Welcome to this tutorial on parameterizing metalloproteins using **easyPARM**. This guide will walk you through the steps required to set up and use easyPARM for metalloprotein parameterization.
-
----
-
-## Contact Information
-- **Email**: {{ site.email }}
-- **University**: {{ site.university }}
-- **Institute**: {{ site.institute }}
-- **Research Group**: [{{ site.group }}]({{ site.group_link }})
 
 ---
 
@@ -47,7 +43,6 @@ To get started with easyPARM, follow these steps:
 
 ## Preparing Input Files
 Before running easyPARM, you need to prepare the following input files:
-
 - **Protein Structure File**: A PDB file of your metalloprotein.
 - **Metal Ion Parameters**: A file containing the force field parameters for the metal ion.
 - **Configuration File**: A YAML file specifying the simulation parameters.
