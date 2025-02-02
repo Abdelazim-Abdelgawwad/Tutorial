@@ -3,18 +3,14 @@ title: "Introduction"
 permalink: Introduction
 ---
 
+<!-- Option 1: Using baseurl -->
 <p align="center">
-  <img src="../logo/easyPARM3.png" alt="easyPARM Logo" width="400"/>
+  <img src="{{ site.baseurl }}/logo/easyPARM3.png" alt="easyPARM Logo" width="400"/>
 </p>
 
-<!-- Option 2: Use absolute path from repository root -->
+<!-- Option 2: Using relative path with baseurl -->
 <p align="center">
-  <img src="/logo/easyPARM3.png" alt="easyPARM Logo" width="400"/>
-</p>
-
-<!-- Option 3: Use full GitHub raw URL -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Abdelazim-Abdelgawwad/Tutorial/main/logo/easyPARM3.png" alt="easyPARM Logo" width="400"/>
+  <img src="/Tutorial/logo/easyPARM3.png" alt="easyPARM Logo" width="400"/>
 </p>
 
 # Introduction  
