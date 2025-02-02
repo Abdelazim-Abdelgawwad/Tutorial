@@ -1,51 +1,49 @@
+# _config.yml
 
-
-title: "easyPARM Tutorial"
+title: easyPARM User Manual
 description: "A comprehensive guide for easyPARM parameterization"
 url: "https://github.com/Abdelazim-Abdelgawwad/easyPARM.git"
 baseurl: "/Tutorial"
+theme: just-the-docs
 
-# Theme Settings
-remote_theme: just-the-docs/just-the-docs
+# Site logo
+logo: "/assets/images/logo.png"
 
-# Color scheme and Appearance
-color_scheme: light
-search_enabled: true
+# Site favicon
+favicon_ico: "/assets/images/favicon.ico"
+
+# Search configuration
 search:
-  heading_level: 2
-  previews: 3
-  preview_words_before: 5
-  preview_words_after: 10
-  tokenizer_separator: /[\s/]+/
-  rel_url: true
-  button: false
+  enabled: true
+  tokenizer: "[\s\-/]+"
+  previews_per_result: 3
+  words_before: 3
+  words_after: 10
 
+# Navigation sidebar
+nav:
+  - title: Introduction
+    url: /#introduction
+  - title: Installation
+    url: /#installation
+  - title: Usage Guide
+    url: /#usage-guide
+  - title: Appendix
+    url: /#appendix
+  - title: Troubleshooting
+    url: /#troubleshooting
+  - title: Tleap Inputs
+    url: /#tleap-inputs
+  - title: References
+    url: /#references
 
-# Footer Content
-footer_content: "Copyright &copy; 2024 Abdelazim Abdelgawwad. Distributed under an MIT license."
+# Footer content
+footer_content: "© 2025 Abdelazim M. A. Abdelgawwad. Distributed under the GNU LESSER GENERAL PUBLIC LICENSE Version 2.1, February 1999."
+
 
 # Back to top link
 back_to_top: true
 back_to_top_text: "Back to top"
-
-# Navigation Settings
-nav_external_links:
-  - title: "Home"
-    url: /
-  - title: "Tutorial"
-    url: /tutorial/
-  - title: "About"
-    url: /about/
-  - title: "Affiliation"
-    children:
-      - title: "University of Valencia"
-        url: "https://www.uv.es"
-      - title: "Institute of Molecular Science"
-        url: "https://www.uv.es/institute"
-      - title: "QCEXVAL"
-        url: "https://qcexval.uv.es"
-  - title: "Contact"
-    url: /contact/
 
 # Author Information
 author:
