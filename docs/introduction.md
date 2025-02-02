@@ -6,6 +6,7 @@ permalink: Introduction
 **easyPARM** is a computational tool designed with four key functionalities:
 
 1- Force Field Parameter Derivation for Metal-Containing Systems. 
+
 easyPARM derives bond-stretching and bond-angle bending force field parameters for metal-containing molecular systems using the Seminario method. This ensures  accurate parameter generation tailored for the AMBER software suite, based on the  Hessian matrix produced by frequency calculation in Gaussian, Orca or Gamess Software.
 
 2- Force Field Parameterization for Metalloproteins 
