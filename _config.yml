@@ -15,7 +15,6 @@ favicon_ico: "/assets/images/favicon.ico"
 # Search configuration
 search:
   enabled: true
-  tokenizer: "[\s\-/]+"
   previews_per_result: 3
   words_before: 3
   words_after: 10
