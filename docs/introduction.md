@@ -1,6 +1,6 @@
 ---
 title: "Introduction"
-permalink: /Tutorial/docs/introduction/
+permalink: Introduction
 ---
 
 Here is a test blavala 
