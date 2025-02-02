@@ -7,18 +7,22 @@ baseurl: "/Tutorial"
 theme: just-the-docs
 
 # Site logo
-logo: "/assets/images/logo.png"
+#logo: "/assets/images/logo.png"
 
 # Site favicon
-favicon_ico: "/assets/images/favicon.ico"
+#favicon_ico: "/assets/images/favicon.ico"
 
 # Search configuration
+color_scheme: light
+search_enabled: true
 search:
-  enabled: true
-  previews_per_result: 3
-  words_before: 3
-  words_after: 10
-
+  heading_level: 2
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: false
 # Navigation sidebar
 nav:
   - title: Introduction
@@ -38,7 +42,6 @@ nav:
 
 # Footer content
 footer_content: "© 2025 Abdelazim M. A. Abdelgawwad. Distributed under the GNU LESSER GENERAL PUBLIC LICENSE Version 2.1, February 1999."
-
 
 # Back to top link
 back_to_top: true
