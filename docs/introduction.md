@@ -2,7 +2,7 @@
 title: "Introduction"
 permalink: Introduction
 ---
-
+<div style="text-align: justify;">
 **easyPARM** is a computational tool designed with four key functionalities:
 
 1- Force Field Parameter Derivation for Metal-Containing Systems. 
@@ -54,3 +54,4 @@ Please cite the following references if you use the easyPARM code:
 and Reliable Force Field Parameters for Metal-Containing Molecules with Unique 
 
 Labeling of Coordinating Atoms. ChemRxiv. 2024; doi:10.26434/chemrxiv2024-f8wp4
+</div>
