@@ -3,11 +3,6 @@ title: "Introduction"
 permalink: Introduction
 ---
 
-<!-- Option 1: Using baseurl -->
-<p align="center">
-  <img src="{{ site.baseurl }}/logo/easyPARM3.png" alt="easyPARM Logo" width="400"/>
-</p>
-
 <!-- Option 2: Using relative path with baseurl -->
 <p align="center">
   <img src="/Tutorial/logo/easyPARM3.png" alt="easyPARM Logo" width="400"/>
