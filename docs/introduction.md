@@ -2,7 +2,7 @@
 title: "Introduction"
 permalink: Introduction
 ---
-
+![easyPARM logo](/logo/easyPARM3.png)
 <p align="center">
   <img src="../logo/easyPARM3.png"  width="2000"/>
 </p>
