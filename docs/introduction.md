@@ -5,25 +5,24 @@ permalink: Introduction
 
 # Introduction
 
+<div align="justify">
+
 **easyPARM** is a computational tool designed with four key functionalities:
-<div style="text-align: justify;">
+
 ### 1. Force Field Parameter Derivation for Metal-Containing Systems  
 easyPARM derives bond-stretching and bond-angle bending force field parameters for metal-containing molecular systems using the **Seminario method**. This ensures accurate parameter generation tailored for the **AMBER** software suite, based on the Hessian matrix produced by frequency calculation in **Gaussian, Orca,** or **GAMESS** software.
-</div>
-<div style="text-align: justify;">
+
 ### 2. Force Field Parameterization for Metalloproteins  
 The tool facilitates the derivation of bond-stretching and bond-angle bending force field parameters for **metalloproteins** using the **Seminario method**. This capability streamlines the integration of these parameters into **protein force fields**.
-</div>
-<div style="text-align: justify;">
+
 ### 3. AMBER Format Conversion to GROMACS or OpenMM  
 easyPARM utilizes **ParmEd** to convert **AMBER-format files** into **GROMACS** or **OpenMM** formats, facilitating compatibility with other molecular dynamics engines.
-</div>
-<div style="text-align: justify;">
+
 ### 4. Charge Restraints with REsP Fitting  
 easyPARM supports the application of **charge restraints** on specific atoms using the **Restrained Electrostatic Potential (REsP) fitting** approach. This helps achieve a more accurate electrostatic potential around the molecule while keeping the charge distribution physically meaningful.
 
 With these capabilities, **easyPARM** is an efficient tool for accurately modeling **metal-containing systems**, ensuring both structural and electrostatic precision.
-</div>
+
 ---
 
 ## Authors & License  
@@ -46,3 +45,5 @@ If you use the **easyPARM** code, please cite the following reference:
 > **Abdelgawwad AMA, Francés-Monerris A.**  
 > *easyPARM: Automated, Versatile, and Reliable Force Field Parameters for Metal-Containing Molecules with Unique Labeling of Coordinating Atoms.*  
 > **ChemRxiv. 2024;** doi: [10.26434/chemrxiv-2024-f8wp4](https://doi.org/10.26434/chemrxiv-2024-f8wp4)
+
+</div>
