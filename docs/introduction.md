@@ -4,7 +4,7 @@ permalink: Introduction
 ---
 
 <p align="center">
-  <img src="path-to-logo/easyPARM-logo.png" alt="easyPARM Logo" width="400"/>
+  <img src="/logo/easyPARM2.jpg" alt="easyPARM Logo" width="400"/>
 </p>
 
 # Introduction  
