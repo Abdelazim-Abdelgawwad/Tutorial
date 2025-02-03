@@ -51,7 +51,7 @@ This code (<strong>version 3.00</strong>) is <strong>free software</strong>: you
 - Capable of generating parameters for <strong>entire structures in non-metal systems</strong> using <strong>GAFF or AMBER</strong>.  
  </p>
 <p align="justify">
--Outputs essential files (<strong>frcmod, pdb, mol2,</strong> and <strong>lib</strong>) for initiating simulations or preparing metal-containing systems.
+- Outputs essential files (<strong>frcmod, pdb, mol2,</strong> and <strong>lib</strong>) for initiating simulations or preparing metal-containing systems.
 </p>
 
 ---
