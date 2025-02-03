@@ -10,9 +10,9 @@ permalink: Input Requirements
   <img src="/Tutorial/logo/easyPARM3.png" alt="easyPARM Logo" width="500"/>
 </p>
 
-# **Input Requirements**
+# <strong>Input Requirements<strong>
 
-To successfully run **easyPARM**, the following input files are required:
+To successfully run <strong>easyPARM<strong>, the following input files are required:
 
 ## **1. Hessian Matrix Files**
 The Hessian matrix is essential for force field parameter derivation. It can be provided in one of the following formats:
