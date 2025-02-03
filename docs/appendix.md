@@ -1,15 +1,20 @@
+---
+layout: default
+title: "Appendix"
+nav_order: 8
+permalink: Appendix 
+---
 
-
-### <strong>Appendix</strong>
+# <strong>Appendix</strong>
 
 <p align="justify">
 
-#### <strong>Example for Generating the Required Files</strong>
+## <strong>Example for Generating the Required Files</strong>
 
-#### <strong>4.1 GAUSSIAN Input</strong>
+### <strong>4.1 GAUSSIAN Input</strong>
 When using Gaussian to generate the required files, note that the choice of the level of theory is up to the user and is not mandatory to match the examples provided. Follow the steps below:
 
-#### <strong>4.1.1 Structure Optimization</strong>
+### <strong>4.1.1 Structure Optimization</strong>
 First, optimize the molecular structure. Upon completion, you will obtain the optimized structure in <code>.xyz</code> format. Once this step is complete, proceed to the next step.
 ```bash
 %mem=30GB
@@ -22,7 +27,7 @@ charge multiplicity
 coordinates
 ```
 
-#### <strong>4.1.2 Frequency Calculation</strong>
+### <strong>4.1.2 Frequency Calculation</strong>
 Use the optimized structure to perform a single-point frequency calculation. Upon completion, you will obtain the following files:
 - **Optimized Structure (.xyz):** Contains the final geometry of the optimized structure.
 - **Checkpoint File (.chk):** Stores data from the frequency calculation, including the Hessian matrix and other important information.
@@ -38,7 +43,7 @@ charge multiplicity
 coordinates
 ```
 
-#### <strong>4.1.3 Charge Calculation Using the RESP Method</strong>
+### <strong>4.1.3 Charge Calculation Using the RESP Method</strong>
 Next, calculate the molecular charge using the MK method in Gaussian. This step will produce the charge output in the <code>.log</code> file.
 ```bash
 %mem=30GB
@@ -60,10 +65,10 @@ output.resp
 output.resp
 ```
 
-#### <strong>4.2 ORCA Input</strong>
+### <strong>4.2 ORCA Input</strong>
 When using Orca to generate the required files, the choice of the level of theory is flexible and does not need to match the examples provided. Follow the steps below:
 
-#### <strong>4.2.1 Structure Optimization</strong>
+### <strong>4.2.1 Structure Optimization</strong>
 First, perform a structure optimization of the molecule. Upon successful completion, you will obtain the optimized structure in <code>.xyz</code> format. Once this step is complete, proceed to the next step.
 ```bash
 !B3LYP 6-31G* RI-SOMF(1X) defgrid2 KDIIS TIGHTSCF Opt
@@ -80,7 +85,7 @@ Coordinates
 *
 ```
 
-#### <strong>4.2.2 Frequency Calculation and Charge Calculation with the CHELPG or RESP Method</strong>
+### <strong>4.2.2 Frequency Calculation and Charge Calculation with the CHELPG or RESP Method</strong>
 1. Run a Single-Point Frequency Calculation using the optimized structure.
 2. **Output Files:** Upon completion, you will obtain the following files:
    - **Optimized Structure (.xyz):** Contains the final geometry of the optimized structure.
