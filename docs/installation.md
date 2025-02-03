@@ -2,7 +2,7 @@
 layout: default
 title: "Installation"
 nav_order: 3
-permalink: Installation
+permalink: /docs/Installation
 ---
 
 <!-- easyPARM Installation and Usage Guide -->
