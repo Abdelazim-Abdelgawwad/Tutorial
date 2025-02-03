@@ -6,10 +6,10 @@ baseurl: "/Tutorial"  # Repository name as the base URL
 remote_theme: just-the-docs/just-the-docs
 
 # Site logo
-# logo: "/Tutorial/logo/easyPARM3.png"
+logo: "/Tutorial/logo/easyPARM3.png"
 
 # Site favicon
-# favicon_ico: "/assets/images/favicon.ico"
+favicon_ico:  "/Tutorial/logo/easyPARM_icon.jpg" 
 
 # Search configuration
 color_scheme: light
