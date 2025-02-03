@@ -1,4 +1,11 @@
 
+
+
+<!-- easyPARM Installation and Usage Guide -->
+<p align="center">
+  <img src="/Tutorial/logo/easyPARM3.png" alt="easyPARM Logo" width="500"/>
+</p>
+
 # References
 
 1. Seminario, J. M. *Calculation of Intramolecular Force Fields from Second Derivative Tensors.* Int. J. Quantum Chem. **1996**, *60* (7), 1271–1277.  
