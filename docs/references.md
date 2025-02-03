@@ -1,7 +1,7 @@
 ---
 layout: default
-nav_order: 5
 title: "References"
+nav_order: 5
 permalink: References
 ---
 
