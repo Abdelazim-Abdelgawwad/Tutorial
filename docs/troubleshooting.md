@@ -12,7 +12,6 @@ permalink: Troubleshooting
 
 # <strong>Troubleshooting<strong>
 
-
 ## <strong>1. Using .mol2 and .frcmod Files to Generate Libraries</strong>
 <p align="justify">
 When using <code>.mol2</code> and <code>.frcmod</code> files in Tleap, metals may not have their connectivity and atomic numbers correctly assigned. To avoid this issue, it is recommended to use the pre-generated <code>.lib</code> and <code>.frcmod</code> files, which include all the necessary data for proper parameterization.
