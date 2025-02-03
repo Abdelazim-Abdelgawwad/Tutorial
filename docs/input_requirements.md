@@ -2,6 +2,10 @@
 title: "Input Requirements"
 permalink: Input Requirements
 ---
+<!-- easyPARM Installation and Usage Guide -->
+<p align="center">
+  <img src="/Tutorial/logo/easyPARM3.png" alt="easyPARM Logo" width="500"/>
+</p>
 
 # **Input Requirements**
 
