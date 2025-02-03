@@ -11,10 +11,11 @@ permalink: Tleap Inputs
 </p>
 
 ### Tleap Inputs
-
+<p align="justify">
 The following examples demonstrate Tleap input configurations for preparing metal complexes and metalloprotein systems using AMBER 22. These templates provide a general framework and should be tailored to your specific system.
+</p>
 
-#### Metal Complex Input Example
+#### **Metal Complex Input Example**
 This example corresponds to complex 7 from the original article describing the code:
 ```bash
 source leaprc.gaff
@@ -58,7 +59,7 @@ saveamberparm mol HB1_solvated.prmtop HB1_solvated.inpcrd
 quit
 ```
 
-#### Metalloprotein Input Example
+#### **Metalloprotein Input Example**
 This example illustrates the setup for a metalloprotein system:
 ```bash
 source leaprc.gaff
