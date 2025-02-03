@@ -15,8 +15,9 @@ permalink: Input Requirements
 To successfully run <strong>easyPARM<strong>, the following input files are required:
 
 ## **1. Hessian Matrix Files**
+<p align="justify">
 The Hessian matrix is essential for force field parameter derivation. It can be provided in one of the following formats:
-
+<\p>
 - **Checkpoint File (`.chk`)**: Contains the Hessian matrix from a Gaussian frequency calculation.
 - **Formatted Checkpoint File (`.fchk`)**: Similar to `.chk`, but in a human-readable format.
 - **Gaussian Output File (`.log`)**: Contains the Hessian matrix from a single-point frequency calculation. Ensure the input file includes the keyword:
