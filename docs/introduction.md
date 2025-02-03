@@ -7,7 +7,7 @@ permalink: Introduction
   <img src="/Tutorial/logo/easyPARM3.png" alt="easyPARM Logo" width="500"/>
 </p>
 
-# Introduction
+# <strong>Introduction<strong>
 
 <strong>easyPARM</strong> is a computational tool designed with four key functionalities:  
 
@@ -44,18 +44,19 @@ This code (<strong>version 3.00</strong>) is <strong>free software</strong>: you
 
 ---
 
-## **1.1 Key Features**  
+## **Key Features**  
 <p align="justify">
-- Generates parameters for <strong>metal-containing</strong> and <strong>metalloprotein</strong> systems using a combination of the <strong>General AMBER Force Field (GAFF)</strong> and missing parameters for bond stretching and angle bending involving <strong>metals and coordinating atoms</strong> using the <strong>Seminario method</strong>.  
-
+- Generates parameters for <strong>metal-containing</strong> and <strong>metalloprotein</strong> systems using a combination of the <strong>General AMBER Force Field (GAFF)</strong> and missing parameters for bond stretching and angle bending involving <strong>metals and coordinating atoms</strong> using the <strong>Seminario method</strong>.  </p>
+<p align="justify">
 - Capable of generating parameters for <strong>entire structures in non-metal systems</strong> using <strong>GAFF or AMBER</strong>.  
-
+ </p>
+<p align="justify">
 -Outputs essential files (<strong>frcmod, pdb, mol2,</strong> and <strong>lib</strong>) for initiating simulations or preparing metal-containing systems.
 </p>
 
 ---
 
-## **1.2 Citation**  
+## **Citation**  
 <p align="justify">
 If you use the <strong>easyPARM</strong> code, please cite the following reference:  
 </p>
