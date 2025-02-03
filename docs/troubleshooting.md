@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "Tleap "
+title: "Troubleshooting"
 nav_order: 7
-permalink: Tleap 
+permalink: Troubleshooting 
 ---
 
 <!-- easyPARM Installation and Usage Guide -->
@@ -10,7 +10,7 @@ permalink: Tleap
   <img src="/Tutorial/logo/easyPARM3.png" alt="easyPARM Logo" width="500"/>
 </p>
 
-# Troubleshooting Metal Issues in Tleap
+# Troubleshooting
 
 #### 1. Using .mol2 and .frcmod Files to Generate Libraries
 When using `.mol2` and `.frcmod` files in Tleap, metals may not have their connectivity and atomic numbers correctly assigned. To avoid this issue, it is recommended to use the pre-generated `.lib` and `.frcmod` files, which include all the necessary data for proper parameterization.
