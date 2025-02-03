@@ -1,7 +1,4 @@
----
-title: "Citation"
-permalink: Citation
----
+
 <!-- Option 2: Using relative path with baseurl -->
 <p align="center">
   <img src="/Tutorial/logo/easyPARM3.png" alt="easyPARM Logo" width="500"/>
