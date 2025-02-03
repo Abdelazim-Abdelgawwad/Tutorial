@@ -26,7 +26,7 @@ search:
 # Navigation sidebar
 nav:
   - title: "Introduction"
-    url: "/Tutorial/introduction"
+    url: "/Tutorial/docs/introduction"
   - title: "Installation"
     url: "/Tutorial/docs/installation"
   - title: "Input Requirements"
