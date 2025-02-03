@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "Troubleshooting"
+title: "Tleap Inputs"
 nav_order: 7
-permalink: Troubleshooting
+permalink: Tleap 
 ---
 
 <!-- easyPARM Installation and Usage Guide -->
