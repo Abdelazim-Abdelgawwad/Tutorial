@@ -97,28 +97,3 @@ If the scripts fail to execute:
    ```
 
 For additional support, please consult the [GitHub Issues Page](https://github.com/Abdelazim-Abdelgawwad/easyPARM/issues) or contact the development team.
-
----
-
-## **Authors & License**
-<p align="justify">
-The <strong>easyPARM</strong> code was written by <strong>Abdelazim M. A. Abdelgawwad</strong> under the supervision of <strong>Dr. Antonio Francés-Monerris</strong>.
-</p>
-
-<p align="justify">
-This code (<strong>version 3.00</strong>) is <strong>free software</strong>: you can redistribute it and/or modify it under the <strong>GNU Lesser General Public License (LGPL) Version 2.1, February 1999</strong>.
-</p>
-
----
-
-## **Key Features**
-<p align="justify">
-- Generates parameters for <strong>metal-containing</strong> and <strong>metalloprotein</strong> systems using a combination of the <strong>General AMBER Force Field (GAFF)</strong> and missing parameters for bond stretching and angle bending involving <strong>metals and coordinating atoms</strong> using the <strong>Seminario method</strong>.
-</p>
-<p align="justify">
-- Capable of generating parameters for <strong>entire structures in non-metal systems</strong> using <strong>GAFF or AMBER</strong>.
-</p>
-<p align="justify">
-- Outputs essential files (<strong>frcmod, pdb, mol2,</strong> and <strong>lib</strong>) for initiating simulations or preparing metal-containing systems.
-</p>
-
