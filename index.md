@@ -9,5 +9,5 @@ If you use the <strong>easyPARM</strong> code, please cite the following referen
 
 <!-- Option 2: Using relative path with baseurl -->
 <p align="center">
-  <img src="/Tutorial/logo/easyPARM3.png" alt="easyPARM Logo" width="500"/>
+  <img src="/logo/easyPARM3.png" alt="easyPARM Logo" width="500"/>
 </p>
