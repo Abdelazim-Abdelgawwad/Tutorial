@@ -1,7 +1,4 @@
----
-title: "Citation"
-permalink: Citation
----
+![easyPARM logo](/Tutorial/logo/easyPARM3.png)
 
 # **Citation**  
 <p align="justify">
