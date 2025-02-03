@@ -2,7 +2,7 @@
 layout: default
 title: "Troubleshooting"
 nav_order: 7
-permalink: /docs/Troubleshooting
+permalink: Troubleshooting
 ---
 
 <!-- easyPARM Installation and Usage Guide -->
