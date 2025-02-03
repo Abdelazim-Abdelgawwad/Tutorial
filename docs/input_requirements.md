@@ -1,7 +1,7 @@
 ---
 layout: default
-nav_order: 3
 title: "Input Requirements"
+nav_order: 3
 permalink: Input Requirements
 ---
 <!-- easyPARM Installation and Usage Guide -->
