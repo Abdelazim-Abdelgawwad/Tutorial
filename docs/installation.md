@@ -2,6 +2,9 @@
 title: "Installation"
 permalink: Installation
 ---
+<p style="font-family:Courier New, monospace; font-size:16px;">
+  This paragraph is in Courier New with size 16px.
+</p>
 
 <!-- easyPARM Installation and Usage Guide -->
 <p align="center">
