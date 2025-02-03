@@ -1,6 +1,6 @@
 ---
-title: "References"
-permalink: References
+title: "Citation"
+permalink: Citation
 ---
 
 <!-- Option 2: Using relative path with baseurl -->
