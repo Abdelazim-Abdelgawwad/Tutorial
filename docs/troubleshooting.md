@@ -11,9 +11,10 @@ permalink: Troubleshooting
 </p>
 
 # <strong>Troubleshooting<strong>
-<p align="justify">
+
 
 ## <strong>1. Using .mol2 and .frcmod Files to Generate Libraries</strong>
+<p align="justify">
 When using <code>.mol2</code> and <code>.frcmod</code> files in Tleap, metals may not have their connectivity and atomic numbers correctly assigned. To avoid this issue, it is recommended to use the pre-generated <code>.lib</code> and <code>.frcmod</code> files, which include all the necessary data for proper parameterization.
 </p>
 Your Tleap script should include the following commands:
@@ -25,9 +26,8 @@ loadoff COMPLEX.lib
 After generating the <code>prmtop</code> file, check the <code>%FLAG ATOMIC_NUMBER</code> section to ensure that the atomic numbers of metals are correctly assigned. This is particularly important for metalloproteins, as the atomic number for metals may sometimes be incorrectly recorded as <code>-1</code>.
 </p>
 
-<p align="justify">
-
 ## <strong>2. Handling Metals with High Coordination Numbers</strong>
+<p align="justify">
 If your system includes a metal with a coordination number greater than 8, you may encounter the following warning when generating the <code>prmtop</code> file in Tleap: 
 </p>
 ```bash
