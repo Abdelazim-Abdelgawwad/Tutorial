@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Tleap Inputs"
+title: "Tleap "
 nav_order: 7
 permalink: Tleap 
 ---
