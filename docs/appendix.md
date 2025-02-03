@@ -58,7 +58,7 @@ coordinates
 
 ### **2.1 Structure Optimization**
 <p align="justify">
-First, perform a structure optimization of the molecule. Upon successful completion, you will obtain the optimized structure in `.xyz` format. Once this step is complete, proceed to the next step.
+First, perform a structure optimization of the molecule. Upon successful completion, you will obtain the optimized structure in <italic>.xyz</italic> format. Once this step is complete, proceed to the next step.
 </p>
 ```bash
 !B3LYP 6-31G* RI-SOMF(1X) defgrid2 KDIIS TIGHTSCF Opt
@@ -79,7 +79,7 @@ Coordinates
 
 ### **3.1 Structure Optimization**
 <p align="justify">
-First, optimize the molecular structure. Upon completion, you will obtain the optimized structure in `.xyz` format. Once this step is complete, proceed to the next step.
+First, optimize the molecular structure. Upon completion, you will obtain the optimized structure in <italic>.xyz</italic> format. Once this step is complete, proceed to the next step.
 </p>
 ```bash
 $SYSTEM MEMDDI=400 MWORDS=200 $END
