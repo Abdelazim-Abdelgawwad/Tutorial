@@ -1,4 +1,14 @@
+---
+layout: default
+title: "Troubleshooting"
+nav_order: 3
+permalink: /docs/Troubleshooting
+---
 
+<!-- easyPARM Installation and Usage Guide -->
+<p align="center">
+  <img src="/Tutorial/logo/easyPARM3.png" alt="easyPARM Logo" width="500"/>
+</p>
 
 # <strong>Troubleshooting Metal Issues in Tleap</strong>
 
