@@ -2,8 +2,8 @@
 
 title: "easyPARM User Manual" 
 description: "A comprehensive guide for easyPARM parameterization"
-url: "https://github.com/Abdelazim-Abdelgawwad/easyPARM.git"
-baseurl: "/Tutorial"
+url: "https://Abdelazim-Abdelgawwad.github.io"
+baseurl: "/Tutorial/docs"
 remote_theme: just-the-docs/just-the-docs
 
 # Site logo
