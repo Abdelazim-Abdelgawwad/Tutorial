@@ -19,7 +19,7 @@ permalink: Appendix
 ### **1.1 Structure Optimization**
 
 <p align="justify">
-  First, optimize the molecular structure. Upon completion, you will obtain the optimized structure in *.xyz* format. Once this step is complete, proceed to the next step.
+  First, optimize the molecular structure. Upon completion, you will obtain the optimized structure in <italic>.xyz</italic> format. Once this step is complete, proceed to the next step.
 
 </p>
 
@@ -141,6 +141,6 @@ coordinates
 $END
 ```
 <p align="justify">
-  **Note:** The basis set 6-31G* is suitable for metals like zinc (Zn). However, for heavier metals such as ruthenium (Ru) or platinum (Pt), it is recommended to use SBKJC or another basis set that includes an Effective Core Potential (ECP) for better accuracy.
+  <strong>Note</strong> The basis set 6-31G* is suitable for metals like zinc (Zn). However, for heavier metals such as ruthenium (Ru) or platinum (Pt), it is recommended to use SBKJC or another basis set that includes an Effective Core Potential (ECP) for better accuracy.
 
 </p>
