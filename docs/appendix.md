@@ -10,7 +10,7 @@ permalink: Appendix
   <img src="/Tutorial/logo/easyPARM3.png" alt="easyPARM Logo" width="500"/>
 </p>
 
-# Appendix
+# **Appendix**
 
 #### **Example for Generating the Required Files**
 
@@ -34,10 +34,11 @@ coordinates
 ### **1.2 Frequency Calculation**
 <p align="justify">
 Use the optimized structure to perform a single-point frequency calculation. Upon completion, you will obtain the following files:
+</p>
 - <strong>Optimized Structure (.xyz):<strong> Contains the final geometry of the optimized structure.
 - <strong>Checkpoint File (.chk):<strong> Stores data from the frequency calculation, including the Hessian matrix and other important information.
 - <strong>Gaussian Output (.log):<strong> Contains Hessian matrix and other important information.
-</p>
+
 ```bash
 %mem=30GB
 %nproc=24
