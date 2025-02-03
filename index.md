@@ -1,6 +1,6 @@
 ---
-title: "Tleap Inputs"
-permalink: Tleap Inputs
+title: "Citation"
+permalink: Citation
 ---
 
 # **Citation**  
