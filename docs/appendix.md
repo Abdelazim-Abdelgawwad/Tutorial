@@ -33,11 +33,12 @@ coordinates
 
 ### **1.2 Frequency Calculation**
 <p align="justify">
-Use the optimized structure to perform a single-point frequency calculation. Upon completion, you will obtain the following files:
+  Use the optimized structure to perform a single-point frequency calculation. Upon completion, you will obtain the following files:
 </p>
-- <strong>Optimized Structure (.xyz):<strong> Contains the final geometry of the optimized structure.
-- <strong>Checkpoint File (.chk):<strong> Stores data from the frequency calculation, including the Hessian matrix and other important information.
-- <strong>Gaussian Output (.log):<strong> Contains Hessian matrix and other important information.
+
+- **Optimized Structure (.xyz):** Contains the final geometry of the optimized structure.
+- **Checkpoint File (.chk):** Stores data from the frequency calculation, including the Hessian matrix and other important information.
+- **Gaussian Output (.log):** Contains Hessian matrix and other important information.
 
 ```bash
 %mem=30GB
@@ -53,7 +54,9 @@ coordinates
 ## **2. ORCA Input**
 
 ### **2.1 Structure Optimization**
+<p align="justify">
 First, perform a structure optimization of the molecule. Upon successful completion, you will obtain the optimized structure in `.xyz` format. Once this step is complete, proceed to the next step.
+</p>
 ```bash
 !B3LYP 6-31G* RI-SOMF(1X) defgrid2 KDIIS TIGHTSCF Opt
 %pal nprocs 24
@@ -72,7 +75,9 @@ Coordinates
 ## **3. GAMESS Input**
 
 ### **3.1 Structure Optimization**
+<p align="justify">
 First, optimize the molecular structure. Upon completion, you will obtain the optimized structure in `.xyz` format. Once this step is complete, proceed to the next step.
+</p>
 ```bash
 $SYSTEM MEMDDI=400 MWORDS=200 $END
 $CONTRL DFTTYP=B3LYP RUNTYP=OPTIMIZE ICHARG=charge MULT=multiplicity $END
@@ -132,5 +137,8 @@ C1
 coordinates
 $END
 ```
+<p align="justify">
 
 **Note:** The basis set 6-31G* is suitable for metals like zinc (Zn). However, for heavier metals such as ruthenium (Ru) or platinum (Pt), it is recommended to use SBKJC or another basis set that includes an Effective Core Potential (ECP) for better accuracy.
+
+</p>
