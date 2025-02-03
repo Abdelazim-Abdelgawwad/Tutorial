@@ -27,19 +27,6 @@ search:
 nav:
   - title: "Introduction"
     url: "/Tutorial/docs/introduction"
-  - title: "Installation"
-    url: "/Tutorial/docs/installation"
-  - title: "Input Requirements"
-    url: "/Tutorial/docs/input_requirements"
-  - title: "Appendix"
-    url: "/Tutorial/docs/appendix"
-  - title: "Troubleshooting"
-    url: "/Tutorial/docs/troubleshooting"
-  - title: "Tleap Inputs"
-    url: "/Tutorial/docs/tleap_inputs"
-  - title: "References"
-    url: "/Tutorial/docs/references"
-
 
 # Footer content
 footer_content: "© 2025 Abdelazim M. A. Abdelgawwad. Distributed under the GNU LESSER GENERAL PUBLIC LICENSE Version 2.1, February 1999."
