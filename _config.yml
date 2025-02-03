@@ -1,6 +1,6 @@
 title: "easyPARM User Manual"
 description: "A comprehensive guide for easyPARM parameterization"
-url: "https://Abdelazim-Abdelgawwad.github.io"  # GitHub Pages URL
+url: "https://Abdelazim-Abdelgawwad.github.io/Tutorial/"  # GitHub Pages URL
 baseurl: "/Tutorial"  # Repository name as the base URL
 
 remote_theme: just-the-docs/just-the-docs
