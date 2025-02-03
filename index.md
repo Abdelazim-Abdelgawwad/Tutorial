@@ -3,11 +3,6 @@ title: "Citation"
 permalink: Citation
 ---
 
-<!-- Option 2: Using relative path with baseurl -->
-<p align="center">
-  <img src="/Tutorial/logo/easyPARM3.png" alt="easyPARM Logo" width="500"/>
-</p>
-
 ## **Citation**  
 <p align="justify">
 If you use the <strong>easyPARM</strong> code, please cite the following reference:  
