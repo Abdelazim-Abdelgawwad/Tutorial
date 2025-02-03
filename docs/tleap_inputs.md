@@ -1,3 +1,13 @@
+---
+title: "Tleap Inputs"
+permalink: Tleap Inputs
+---
+
+<!-- easyPARM Installation and Usage Guide -->
+<p align="center">
+  <img src="/Tutorial/logo/easyPARM3.png" alt="easyPARM Logo" width="500"/>
+</p>
+
 ### Tleap Inputs
 
 The following examples demonstrate Tleap input configurations for preparing metal complexes and metalloprotein systems using AMBER 22. These templates provide a general framework and should be tailored to your specific system.
