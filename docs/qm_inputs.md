@@ -112,7 +112,10 @@ $END
 ### **3.3 Charge Calculation Using the RESP or GAMESS Methods**
 
 #### **Using RESP Method**
+<p align="justify">
 To calculate RESP charges, the ESP points must be obtained using the CONNOLLY option for the PTSEL keyword.
+</p>
+
 ```bash
 $SYSTEM MEMDDI=800 MWORDS=200 $END
 $CONTRL DFTTYP=B3LYP ICHARG=charge MULT=multiplicity $END
@@ -127,7 +130,10 @@ $END
 ```
 
 #### **Using GAMESS Charge Fitting**
+<p align="justify">
 For GAMESS charge fitting, you can select one of the supported methods: GEODESIC, CONNOLLY, or CHELPG.
+</p>
+
 ```bash
 $SYSTEM MEMDDI=800 MWORDS=200 $END
 $CONTRL DFTTYP=B3LYP ICHARG=charge MULT=multiplicity $END
