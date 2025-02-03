@@ -6,7 +6,7 @@ permalink: /
 ---
 
 <p align="center">
-  <img src="/Tutorial/logo/easyPARM3.png" alt="easyPARM logo" width="600" height="auto">
+  <img src="/Tutorial/logo/easyPARM3.png" alt="easyPARM logo" width="500" height="auto">
 </p>
 
 # Citation
