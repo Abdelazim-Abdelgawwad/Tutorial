@@ -2,7 +2,6 @@
 title: "Installation"
 permalink: Installation
 ---
-<p style="font-family:Courier New, monospace; font-size:16px;">
 
 <!-- easyPARM Installation and Usage Guide -->
 <p align="center">
@@ -98,4 +97,3 @@ If the scripts fail to execute:
    ```
 
 For additional support, please consult the [GitHub Issues Page](https://github.com/Abdelazim-Abdelgawwad/easyPARM/issues) or contact the development team.
-</p>
