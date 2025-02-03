@@ -2,7 +2,7 @@
 layout: default
 title: "Introduction"
 nav_order: 2
-permalink: Introduction
+permalink: /docs/Introduction
 ---
 
 <!-- Option 2: Using relative path with baseurl -->
