@@ -2,7 +2,7 @@
 title: "Installation"
 permalink: Installation
 ---
-<link rel="stylesheet" type="/Tutorial/assets/css" href="style.css">
+<link rel="stylesheet" type="Tutorial/assets/css/" href="style.css">
 
 <!-- easyPARM Installation and Usage Guide -->
 <p align="center">
