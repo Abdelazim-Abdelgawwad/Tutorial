@@ -6,8 +6,17 @@ url: "https://github.com/Abdelazim-Abdelgawwad/easyPARM.git"
 baseurl: "/Tutorial"
 remote_theme: just-the-docs/just-the-docs
 
+# Add these lines to your existing _config.yml
+sass:
+  sass_dir: assets/css
+  style: compressed
+
+# Add custom CSS
+custom_css: 
+  - custom.scss
+
 # Site logo
-#logo: "/assets/images/logo.png"
+logo: "/Tutorial/logo/easyPARM3.png"
 
 # Site favicon
 #favicon_ico: "/assets/images/favicon.ico"
