@@ -1,4 +1,6 @@
 ---
+layout: default
+nav_order: 3
 title: "Input Requirements"
 permalink: Input Requirements
 ---
