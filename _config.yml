@@ -6,11 +6,8 @@ url: "https://github.com/Abdelazim-Abdelgawwad/easyPARM.git"
 baseurl: "/Tutorial"
 remote_theme: just-the-docs/just-the-docs
 
-sass:
-  style: compressed
-
 # Site logo
-logo: "/Tutorial/logo/easyPARM3.png"
+#logo: "/Tutorial/logo/easyPARM3.png"
 
 # Site favicon
 #favicon_ico: "/assets/images/favicon.ico"
@@ -32,8 +29,8 @@ nav:
     url: "/Tutorial/docs/introduction"
   - title: "Installation"
     url: "/Tutorial/docs/installation"
-  - title: "Usage Guide"
-    url: "/Tutorial/docs/usage_guide"
+  - title: "Input Requirements"
+    url: "/Tutorial/docs/input_requirements"
   - title: "Appendix"
     url: "/Tutorial/docs/appendix"
   - title: "Troubleshooting"
