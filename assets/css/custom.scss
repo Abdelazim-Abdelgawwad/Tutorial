@@ -1,0 +1,47 @@
+---
+---
+
+// Custom styling
+@import "./base.scss";
+
+// Custom font sizes
+:root {
+  --body-font-size: 16px;
+  --content-line-height: 1.6;
+  --body-heading-line-height: 1.25;
+}
+
+// Custom fonts
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 32px !important;
+  font-family: "Georgia", serif;
+}
+
+h2 {
+  font-size: 24px !important;
+  font-family: "Georgia", serif;
+}
+
+h3 {
+  font-size: 20px !important;
+}
+
+h4 {
+  font-size: 18px !important;
+}
+
+.main-content {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+// Custom styles for code blocks
+pre.highlight,
+code {
+  font-family: "Consolas", "Monaco", monospace;
+  font-size: 14px;
+}
