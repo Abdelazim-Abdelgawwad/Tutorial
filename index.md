@@ -1,7 +1,3 @@
----
-title: "Citation"
-permalink: Citation
----
 
 ## **Citation**  
 <p align="justify">
