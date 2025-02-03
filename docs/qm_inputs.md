@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "Appendix"
+title: "QM Inputs"
 nav_order: 8
-permalink: Appendix 
+permalink: QM Inputs 
 ---
 
 <!-- easyPARM Installation and Usage Guide -->
@@ -10,9 +10,9 @@ permalink: Appendix
   <img src="/Tutorial/logo/easyPARM3.png" alt="easyPARM Logo" width="500"/>
 </p>
 
-# **Appendix**
+# **QM inputs**
 
-#### **Example for Generating the Required Files**
+## **Example for Generating the Required Files**
 
 ## **1. GAUSSIAN Input**
 
