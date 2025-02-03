@@ -1,4 +1,3 @@
-
 ## **Citation**  
 <p align="justify">
 If you use the <strong>easyPARM</strong> code, please cite the following reference:  
