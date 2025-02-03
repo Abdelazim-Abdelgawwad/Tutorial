@@ -1,5 +1,7 @@
-
-
+---
+title: "References"
+permalink: References
+---
 
 <!-- easyPARM Installation and Usage Guide -->
 <p align="center">
