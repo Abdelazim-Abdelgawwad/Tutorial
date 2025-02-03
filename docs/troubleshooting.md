@@ -15,25 +15,28 @@ permalink: Troubleshooting
 
 ## <strong>1. Using .mol2 and .frcmod Files to Generate Libraries</strong>
 When using <code>.mol2</code> and <code>.frcmod</code> files in Tleap, metals may not have their connectivity and atomic numbers correctly assigned. To avoid this issue, it is recommended to use the pre-generated <code>.lib</code> and <code>.frcmod</code> files, which include all the necessary data for proper parameterization.
-
+</p>
 Your Tleap script should include the following commands:
 ```bash
 loadamberparams COMPLEX.frcmod
 loadoff COMPLEX.lib
 ```
+<p align="justify">
 After generating the <code>prmtop</code> file, check the <code>%FLAG ATOMIC_NUMBER</code> section to ensure that the atomic numbers of metals are correctly assigned. This is particularly important for metalloproteins, as the atomic number for metals may sometimes be incorrectly recorded as <code>-1</code>.
 </p>
 
 <p align="justify">
 
 ## <strong>2. Handling Metals with High Coordination Numbers</strong>
-If your system includes a metal with a coordination number greater than 8, you may encounter the following warning when generating the <code>prmtop</code> file in Tleap:
+If your system includes a metal with a coordination number greater than 8, you may encounter the following warning when generating the <code>prmtop</code> file in Tleap: 
+</p>
 ```bash
 Bond: Maximum coordination exceeded on A<Co1 23>
 -- setting atoms pert=true overrides default limits
 ```
+<p align="justify">
 This warning indicates that the metal exceeds the default bond limit of 8 in AmberTools, causing some metal bonds to be omitted in the generated <code>prmtop</code> file, leading to incorrect results.
-
+</p>
 <strong>Solution:</strong>
 To resolve this issue, increase the maximum bond limit in the AmberTools source code:
 
@@ -48,9 +51,4 @@ To resolve this issue, increase the maximum bond limit in the AmberTools source 
    ```
 3. Change <code>8</code> to the desired number of bonds.
 4. Recompile Amber to apply the changes, allowing Tleap to recognize the new <code>MAXBONDS</code> limit.
-
-</p>
-
-
-
-
+5. 
