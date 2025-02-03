@@ -1,7 +1,10 @@
 ---
+layout: default
 title: "Introduction"
+nav_order: 1
 permalink: Introduction
 ---
+
 <!-- Option 2: Using relative path with baseurl -->
 <p align="center">
   <img src="/Tutorial/logo/easyPARM3.png" alt="easyPARM Logo" width="500"/>
