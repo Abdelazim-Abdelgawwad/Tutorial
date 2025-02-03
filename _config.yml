@@ -1,16 +1,15 @@
-# _config.yml
-
-title: "easyPARM User Manual" 
+title: "easyPARM User Manual"
 description: "A comprehensive guide for easyPARM parameterization"
-url: "https://Abdelazim-Abdelgawwad.github.io"
-baseurl: "/Tutorial/docs"
+url: "https://Abdelazim-Abdelgawwad.github.io"  # GitHub Pages URL
+baseurl: "/Tutorial"  # Repository name as the base URL
+
 remote_theme: just-the-docs/just-the-docs
 
 # Site logo
-#logo: "/Tutorial/logo/easyPARM3.png"
+# logo: "/Tutorial/logo/easyPARM3.png"
 
 # Site favicon
-#favicon_ico: "/assets/images/favicon.ico"
+# favicon_ico: "/assets/images/favicon.ico"
 
 # Search configuration
 color_scheme: light
@@ -23,6 +22,7 @@ search:
   tokenizer_separator: /[\s/]+/
   rel_url: true
   button: false
+
 # Navigation sidebar
 nav:
   - title: "Introduction"
@@ -60,11 +60,11 @@ author:
 # GitHub Settings
 github:
   is_project_page: true
-  repository_url: "https://github.com/Abdelazim-Abdelgawwad/easyPARM.git"
+  repository_url: "https://github.com/Abdelazim-Abdelgawwad/Tutorial"
   repository_name: "Tutorial"
   owner_url: "https://github.com/Abdelazim-Abdelgawwad"
   owner_name: "Abdelazim-Abdelgawwad"
 
-# Remove GitHub Pages attribution
+# Ensure GitHub Pages detects the site
 github_pages:
   is_generated_page: false
