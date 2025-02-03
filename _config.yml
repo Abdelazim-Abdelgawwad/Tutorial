@@ -25,6 +25,8 @@ search:
 
 # Navigation sidebar
 nav:
+  - title: "Introduction"
+    url: "/Tutorial/docs/introduction"
   - title: "Appendix"
     url: "/Tutorial/docs/appendix"
   - title: "Troubleshooting"
@@ -37,8 +39,6 @@ nav:
     url: "/Tutorial/docs/input_requirements"
   - title: "Installation"
     url: "/Tutorial/docs/installation"
-  - title: "Introduction"
-    url: "/Tutorial/docs/introduction"
 # Footer content
 footer_content: "© 2025 Abdelazim M. A. Abdelgawwad. Distributed under the GNU LESSER GENERAL PUBLIC LICENSE Version 2.1, February 1999."
 
