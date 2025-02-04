@@ -10,10 +10,10 @@ permalink: Tutorial
   <img src="/Tutorial/logo/easyPARM3.png" alt="easyPARM Logo" width="500"/>
 </p>
 
-# Tutorial: Parameterization of Metalloproteins using Gaussian
+# Tutorial: Parameterization of Metalloproteins
 
 ## Overview
-This tutorial provides a step-by-step guide for the parameterization of a metalloprotein using **Gaussian** for quantum mechanics (QM) calculations. The same workflow can be applied to **ORCA** and **GAMESS** as well. The example used throughout the tutorial is **1SP2 PDB**  [1SP2.pdb](/Tutorial/example/1SP2/1SP2.pdb), a protein that contains a zinc atom coordinated to **two cysteine** and **one histidine** amino acids, as shown in the figure below.
+This tutorial provides a step-by-step guide for the parameterization of a metalloprotein using **Gaussian** for QM calculations. The same workflow can be applied to **ORCA** and **GAMESS** as well. The example used throughout the tutorial is **1SP2 PDB** [1SP2.pdb](/Tutorial/example/1SP2/1SP2.pdb), a protein that contains a zinc atom coordinated to **two cysteines** and **two histidines** amino acids, as shown in the figure below.
 
 ## 1. Preprocessing the PDB File
 After downloading the PDB file from the [Protein Data Bank](https://www.rcsb.org/), preprocessing is necessary to ensure compatibility with **easyPARM** and molecular dynamics (MD) simulations.
@@ -25,13 +25,13 @@ You can use one of the following tools:
 
 **Important Notes:**
 - **H++** may remove the metal ion or non-standard residues. After using H++, manually add the missing metal and its linked non-standard residues if necessary.
-- Protonation states of **histidine** and **cysteine** may not be correct after preprocessing. Check the PDB file and adjust them accordingly:
+- Protonation states of **histidine** and **cysteine** may not be correct after preprocessing. Check the PDB file and adjust them accordingly: cysteine will be written as CYS, while it should be CYM, the same for histidine. 
   - **Protonated form**: `/Tutorial/example/1SP2/protonated.pdb`
   - **Deprotonated form**: `/Tutorial/example/1SP2/deprotonated.pdb`
 - Ensure no missing atoms in the structure.
 
 Once the structure is corrected, save the final PDB file:
-- **Final complex PDB**: `/Tutorial/example/1SP2/final_complex.pdb`
+- **Final metalloprotein PDB**: `/Tutorial/example/1SP2/final_complex.pdb`
 
 ## 2. Generating the XYZ Structure with easyPARM
 Run **easyPARM** and select **option 2**:
