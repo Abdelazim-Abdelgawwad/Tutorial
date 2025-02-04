@@ -5,6 +5,10 @@ nav_order: 9
 permalink: Tutorial
 ---
 
+<!-- easyPARM Installation and Usage Guide -->
+<p align="center">
+  <img src="/Tutorial/logo/easyPARM3.png" alt="easyPARM Logo" width="500"/>
+</p>
 
 # Tutorial: Parameterization of Metalloproteins using Gaussian
 
