@@ -9,7 +9,7 @@ permalink: Tutorial
 # Tutorial: Parameterization of Metalloproteins using Gaussian
 
 ## Overview
-This tutorial provides a step-by-step guide for the parameterization of a metalloprotein using **Gaussian** for quantum mechanics (QM) calculations. The same workflow can be applied to **ORCA** and **GAMESS** as well. The example used throughout the tutorial is **1SP2 PDB**, a protein that contains a zinc atom coordinated to **two cysteine** and **one histidine** amino acids, as shown in the figure below.
+This tutorial provides a step-by-step guide for the parameterization of a metalloprotein using **Gaussian** for quantum mechanics (QM) calculations. The same workflow can be applied to **ORCA** and **GAMESS** as well. The example used throughout the tutorial is **1SP2 PDB** `/Tutorial/example/1SP2/1SP2.pdb`, a protein that contains a zinc atom coordinated to **two cysteine** and **one histidine** amino acids, as shown in the figure below.
 
 ## 1. Preprocessing the PDB File
 After downloading the PDB file from the [Protein Data Bank](https://www.rcsb.org/), preprocessing is necessary to ensure compatibility with **easyPARM** and molecular dynamics (MD) simulations.
