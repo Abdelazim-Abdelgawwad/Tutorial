@@ -1,3 +1,11 @@
+---
+layout: default
+title: "Tutorial"
+nav_order: 9
+permalink: Tutorial
+---
+
+
 # Tutorial: Parameterization of Metalloproteins using Gaussian
 
 ## Overview
