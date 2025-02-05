@@ -57,3 +57,5 @@ github:
 # Ensure GitHub Pages detects the site
 github_pages:
   is_generated_page: false
+
+google_analytics: G-7N16T4HJ9F
