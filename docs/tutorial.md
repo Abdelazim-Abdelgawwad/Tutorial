@@ -43,7 +43,11 @@ Select your option:
 3- Convert AMBER parameters to OpenMM or GROMACS format
 Enter your choice: 2
 ```
+```shell
+Please provide the metalloprotein pdb file: final_complex.pdb
 
+XYZ Output: initial_structure.xyz
+```
 This step prepares the **XYZ file** [initial_structure.xyz](/Tutorial/example/1SP2/initial_structure.xyz) required for:
 - **Optimization**
 - **Frequency calculations**
@@ -163,10 +167,10 @@ Upon completion, easyPARM generates the following files:
   - [HI1.mol2](/Tutorial/example/1SP2/HI1.mol2)
   - [HI2.mol2](/Tutorial/example/1SP2/HI2.mol2)
   - [METAL.mol2](/Tutorial/example/1SP2/METAL.mol2)
-- **Force Field Parameters:** `COMPLEX.frcmod`
-- **Metalloprotein PDB:** `easyPARM_MetalloProtein.pdb`
-- **Bond Information:** `Bond_Info.dat`
-- **New Atom Type Definitions:** `Hybridization_Info.dat`
+- **Force Field Parameters:** [COMPLEX.frcmod](/Tutorial/example/1SP2/COMPLEX.frcmod)
+- **Metalloprotein PDB:** [easyPARM_MetalloProtein.pdb](/Tutorial/example/1SP2/easyPARM_MetalloProtein.pdb)
+- **Bond Information:** [Bond_Info.dat](/Tutorial/example/1SP2/Bond_Info.dat)
+- **New Atom Type Definitions:** [Hybridization_Info.dat](/Tutorial/example/1SP2/Hybridization_Info.dat)
 
 ### 5.2 Explanation of Output Files
 - `Mol2` files contain molecular structures of residues and metal.
@@ -183,7 +187,7 @@ Would you like to restrain the charge on specific atoms? (Yes or No): N
 
 ## 7. Running tleap
 Once parameters are generated, you can proceed with **tleap** to prepare the final topology and coordinate files. Use the appropriate tleap input file:
-- **tleap input file**: `/Tutorial/example/1SP2/tleap.in`
+- **tleap input file**: [tleap.in](/Tutorial/example/1SP2/tleap.in)
 
 This completes the parameterization of the metalloprotein.
 
