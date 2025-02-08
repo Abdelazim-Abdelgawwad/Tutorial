@@ -13,6 +13,7 @@ permalink: /
 
 If you use the **easyPARM** code, please cite the following reference:
 
-> **Abdelgawwad AMA, Francés-Monerris A.**  
+> Abdelazim M. A. Abdelgawwad and Antonio Francés-Monerris.  
 > *easyPARM: Automated, Versatile, and Reliable Force Field Parameters for Metal-Containing Molecules with Unique Labeling of Coordinating Atoms.*  
-> **ChemRxiv. 2024;** doi: [10.26434/chemrxiv-2024-f8wp4](https://doi.org/10.26434/chemrxiv-2024-f8wp4)
+> *J. Chem. Theory Comput.*, Article ASAP.  
+> [DOI: 10.1021/acs.jctc.4c01272](https://doi.org/10.1021/acs.jctc.4c01272) 
