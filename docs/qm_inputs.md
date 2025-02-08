@@ -131,7 +131,7 @@ $END
 
 #### **Using GAMESS Charge Fitting**
 <p align="justify">
-For GAMESS charge fitting, you can select one of the supported methods: <strong>.GEODESIC</strong>, <strong>CONNOLLY</strong>, or <strong>CHELPG</strong>.
+For GAMESS charge fitting, you can select one of the supported methods: <strong>GEODESIC</strong>, <strong>CONNOLLY</strong>, or <strong>CHELPG</strong>.
 </p>
 
 ```bash
