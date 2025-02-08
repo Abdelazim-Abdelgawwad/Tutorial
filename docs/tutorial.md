@@ -31,7 +31,7 @@ You can use one of the following tools:
 - Ensure no missing atoms in the structure.
 
 Once the structure is corrected, save the final PDB file:
-- **Final metalloprotein PDB**: `/Tutorial/example/1SP2/final_complex.pdb`
+- **Final metalloprotein PDB**: [final_complex.pdb](/Tutorial/example/1SP2/protonated.pdb)
 
 ## 2. Generating the XYZ Structure with easyPARM
 Run **easyPARM** and select **option 2**:
@@ -44,17 +44,16 @@ Select your option:
 Enter your choice: 2
 ```
 
-This step prepares the **XYZ file** `/Tutorial/example/1SP2/initial_structure.xyz` required for:
+This step prepares the **XYZ file** [initial_structure.xyz](/Tutorial/example/1SP2/initial_structure.xyz) required for:
 - **Optimization**
 - **Frequency calculations**
 - **Charge calculations**
 
 ## 3. QM calculation Outputs
-- Optimized structure: `/Tutorial/example/1SP2/optimized_structure.xyz`
-- Frequency calculation log: `/Tutorial/example/1SP2/opt_freq.log`
-- Charge calculation log: `/Tutorial/example/1SP2/charges.log`
-- Checkpoint file: `/Tutorial/example/1SP2/complex.chk`
-- Formatted checkpoint file: `/Tutorial/example/1SP2/complex.fchk`
+- Optimized structure: [OPTIMIZED.xyz](/Tutorial/example/1SP2/optimized_structure.xyz)
+- Frequency calculation log: [OPT_FREQ.log](/Tutorial/example/1SP2/opt_freq.log)
+- Charge calculation log: [CHARGES.log](/Tutorial/example/1SP2/charges.log)
+- Formatted checkpoint file: [COMPLEX.fchk](/Tutorial/example/1SP2/complex.fchk)
 
 ## 4. Generating Molecular Parameters with easyPARM
 Run **easyPARM** again and select **option 1**:
@@ -84,7 +83,7 @@ Please provide the total charge: 0
 ### 4.3 Providing the Optimized Structure for the Seminario Method
 Specify the optimized **XYZ geometry file**:
 ```shell
-Please provide the optimized XYZ geometry file: optimized.xyz
+Please provide the optimized XYZ geometry file: OPTIMIZED.xyz
 ```
 
 ### 4.4 Charge Calculation Method
@@ -129,7 +128,7 @@ Enter your choice: 2
 
 Provide the charge output file:
 ```shell
-Please provide the charge output file (e.g., .log, .gesp): charges.log
+Please provide the charge output file (e.g., .log, .gesp): CHARGES.log
 ```
 
 ### 4.6 Seminario Method Setup
@@ -151,7 +150,7 @@ Does your structure belong to MetalloProtein? (y/n): y
 
 Provide the **final metalloprotein PDB file**:
 ```shell
-Please provide the metalloprotein PDB file: /Tutorial/example/1SP2/protonated.pdb
+Please provide the metalloprotein PDB file: final_complex.pdb
 ```
 
 ## 5. Output Generation
@@ -159,11 +158,11 @@ Upon completion, easyPARM generates the following files:
 
 ### 5.1 Key Outputs
 - **Mol2 files** (Residues & Metal):
-  - `CY1.mol2` 
-  - `CY2.mol2`
-  - `HI1.mol2`
-  - `HI2.mol2`
-  - `METAL.mol2`
+  - [CY1.mol2](/Tutorial/example/1SP2/CY1.mol2)
+  - [CY2.mol2](/Tutorial/example/1SP2/CY2.mol2)
+  - [HI1.mol2](/Tutorial/example/1SP2/HI1.mol2)
+  - [HI2.mol2](/Tutorial/example/1SP2/HI2.mol2)
+  - [METAL.mol2](/Tutorial/example/1SP2/METAL.mol2)
 - **Force Field Parameters:** `COMPLEX.frcmod`
 - **Metalloprotein PDB:** `easyPARM_MetalloProtein.pdb`
 - **Bond Information:** `Bond_Info.dat`
