@@ -13,7 +13,7 @@ permalink: Tutorial
 # Tutorial: Parameterization of Metalloproteins
 
 ## Overview
-This tutorial provides a step-by-step guide for the parameterization of a metalloprotein using **Gaussian** for QM calculations. The same workflow can be applied to **ORCA** and **GAMESS** as well. The example used throughout the tutorial is **1SP2 PDB** [1SP2.pdb](/Tutorial/example/1SP2/1SP2.pdb), a protein that contains a zinc atom coordinated to **two cysteines** and **two histidines** amino acids, as shown in the figure below.
+This tutorial provides a step-by-step guide for parameterizing a metalloprotein using **Gaussian** for QM calculations. The same workflow can be applied to **ORCA** and **GAMESS** as well. The example used throughout the tutorial is **1SP2 PDB** [1SP2.pdb](/Tutorial/example/1SP2/1SP2.pdb), a protein containing a zinc atom coordinated to **two cysteines** and **two histidines** amino acids, as shown in the figure below.
 
 ## 1. Preprocessing the PDB File
 After downloading the PDB file from the [Protein Data Bank](https://www.rcsb.org/), preprocessing is necessary to ensure compatibility with **easyPARM** and molecular dynamics (MD) simulations.
@@ -25,9 +25,9 @@ You can use one of the following tools:
 
 **Important Notes:**
 - **H++** may remove the metal ion or non-standard residues. After using H++, manually add the missing metal and its linked non-standard residues if necessary.
-- Protonation states of **histidine** and **cysteine** may not be correct after preprocessing. Check the PDB file and adjust them accordingly: cysteine will be written as CYS, while it should be CYM, the same for histidine. 
-  - **Protonated form**: `/Tutorial/example/1SP2/protonated.pdb`
-  - **Deprotonated form**: `/Tutorial/example/1SP2/deprotonated.pdb`
+- Protonation states of **histidine** and **cysteine** may not be correct after preprocessing. Verify the PDB file and make the necessary adjustments: cysteine is labeled as CYS but should be CYM, and the same applies to histidine. 
+  - **Protonated form**: [protonated.pdb](/Tutorial/example/1SP2/protonated.pdb)
+  - **Deprotonated form**: [deprotonated.pdb](/Tutorial/example/1SP2/deprotonated.pdb)
 - Ensure no missing atoms in the structure.
 
 Once the structure is corrected, save the final PDB file:
@@ -44,18 +44,19 @@ Select your option:
 Enter your choice: 2
 ```
 
-This step prepares the **XYZ file** required for:
+This step prepares the **XYZ file** `/Tutorial/example/1SP2/initial_structure.xyz` required for:
 - **Optimization**
 - **Frequency calculations**
 - **Charge calculations**
 
-### 2.1 Outputs
+## 3. QM calculation Outputs
 - Optimized structure: `/Tutorial/example/1SP2/optimized_structure.xyz`
 - Frequency calculation log: `/Tutorial/example/1SP2/opt_freq.log`
 - Charge calculation log: `/Tutorial/example/1SP2/charges.log`
-- Formatted checkpoint file: `/Tutorial/example/1SP2/formatted_checkpoint.fchk`
+- Checkpoint file: `/Tutorial/example/1SP2/complex.chk`
+- Formatted checkpoint file: `/Tutorial/example/1SP2/complex.fchk`
 
-## 3. Generating Molecular Parameters with easyPARM
+## 4. Generating Molecular Parameters with easyPARM
 Run **easyPARM** again and select **option 1**:
 
 ```shell
@@ -64,7 +65,7 @@ Enter your choice: 1
 
 This will prompt a series of configurations:
 
-### 3.1 AMBER Configuration
+### 4.1 AMBER Configuration
 Choose how to load AMBER:
 - **Option 1**: Use currently loaded AMBER
 - **Option 2**: Specify AMBER installation path
@@ -74,19 +75,19 @@ Since AMBER is already loaded, select **option 1**:
 Enter your choice: 1
 ```
 
-### 3.2 System Charge
+### 4.2 System Charge
 The tool will request the total charge of the system:
 ```shell
 Please provide the total charge: 0
 ```
 
-### 3.3 Providing the Optimized Structure for the Seminario Method
+### 4.3 Providing the Optimized Structure for the Seminario Method
 Specify the optimized **XYZ geometry file**:
 ```shell
 Please provide the optimized XYZ geometry file: optimized.xyz
 ```
 
-### 3.4 Charge Calculation Method
+### 4.4 Charge Calculation Method
 Choose a method from the menu:
 ```shell
 Select the charge calculation method:
@@ -98,7 +99,7 @@ Select the charge calculation method:
 Enter your choice: 1
 ```
 
-### 3.5 mol2 File Generation
+### 4.5 mol2 File Generation
 Select the **charge output format**:
 ```shell
 Please select the input format:
@@ -131,7 +132,7 @@ Provide the charge output file:
 Please provide the charge output file (e.g., .log, .gesp): charges.log
 ```
 
-### 3.6 Seminario Method Setup
+### 4.6 Seminario Method Setup
 Select the format for the Seminario method:
 ```shell
 Please select the format you will provide:
@@ -143,22 +144,22 @@ Please select the format you will provide:
 Enter your choice: 4
 ```
 
-### 3.7 Metalloprotein Structure Confirmation
+### 4.7 Metalloprotein Structure Confirmation
 ```shell
 Does your structure belong to MetalloProtein? (y/n): y
 ```
 
 Provide the **final metalloprotein PDB file**:
 ```shell
-Please provide the metalloprotein PDB file: /Tutorial/example/1SP2/final_complex.pdb
+Please provide the metalloprotein PDB file: /Tutorial/example/1SP2/protonated.pdb
 ```
 
-## 4. Output Generation
+## 5. Output Generation
 Upon completion, easyPARM generates the following files:
 
-### 4.1 Key Outputs
+### 5.1 Key Outputs
 - **Mol2 files** (Residues & Metal):
-  - `CY1.mol2`
+  - `CY1.mol2` 
   - `CY2.mol2`
   - `HI1.mol2`
   - `HI2.mol2`
@@ -168,20 +169,20 @@ Upon completion, easyPARM generates the following files:
 - **Bond Information:** `Bond_Info.dat`
 - **New Atom Type Definitions:** `Hybridization_Info.dat`
 
-### 4.2 Explanation of Output Files
+### 5.2 Explanation of Output Files
 - `Mol2` files contain molecular structures of residues and metal.
 - `COMPLEX.frcmod` contains the derived force field parameters.
 - `easyPARM_MetalloProtein.pdb` is the final protein structure including the metal, for use in **tleap**.
 - `Hybridization_Info.dat` defines new atom types and hybridization states.
 - `Bond_Info.dat` lists metal-residue bonds, which must be manually added in **tleap**.
 
-## 5. Atomic Charge Restraint (Optional)
+## 6. Atomic Charge Restraint (Optional)
 The tool allows you to restrain atomic charges if needed. In this case, select **No**:
 ```shell
 Would you like to restrain the charge on specific atoms? (Yes or No): N
 ```
 
-## 6. Running tleap
+## 7. Running tleap
 Once parameters are generated, you can proceed with **tleap** to prepare the final topology and coordinate files. Use the appropriate tleap input file:
 - **tleap input file**: `/Tutorial/example/1SP2/tleap.in`
 
