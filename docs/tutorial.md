@@ -28,6 +28,16 @@ You can use one of the following tools:
 - Protonation states of **histidine** and **cysteine** may not be correct after preprocessing. Verify the PDB file and make the necessary adjustments: cysteine is labeled as CYS but should be CYM, and the same applies to histidine. 
   - **Protonated form**: [protonated.pdb](/Tutorial/example/1SP2/protonated.pdb)
   - **Deprotonated form**: [deprotonated.pdb](/Tutorial/example/1SP2/deprotonated.pdb)
+- Correct Orientation of Side Chains: Check the orientation of **ASN**, **GLN**, and **HIS** groups. The process of correcting orientations and adding hydrogens can sometimes shift the positions of residues linked to the metal. Verify that the metal and its coordinating residues are positioned
+- Ligands (Non-standard Residues): Ensure all ligand atoms have unique names in the PDB file. Tools such as reduce (from AmberTools), Avogadro, or GaussianView can be used to add hydrogens if missing. Example correction for duplicate atom names:
+    ```shell
+    Incorrect:
+    ATOM 528 H LIG A 31 -12.251 -8.336 -3.849 1.00 9.27 H
+    ATOM 529 H LIG A 31 -11.251 -7.336 -2.849 1.00 9.27 H
+    Corrected:
+    ATOM 528 H1 LIG A 31 -12.251 -8.336 -3.849 1.00 9.27 H
+    ATOM 529 H2 LIG A 31 -11.251 -7.336 -2.849 1.00 9.27 H
+    ```
 - Ensure no missing atoms in the structure.
 
 Once the structure is corrected, save the final PDB file:
