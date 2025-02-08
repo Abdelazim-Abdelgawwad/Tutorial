@@ -1,0 +1,12 @@
+bond PRO.32.Zn1 PRO.5.SG
+bond PRO.32.Zn1 PRO.10.SG
+bond PRO.32.Zn1 PRO.23.NE2
+bond PRO.32.Zn1 PRO.27.NE2
+bond PRO.5.N PRO.4.C
+bond PRO.5.C PRO.6.N
+bond PRO.10.N PRO.9.C
+bond PRO.10.C PRO.11.N
+bond PRO.23.N PRO.22.C
+bond PRO.23.C PRO.24.N
+bond PRO.27.N PRO.26.C
+bond PRO.27.C PRO.28.N

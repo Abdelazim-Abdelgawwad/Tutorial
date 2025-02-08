@@ -1,0 +1,12 @@
+@<TRIPOS>MOLECULE
+mol
+1     0     1     0     0
+SMALL
+No Charge or Current Charge
+
+
+@<TRIPOS>ATOM
+      1 Zn1         -1.7830     3.7810     0.5620 Zn         1 mol       0.685571
+@<TRIPOS>BOND
+@<TRIPOS>SUBSTRUCTURE
+     1 mol         1 TEMP              0 ****  ****    0 ROOT

@@ -1,0 +1,47 @@
+source leaprc.gaff
+source leaprc.protein.ff19SB
+source leaprc.water.tip3p
+loadamberparams frcmod.ionsjc_tip3p
+# Define hybridization
+addAtomTypes {
+        { "Zn"  "Zn" "sp3" }
+        { "s1"  "S" "sp3" }
+        { "s2"  "S" "sp3" }
+        { "n3"  "N" "sp3" }
+        { "n4"  "N" "sp3" }
+}
+# Load force field for residues and metal
+loadamberparams COMPLEX.frcmod
+# Load residues and metal
+CY1 = loadmol2 "CY1.mol2"
+CY2 = loadmol2 "CY2.mol2"
+HI1 = loadmol2 "HI1.mol2"
+HI2 = loadmol2 "HI2.mol2"
+mol = loadmol2 "METAL.mol2"
+PRO1 = loadpdb "easyPARM_MetalloProtein.pdb"
+# Define bonds for the metal coordination
+bond PRO1.32.Zn1 PRO1.5.SG
+bond PRO1.32.Zn1 PRO1.10.SG
+bond PRO1.32.Zn1 PRO1.23.NE2
+bond PRO1.32.Zn1 PRO1.27.NE2
+# Link adjacent residues
+bond PRO1.5.N PRO1.4.C
+bond PRO1.5.C PRO1.6.N
+bond PRO1.10.N PRO1.9.C
+bond PRO1.10.C PRO1.11.N
+bond PRO1.23.N PRO1.22.C
+bond PRO1.23.C PRO1.24.N
+bond PRO1.27.N PRO1.26.C
+bond PRO1.27.C PRO1.28.N
+# Save vacuum files
+savepdb mol 1SP2_vacuum.pdb
+saveamberparm mol 1SP2_vacuum.prmtop 1SP2_vacumm.inpcrd
+# Solvate the system
+solvateoct PRO1 TIP3PBOX 10.0
+check PRO1 charge
+addions PRO1 Cl- 0.
+addions PRO1 Na+ 0.
+# Save solvated files
+saveamberparm PRO1 1SP2_solvated.prmtop 1SP2_solvated.inpcrd
+savepdb PRO1 1SP2_solvated.pdb
+quit

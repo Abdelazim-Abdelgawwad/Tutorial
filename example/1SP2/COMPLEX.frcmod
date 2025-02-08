@@ -1,0 +1,507 @@
+Remark line goes here
+MASS
+C  12.010        0.616
+CC 12.010        0.360
+CR 12.010        0.360
+CT 12.010        0.878
+CV 12.010        0.360
+H 1.008         0.161
+H1 1.008         0.135
+H4 1.008         0.135
+H5 1.008         0.135
+HC 1.008         0.135
+N  14.010        0.530
+NA 14.010        0.530
+O  16.000        0.434
+XC 12.010        0.878
+Zn   65.4090        2.900
+c  12.010        0.616
+c3 12.010        0.878
+hc 1.008         0.135
+hn 1.008         0.161
+n  14.010        0.530
+n3 14.010        0.530
+n4 14.010        0.530
+o  16.000        0.434
+s1  32.060        2.900
+s2  32.060        2.900
+
+
+BOND
+s1-Zn 68.58 2.339
+s2-Zn 70.98 2.333
+n3-Zn 48.20 2.119
+n4-Zn 46.77 2.124
+XC-N 328.70 1.462
+hn-n 403.20 1.013
+H-N 403.20 1.013
+c-N 427.60 1.379
+C-n 427.60 1.379
+c-c3 313.00 1.524
+C-XC 313.00 1.524
+CT-XC 300.90 1.538
+XC-CT 300.90 1.538
+CT-H1 330.60 1.097
+XC-H1 330.60 1.097
+c-o 637.70 1.218
+C-O 637.70 1.218
+CT-s1 212.90 1.845
+CT-s2 212.90 1.845
+CT-CC 334.80 1.502
+CT-HC 330.60 1.097
+c3-hc 330.60 1.097
+CC-NA 425.80 1.380
+CR-NA 425.80 1.380
+CC-CV 500.90 1.373
+H-NA 408.40 1.010
+CV-n4 441.10 1.369
+CV-n3 441.10 1.369
+CV-H4 352.00 1.082
+CR-n4 525.40 1.317
+CR-n3 525.40 1.317
+CR-H5 351.70 1.082
+
+
+ANGLE
+CT-s1-Zn 36.890 104.525
+s1-Zn-s2 36.0511 123.136
+s1-Zn-n3 44.5818 110.865
+s1-Zn-n4 42.441 105.829
+s2-Zn-n3 40.0794 108.808
+s2-Zn-n4 30.845 108.114
+n3-Zn-n4 41.6425 96.750
+CT-s2-Zn 33.490 101.910
+CV-n3-Zn 41.630 127.300
+CR-n3-Zn 39.440 125.337
+CV-n4-Zn 47.260 126.065
+CR-n4-Zn 46.600 127.661
+C-XC-N 67.000 109.060
+CT-XC-N 65.900 111.610
+H1-XC-N 49.800 108.880
+n-C-O 74.200 123.050
+N-c-o 74.200 123.050
+c3-c-N 66.800 115.180
+XC-C-n 66.800 115.180
+XC-N-H 45.800 117.680
+c-N-XC 63.400 120.690
+c3-c-o 67.400 123.200
+XC-C-O 67.400 123.200
+XC-CT-s1 59.264 117.430
+XC-CT-s2 59.264 117.430
+CT-XC-H1 46.400 109.560
+XC-CT-H1 46.400 109.560
+C-XC-CT 63.300 111.040
+C-XC-H1 47.000 108.220
+c-N-H 48.300 117.550
+C-n-hn 48.300 117.550
+H1-CT-s1 41.200 112.370
+H1-CT-s2 41.200 112.370
+H1-CT-H1 39.200 108.460
+XC-CT-CC 63.500 111.930
+XC-CT-HC 46.300 109.800
+CT-CC-NA 65.300 122.730
+CT-CC-CV 64.700 119.450
+CC-CT-HC 47.200 110.490
+CC-NA-CR 68.500 109.900
+CR-NA-CC 68.500 109.900
+CC-NA-H 46.800 125.500
+CR-NA-H 46.800 125.500
+CC-CV-n4 72.200 111.650
+CC-CV-n3 72.200 111.650
+CC-CV-H4 47.300 128.480
+CV-CC-NA 73.400 106.990
+NA-CR-n4 74.900 112.220
+NA-CR-n3 74.900 112.220
+H5-CR-NA 49.600 121.550
+CR-n4-CV 71.800 105.490
+CR-n3-CV 71.800 105.490
+H4-CV-n4 50.000 121.140
+H4-CV-n3 50.000 121.140
+H5-CR-n4 50.600 125.520
+H5-CR-n3 50.600 125.520
+HC-CT-HC 39.400 107.580
+hc-c3-hc 39.400 107.580
+c-c3-hc 46.900 108.770
+hn-n-hn 39.600 117.950
+
+
+DIHE
+CC-CV-n3-Zn   3    0.000       0.0000           3.000
+NA-CR-n3-Zn   3    0.000       0.0000           3.000
+CV-n3-Zn-n4   3    0.000       0.0000           3.000
+CR-n3-Zn-n4   3    0.000       0.0000           3.000
+n3-Zn-n4-CV   3    0.000       0.0000           3.000
+n3-Zn-n4-CR   3    0.000       0.0000           3.000
+CC-CV-n4-Zn   3    0.000       0.0000           3.000
+NA-CR-n4-Zn   3    0.000       0.0000           3.000
+CV-n4-Zn-n3   3    0.000       0.0000           3.000
+CR-n4-Zn-n3   3    0.000       0.0000           3.000
+n4-Zn-n3-CV   3    0.000       0.0000           3.000
+n4-Zn-n3-CR   3    0.000       0.0000           3.000
+Zn-n3-CV-CC   3    0.000       0.0000           3.000
+Zn-n3-CR-NA   3    0.000       0.0000           3.000
+Zn-n4-CV-CC   3    0.000       0.0000           3.000
+Zn-n4-CR-NA   3    0.000       0.0000           3.000
+XC-CT-s1-Zn   3    0.000       0.0000           3.000
+CT-s1-Zn-n3   3    0.000       0.0000           3.000
+CT-s1-Zn-n4   3    0.000       0.0000           3.000
+s1-Zn-n3-CV   3    0.000       0.0000           3.000
+s1-Zn-n3-CR   3    0.000       0.0000           3.000
+s1-Zn-n4-CV   3    0.000       0.0000           3.000
+s1-Zn-n4-CR   3    0.000       0.0000           3.000
+XC-CT-s2-Zn   3    0.000       0.0000           3.000
+CT-s2-Zn-n3   3    0.000       0.0000           3.000
+CT-s2-Zn-n4   3    0.000       0.0000           3.000
+s2-Zn-n3-CV   3    0.000       0.0000           3.000
+s2-Zn-n3-CR   3    0.000       0.0000           3.000
+s2-Zn-n4-CV   3    0.000       0.0000           3.000
+s2-Zn-n4-CR   3    0.000       0.0000           3.000
+CV-n3-Zn-s1   3    0.000       0.0000           3.000
+CV-n3-Zn-s2   3    0.000       0.0000           3.000
+CR-n3-Zn-s1   3    0.000       0.0000           3.000
+CR-n3-Zn-s2   3    0.000       0.0000           3.000
+n3-Zn-s1-CT   3    0.000       0.0000           3.000
+n3-Zn-s2-CT   3    0.000       0.0000           3.000
+CV-n4-Zn-s1   3    0.000       0.0000           3.000
+CV-n4-Zn-s2   3    0.000       0.0000           3.000
+CR-n4-Zn-s1   3    0.000       0.0000           3.000
+CR-n4-Zn-s2   3    0.000       0.0000           3.000
+n4-Zn-s1-CT   3    0.000       0.0000           3.000
+n4-Zn-s2-CT   3    0.000       0.0000           3.000
+Zn-s1-CT-XC   3    0.000       0.0000           3.000
+Zn-s2-CT-XC   3    0.000       0.0000           3.000
+CT-s1-Zn-s2   3    0.000       0.0000           3.000
+s1-Zn-s2-CT   3    0.000       0.0000           3.000
+CT-s2-Zn-s1   3    0.000       0.0000           3.000
+s2-Zn-s1-CT   3    0.000       0.0000           3.000
+H4-CV-n3-Zn   3    0.000       0.0000           3.000
+H5-CR-n3-Zn   3    0.000       0.0000           3.000
+H4-CV-n4-Zn   3    0.000       0.0000           3.000
+H5-CR-n4-Zn   3    0.000       0.0000           3.000
+Zn-n3-CV-H4   3    0.000       0.0000           3.000
+Zn-n3-CR-H5   3    0.000       0.0000           3.000
+Zn-n4-CV-H4   3    0.000       0.0000           3.000
+Zn-n4-CR-H5   3    0.000       0.0000           3.000
+H1-CT-s1-Zn   3    0.000       0.0000           3.000
+H1-CT-s2-Zn   3    0.000       0.0000           3.000
+Zn-s1-CT-H1   3    0.000       0.0000           3.000
+Zn-s2-CT-H1   3    0.000       0.0000           3.000
+O-C-XC-N   6    0.000       180.0000           2.000
+n-C-XC-N    1    1.700       180.000          -1.000
+n-C-XC-N   1    2.000       180.0000           2.000
+N-XC-CT-s1   9    1.400       0.0000           3.000
+N-XC-CT-s2   9    1.400       0.0000           3.000
+H1-CT-XC-N   9    1.400       0.0000           3.000
+N-c-c3-hc   6    0.000       180.0000           2.000
+o-c-N-XC   4    10.000       180.0000           2.000
+c3-c-N-XC   1    0.000         0.000          -2.000
+c3-c-N-XC   1    1.500       180.0000           1.000
+c3-c-N-H   4    10.000       180.0000           2.000
+XC-C-n-hn   4    10.000       180.0000           2.000
+C-XC-CT-s1   9    1.400       0.0000           3.000
+C-XC-CT-s2   9    1.400       0.0000           3.000
+C-XC-CT-H1   9    1.400       0.0000           3.000
+O-C-n-hn   1    2.500       180.000          -2.000
+o-c-N-H   1    2.500       180.000          -2.000
+O-C-n-hn   1    2.000       0.0000           1.000
+o-c-N-H   1    2.000       0.0000           1.000
+O-C-XC-CT   6    0.000       180.0000           2.000
+n-C-XC-CT   1    0.100         0.000          -4.000
+n-C-XC-CT   1    0.070       0.0000           2.000
+C-XC-N-H   6    0.000       0.0000           2.000
+CT-XC-N-H   6    0.000       0.0000           2.000
+H1-XC-N-H   6    0.000       0.0000           2.000
+O-C-XC-H1   1    0.800         0.000          -1.000
+O-C-XC-H1   1    0.000         0.000          -2.000
+O-C-XC-H1   1    0.080       180.0000           3.000
+n-C-XC-H1   6    0.000       180.0000           2.000
+H1-XC-CT-s1   9    1.400       0.0000           3.000
+H1-XC-CT-s2   9    1.400       0.0000           3.000
+H1-CT-XC-H1   9    1.400       0.0000           3.000
+H1-XC-CT-H1   9    1.400       0.0000           3.000
+CC-CT-XC-N   9    1.400       0.0000           3.000
+HC-CT-XC-N   9    1.400       0.0000           3.000
+XC-CT-CC-NA   6    0.000       0.0000           3.000
+XC-CT-CC-CV   6    0.000       0.0000           3.000
+C-XC-CT-CC   9    1.400       0.0000           3.000
+C-XC-CT-HC   9    1.400       0.0000           3.000
+CT-CC-NA-CR   4    6.800       180.0000           2.000
+CT-CC-NA-H   4    6.800       180.0000           2.000
+CT-CC-CV-n4   4    16.000       180.0000           2.000
+CT-CC-CV-n3   4    16.000       180.0000           2.000
+CT-CC-CV-H4   4    16.000       180.0000           2.000
+n4-CR-NA-CC   4    6.800       180.0000           2.000
+n3-CR-NA-CC   4    6.800       180.0000           2.000
+H5-CR-NA-CC   4    6.800       180.0000           2.000
+CC-CV-n4-CR   2    9.500       180.0000           2.000
+CC-CV-n3-CR   2    9.500       180.0000           2.000
+NA-CC-CV-n4   4    16.000       180.0000           2.000
+NA-CC-CV-n3   4    16.000       180.0000           2.000
+NA-CC-CV-H4   4    16.000       180.0000           2.000
+NA-CR-n4-CV   2    9.500       180.0000           2.000
+NA-CR-n3-CV   2    9.500       180.0000           2.000
+CV-CC-NA-CR   4    6.800       180.0000           2.000
+CV-CC-NA-H   4    6.800       180.0000           2.000
+CC-CT-XC-H1   9    1.400       0.0000           3.000
+H1-XC-CT-HC   9    1.400       0.0000           3.000
+HC-CT-CC-NA   6    0.000       0.0000           3.000
+HC-CT-CC-CV   6    0.000       0.0000           3.000
+n4-CR-NA-H   4    6.800       180.0000           2.000
+n3-CR-NA-H   4    6.800       180.0000           2.000
+H5-CR-NA-H   4    6.800       180.0000           2.000
+H4-CV-n4-CR   2    9.500       180.0000           2.000
+H4-CV-n3-CR   2    9.500       180.0000           2.000
+H5-CR-n4-CV   2    9.500       180.0000           2.000
+H5-CR-n3-CV   2    9.500       180.0000           2.000
+C-XC-N-c    1    0.850       180.000          -2.000
+C-XC-N-c   1    0.800       0.0000           1.000
+CT-XC-N-c    1    0.500       180.000          -4.000
+CT-XC-N-c    1    0.150       180.000          -3.000
+CT-XC-N-c    1    0.000         0.000          -2.000
+CT-XC-N-c   1    0.530       0.0000           1.000
+H1-XC-N-c   6    0.000       0.0000           2.000
+o-c-c3-hc   1    0.800         0.000          -1.000
+o-c-c3-hc   1    0.000         0.000          -2.000
+o-c-c3-hc   1    0.080       180.0000           3.000
+
+
+IMPROPER
+c-CT-n-hn         1.1          180.0         2.0
+c-CT-n-H         1.1          180.0         2.0
+c-CT-N-hn         1.1          180.0         2.0
+c-CT-N-H         1.1          180.0         2.0
+c-c3-n-hn         1.1          180.0         2.0
+c-c3-n-H         1.1          180.0         2.0
+c-c3-N-hn         1.1          180.0         2.0
+c-c3-N-H         1.1          180.0         2.0
+c-XC-n-hn         1.1          180.0         2.0
+c-XC-n-H         1.1          180.0         2.0
+c-XC-N-hn         1.1          180.0         2.0
+c-XC-N-H         1.1          180.0         2.0
+C-CT-n-hn         1.1          180.0         2.0
+C-CT-n-H         1.1          180.0         2.0
+C-CT-N-hn         1.1          180.0         2.0
+C-CT-N-H         1.1          180.0         2.0
+C-c3-n-hn         1.1          180.0         2.0
+C-c3-n-H         1.1          180.0         2.0
+C-c3-N-hn         1.1          180.0         2.0
+C-c3-N-H         1.1          180.0         2.0
+C-XC-n-hn         1.1          180.0         2.0
+C-XC-n-H         1.1          180.0         2.0
+C-XC-N-hn         1.1          180.0         2.0
+C-XC-N-H         1.1          180.0         2.0
+CT-n-c-O         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+CT-n-c-o         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+CT-n-C-O         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+CT-n-C-o         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+CT-N-c-O         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+CT-N-c-o         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+CT-N-C-O         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+CT-N-C-o         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+c3-n-c-O         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+c3-n-c-o         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+c3-n-C-O         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+c3-n-C-o         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+c3-N-c-O         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+c3-N-c-o         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+c3-N-C-O         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+c3-N-C-o         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+XC-n-c-O         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+XC-n-c-o         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+XC-n-C-O         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+XC-n-C-o         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+XC-N-c-O         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+XC-N-c-o         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+XC-N-C-O         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+XC-N-C-o         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+CT-CV-CC-na         1.1          180.0         2.0          Using the default value
+CT-CV-CC-NA         1.1          180.0         2.0          Using the default value
+CT-CV-CR-na         1.1          180.0         2.0          Using the default value
+CT-CV-CR-NA         1.1          180.0         2.0          Using the default value
+CT-CV-cc-na         1.1          180.0         2.0          Using the default value
+CT-CV-cc-NA         1.1          180.0         2.0          Using the default value
+CT-cd-CC-na         1.1          180.0         2.0          Using the default value
+CT-cd-CC-NA         1.1          180.0         2.0          Using the default value
+CT-cd-CR-na         1.1          180.0         2.0          Using the default value
+CT-cd-CR-NA         1.1          180.0         2.0          Using the default value
+CT-cd-cc-na         1.1          180.0         2.0          Using the default value
+CT-cd-cc-NA         1.1          180.0         2.0          Using the default value
+c3-CV-CC-na         1.1          180.0         2.0          Using the default value
+c3-CV-CC-NA         1.1          180.0         2.0          Using the default value
+c3-CV-CR-na         1.1          180.0         2.0          Using the default value
+c3-CV-CR-NA         1.1          180.0         2.0          Using the default value
+c3-CV-cc-na         1.1          180.0         2.0          Using the default value
+c3-CV-cc-NA         1.1          180.0         2.0          Using the default value
+c3-cd-CC-na         1.1          180.0         2.0          Using the default value
+c3-cd-CC-NA         1.1          180.0         2.0          Using the default value
+c3-cd-CR-na         1.1          180.0         2.0          Using the default value
+c3-cd-CR-NA         1.1          180.0         2.0          Using the default value
+c3-cd-cc-na         1.1          180.0         2.0          Using the default value
+c3-cd-cc-NA         1.1          180.0         2.0          Using the default value
+XC-CV-CC-na         1.1          180.0         2.0          Using the default value
+XC-CV-CC-NA         1.1          180.0         2.0          Using the default value
+XC-CV-CR-na         1.1          180.0         2.0          Using the default value
+XC-CV-CR-NA         1.1          180.0         2.0          Using the default value
+XC-CV-cc-na         1.1          180.0         2.0          Using the default value
+XC-CV-cc-NA         1.1          180.0         2.0          Using the default value
+XC-cd-CC-na         1.1          180.0         2.0          Using the default value
+XC-cd-CC-NA         1.1          180.0         2.0          Using the default value
+XC-cd-CR-na         1.1          180.0         2.0          Using the default value
+XC-cd-CR-NA         1.1          180.0         2.0          Using the default value
+XC-cd-cc-na         1.1          180.0         2.0          Using the default value
+XC-cd-cc-NA         1.1          180.0         2.0          Using the default value
+CC-CC-na-hn         1.1          180.0         2.0          Using general improper torsional angle  X- X-na-hn, penalty score=  6.0)
+CC-CC-na-H         1.1          180.0         2.0          Using general improper torsional angle  X- X-na-hn, penalty score=  6.0)
+CC-CC-NA-hn         1.1          180.0         2.0          Using general improper torsional angle  X- X-na-hn, penalty score=  6.0)
+CC-CC-NA-H         1.1          180.0         2.0          Using general improper torsional angle  X- X-na-hn, penalty score=  6.0)
+CC-CR-na-hn         1.1          180.0         2.0          Using general improper torsional angle  X- X-na-hn, penalty score=  6.0)
+CC-CR-na-H         1.1          180.0         2.0          Using general improper torsional angle  X- X-na-hn, penalty score=  6.0)
+CC-CR-NA-hn         1.1          180.0         2.0          Using general improper torsional angle  X- X-na-hn, penalty score=  6.0)
+CC-CR-NA-H         1.1          180.0         2.0          Using general improper torsional angle  X- X-na-hn, penalty score=  6.0)
+CC-cc-na-hn         1.1          180.0         2.0          Using general improper torsional angle  X- X-na-hn, penalty score=  6.0)
+CC-cc-na-H         1.1          180.0         2.0          Using general improper torsional angle  X- X-na-hn, penalty score=  6.0)
+CC-cc-NA-hn         1.1          180.0         2.0          Using general improper torsional angle  X- X-na-hn, penalty score=  6.0)
+CC-cc-NA-H         1.1          180.0         2.0          Using general improper torsional angle  X- X-na-hn, penalty score=  6.0)
+CR-CC-na-hn         1.1          180.0         2.0          Using general improper torsional angle  X- X-na-hn, penalty score=  6.0)
+CR-CC-na-H         1.1          180.0         2.0          Using general improper torsional angle  X- X-na-hn, penalty score=  6.0)
+CR-CC-NA-hn         1.1          180.0         2.0          Using general improper torsional angle  X- X-na-hn, penalty score=  6.0)
+CR-CC-NA-H         1.1          180.0         2.0          Using general improper torsional angle  X- X-na-hn, penalty score=  6.0)
+CR-CR-na-hn         1.1          180.0         2.0          Using general improper torsional angle  X- X-na-hn, penalty score=  6.0)
+CR-CR-na-H         1.1          180.0         2.0          Using general improper torsional angle  X- X-na-hn, penalty score=  6.0)
+CR-CR-NA-hn         1.1          180.0         2.0          Using general improper torsional angle  X- X-na-hn, penalty score=  6.0)
+CR-CR-NA-H         1.1          180.0         2.0          Using general improper torsional angle  X- X-na-hn, penalty score=  6.0)
+CR-cc-na-hn         1.1          180.0         2.0          Using general improper torsional angle  X- X-na-hn, penalty score=  6.0)
+CR-cc-na-H         1.1          180.0         2.0          Using general improper torsional angle  X- X-na-hn, penalty score=  6.0)
+CR-cc-NA-hn         1.1          180.0         2.0          Using general improper torsional angle  X- X-na-hn, penalty score=  6.0)
+CR-cc-NA-H         1.1          180.0         2.0          Using general improper torsional angle  X- X-na-hn, penalty score=  6.0)
+cc-CC-na-hn         1.1          180.0         2.0          Using general improper torsional angle  X- X-na-hn, penalty score=  6.0)
+cc-CC-na-H         1.1          180.0         2.0          Using general improper torsional angle  X- X-na-hn, penalty score=  6.0)
+cc-CC-NA-hn         1.1          180.0         2.0          Using general improper torsional angle  X- X-na-hn, penalty score=  6.0)
+cc-CC-NA-H         1.1          180.0         2.0          Using general improper torsional angle  X- X-na-hn, penalty score=  6.0)
+cc-CR-na-hn         1.1          180.0         2.0          Using general improper torsional angle  X- X-na-hn, penalty score=  6.0)
+cc-CR-na-H         1.1          180.0         2.0          Using general improper torsional angle  X- X-na-hn, penalty score=  6.0)
+cc-CR-NA-hn         1.1          180.0         2.0          Using general improper torsional angle  X- X-na-hn, penalty score=  6.0)
+cc-CR-NA-H         1.1          180.0         2.0          Using general improper torsional angle  X- X-na-hn, penalty score=  6.0)
+cc-cc-na-hn         1.1          180.0         2.0          Using general improper torsional angle  X- X-na-hn, penalty score=  6.0)
+cc-cc-na-H         1.1          180.0         2.0          Using general improper torsional angle  X- X-na-hn, penalty score=  6.0)
+cc-cc-NA-hn         1.1          180.0         2.0          Using general improper torsional angle  X- X-na-hn, penalty score=  6.0)
+cc-cc-NA-H         1.1          180.0         2.0          Using general improper torsional angle  X- X-na-hn, penalty score=  6.0)
+CC-h4-CV-nd         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+CC-h4-CV-n4         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+CC-h4-CV-n3         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+CC-h4-cd-nd         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+CC-h4-cd-n4         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+CC-h4-cd-n3         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+CC-H4-CV-nd         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+CC-H4-CV-n4         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+CC-H4-CV-n3         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+CC-H4-cd-nd         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+CC-H4-cd-n4         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+CC-H4-cd-n3         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+CR-h4-CV-nd         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+CR-h4-CV-n4         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+CR-h4-CV-n3         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+CR-h4-cd-nd         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+CR-h4-cd-n4         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+CR-h4-cd-n3         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+CR-H4-CV-nd         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+CR-H4-CV-n4         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+CR-H4-CV-n3         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+CR-H4-cd-nd         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+CR-H4-cd-n4         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+CR-H4-cd-n3         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+cc-h4-CV-nd         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+cc-h4-CV-n4         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+cc-h4-CV-n3         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+cc-h4-cd-nd         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+cc-h4-cd-n4         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+cc-h4-cd-n3         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+cc-H4-CV-nd         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+cc-H4-CV-n4         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+cc-H4-CV-n3         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+cc-H4-cd-nd         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+cc-H4-cd-n4         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+cc-H4-cd-n3         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+h5-na-CC-nd         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.5 (use general term))
+h5-na-CC-n4         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.5 (use general term))
+h5-na-CC-n3         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.5 (use general term))
+h5-na-CR-nd         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.5 (use general term))
+h5-na-CR-n4         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.5 (use general term))
+h5-na-CR-n3         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.5 (use general term))
+h5-na-cc-nd         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.5 (use general term))
+h5-na-cc-n4         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.5 (use general term))
+h5-na-cc-n3         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.5 (use general term))
+h5-NA-CC-nd         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.5 (use general term))
+h5-NA-CC-n4         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.5 (use general term))
+h5-NA-CC-n3         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.5 (use general term))
+h5-NA-CR-nd         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.5 (use general term))
+h5-NA-CR-n4         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.5 (use general term))
+h5-NA-CR-n3         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.5 (use general term))
+h5-NA-cc-nd         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.5 (use general term))
+h5-NA-cc-n4         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.5 (use general term))
+h5-NA-cc-n3         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.5 (use general term))
+H5-na-CC-nd         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.5 (use general term))
+H5-na-CC-n4         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.5 (use general term))
+H5-na-CC-n3         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.5 (use general term))
+H5-na-CR-nd         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.5 (use general term))
+H5-na-CR-n4         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.5 (use general term))
+H5-na-CR-n3         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.5 (use general term))
+H5-na-cc-nd         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.5 (use general term))
+H5-na-cc-n4         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.5 (use general term))
+H5-na-cc-n3         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.5 (use general term))
+H5-NA-CC-nd         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.5 (use general term))
+H5-NA-CC-n4         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.5 (use general term))
+H5-NA-CC-n3         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.5 (use general term))
+H5-NA-CR-nd         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.5 (use general term))
+H5-NA-CR-n4         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.5 (use general term))
+H5-NA-CR-n3         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.5 (use general term))
+H5-NA-cc-nd         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.5 (use general term))
+H5-NA-cc-n4         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.5 (use general term))
+H5-NA-cc-n3         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.5 (use general term))
+c-hn-n-hn         1.1          180.0         2.0          Using general improper torsional angle  X- X- n-hn, penalty score=  6.0)
+c-hn-n-H         1.1          180.0         2.0          Using general improper torsional angle  X- X- n-hn, penalty score=  6.0)
+c-hn-N-hn         1.1          180.0         2.0          Using general improper torsional angle  X- X- n-hn, penalty score=  6.0)
+c-hn-N-H         1.1          180.0         2.0          Using general improper torsional angle  X- X- n-hn, penalty score=  6.0)
+c-H-n-hn         1.1          180.0         2.0          Using general improper torsional angle  X- X- n-hn, penalty score=  6.0)
+c-H-n-H         1.1          180.0         2.0          Using general improper torsional angle  X- X- n-hn, penalty score=  6.0)
+c-H-N-hn         1.1          180.0         2.0          Using general improper torsional angle  X- X- n-hn, penalty score=  6.0)
+c-H-N-H         1.1          180.0         2.0          Using general improper torsional angle  X- X- n-hn, penalty score=  6.0)
+C-hn-n-hn         1.1          180.0         2.0          Using general improper torsional angle  X- X- n-hn, penalty score=  6.0)
+C-hn-n-H         1.1          180.0         2.0          Using general improper torsional angle  X- X- n-hn, penalty score=  6.0)
+C-hn-N-hn         1.1          180.0         2.0          Using general improper torsional angle  X- X- n-hn, penalty score=  6.0)
+C-hn-N-H         1.1          180.0         2.0          Using general improper torsional angle  X- X- n-hn, penalty score=  6.0)
+C-H-n-hn         1.1          180.0         2.0          Using general improper torsional angle  X- X- n-hn, penalty score=  6.0)
+C-H-n-H         1.1          180.0         2.0          Using general improper torsional angle  X- X- n-hn, penalty score=  6.0)
+C-H-N-hn         1.1          180.0         2.0          Using general improper torsional angle  X- X- n-hn, penalty score=  6.0)
+C-H-N-H         1.1          180.0         2.0          Using general improper torsional angle  X- X- n-hn, penalty score=  6.0)
+
+
+NONBON
+n           1.8240  0.1700
+N           1.8240  0.1700
+CT          1.9080  0.1094
+c3          1.9080  0.1094
+XC          1.9080  0.1094
+c           1.9080  0.0860
+C           1.9080  0.0860
+O           1.6612  0.2100
+o           1.6612  0.2100
+s1           2.0000  0.2500
+s2           2.0000  0.2500
+hn          0.6000  0.0157
+H          0.6000  0.0157
+H1          1.3870  0.0157
+CC          1.9080  0.0860
+CR          1.9080  0.0860
+NA          1.8240  0.1700
+CV          1.9080  0.0860
+n4          1.8240  0.1700
+n3          1.8240  0.1700
+HC          1.4870  0.0157
+hc          1.4870  0.0157
+H4          1.4090  0.0150
+H5          1.3590  0.0150
+Zn          1.3815   0.1240
+
+
+
