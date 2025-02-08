@@ -113,7 +113,7 @@ $END
 
 #### **Using RESP Method**
 <p align="justify">
-To calculate RESP charges, the ESP points must be obtained using the CONNOLLY option for the PTSEL keyword.
+To calculate RESP charges, the ESP points must be obtained using the <strong>CONNOLLY</strong> option for the <strong>PTSEL</strong> keyword.
 </p>
 
 ```bash
@@ -131,7 +131,7 @@ $END
 
 #### **Using GAMESS Charge Fitting**
 <p align="justify">
-For GAMESS charge fitting, you can select one of the supported methods: GEODESIC, CONNOLLY, or CHELPG.
+For GAMESS charge fitting, you can select one of the supported methods: <strong>.GEODESIC</strong>, <strong>CONNOLLY</strong>, or <strong>CHELPG</strong>.
 </p>
 
 ```bash
