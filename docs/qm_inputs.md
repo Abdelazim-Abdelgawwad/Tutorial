@@ -75,7 +75,7 @@ Coordinates
 *
 ```
 
-### **2.2Frequency Calculation and Charge Calculation with the CHELPG or RESP Method**
+### **2.2 Frequency Calculation and Charge Calculation with the CHELPG or RESP Method**
 1.	Run a Single-Point Frequency Calculation using the optimized structure.
 2.	Output Files: Upon completion of the calculation, you will obtain the following files:
 - **Optimized Structure (.xyz)**: Contains the final geometry of the optimized structure.
