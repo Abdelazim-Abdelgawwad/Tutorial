@@ -58,4 +58,5 @@ github:
 github_pages:
   is_generated_page: false
 
-google_analytics: G-7N16T4HJ9F
+ga_tracking: G-7N16T4HJ9F
+ga_tracking_anonymize_ip: true  # Optional but recommended 
