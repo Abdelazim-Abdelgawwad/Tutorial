@@ -75,6 +75,30 @@ Coordinates
 *
 ```
 
+### **2.2Frequency Calculation and Charge Calculation with the CHELPG or RESP Method**
+1.	Run a Single-Point Frequency Calculation using the optimized structure.
+2.	Output Files: Upon completion of the calculation, you will obtain the following files:
+- **Optimized Structure (.xyz)**: Contains the final geometry of the optimized structure.
+- **Charge File (.log)**: Contains the calculated charges based on the CHELPG method.
+- **Hessian File (.hess)**: Contains the Hessian matrix from the frequency calculation.
+- **ESP charge (.vpot)**: Contains the calculated ESP charges based on the CHELPG method. This output can be used by easyPARM to calculate the RESP charges.
+
+```bash
+!B3LYP 6-31G*  RI-SOMF(1X) defgrid1 KDIIS TIGHTSCF Freq
+%pal nprocs 24
+end
+%basis
+NEWGTO  Pt "SDD" END
+NewECP Pt "SDD" end
+end
+%scf MaxIter 1000 end
+! CHELPG
+%maxcore 5000
+* xyz charge multiplicity
+Coordinates
+*
+````
+
 ## **3. GAMESS Input**
 
 ### **3.1 Structure Optimization**
