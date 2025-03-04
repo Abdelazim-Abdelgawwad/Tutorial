@@ -23,13 +23,15 @@ search:
   rel_url: true
   button: false
 
-# Aux links for the upper right navigation
-aux_links:
-  "Expand Navigation":
-    - "false"
-
-# Disable auto collapsing of navigation
 nav_fold: false
+
+# Ensure child sections are always visible
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      nav_fold: false
 
 # Navigation sidebar
 nav:
