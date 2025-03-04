@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "Metal Complex"
+title: "Parameterization of Metal Complexes"
 parent: "Tutorial"
 nav_order: 1
-permalink: Metal Complex
+permalink: Parameterization of Metal Complexes
 ---
 
 <!-- easyPARM Installation and Usage Guide -->
