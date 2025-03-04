@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Parameterization of Metal Complexes"
-parent: "Tutorial"
+title: "metalcomplex"
+parent: "tutorial"
 nav_order: 1
 permalink: /Tutorial/metalcomplex
 ---
