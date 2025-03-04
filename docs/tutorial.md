@@ -1,3 +1,16 @@
+---
+layout: default
+title: "Tutorial"
+nav_order: 7
+has_children: true
+permalink: Tutorial
+---
+
+<!-- easyPARM Installation and Usage Guide -->
+<p align="center">
+  <img src="/Tutorial/logo/easyPARM3.png" alt="easyPARM Logo" width="500"/>
+</p>
+
 # Tutorial Overview
 
 ## Welcome to easyPARM Parameterization Guide
