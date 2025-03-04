@@ -1,0 +1,26 @@
+source leaprc.gaff
+source leaprc.water.tip3p
+loadamberparams frcmod.ionsjc_tip3p
+
+# Load force field for metal complex
+loadamberparams COMPLEX.frcmod
+loadoff COMPLEX.lib
+
+# Load metal complex
+mol = loadpdb "COMPLEX.pdb"
+
+# Save vacuum files
+savepdb mol COMPLEX_vacuum.pdb
+saveamberparm mol COMPLEX_vacuum.prmtop COMPLEX_vacuum.inpcrd
+
+# Solvate the system
+solvateoct mol TIP3PBOX 10.0
+check mol charge
+addions mol Na+ 0.
+addions mol Cl- 0
+
+# Save solvated files
+savepdb mol COMPLEX_solvated.pdb
+saveamberparm mol COMPLEX_solvated.prmtop COMPLEX_solvated.inpcrd
+quit
+
