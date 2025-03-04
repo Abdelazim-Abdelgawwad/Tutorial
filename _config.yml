@@ -22,7 +22,14 @@ search:
   tokenizer_separator: /[\s/]+/
   rel_url: true
   button: false
-  collapse_sidebar: false
+
+# Aux links for the upper right navigation
+aux_links:
+  "Expand Navigation":
+    - "false"
+
+# Disable auto collapsing of navigation
+nav_fold: false
 
 # Navigation sidebar
 nav:
