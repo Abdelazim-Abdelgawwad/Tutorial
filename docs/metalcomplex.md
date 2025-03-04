@@ -17,7 +17,7 @@ permalink: Parameterization of Metal Complexes
 
 This tutorial offers a step-by-step guide to parameterizing a metal complex using **Gaussian** for QM calculations. The same approach can also be applied to **ORCA** and **GAMESS**. The example used throughout the tutorial is a [**ruthenium complex**](/Tutorial/example/Ru/COMPLEX.pdb), which features a ruthenium atom bonded to six nitrogen atoms, as illustrated in the figure below.
 <p align="center">
-  <img src="/Tutorial/example/Ru/Ru2.tif" alt="Ru complex" width="500"/>
+  <img src="/Tutorial/example/Ru/RU2.tif" alt="Ru complex" width="500"/>
 </p>
 
 ## 1. QM calculation Outputs
