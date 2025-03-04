@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "Tutorial"
-nav_order: 7
-has_children: true
-permalink: Tutorial
+title: "Parameterization of Metalloproteins"
+parent: "Tutorial"
+nav_order: 2
+permalink: /Tutorial/metalloprotein
 ---
 
 <!-- easyPARM Installation and Usage Guide -->
