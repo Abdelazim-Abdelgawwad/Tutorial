@@ -8,7 +8,7 @@ permalink: /Tutorial/metal-complexes/
 
 <!-- easyPARM Installation and Usage Guide -->
 <p align="center">
-  <img src="/Tutorial/logo/easyPARM3.png" alt="easyPARM Logo" width="300"/>
+  <img src="/Tutorial/logo/easyPARM3.png" alt="easyPARM Logo" width="500"/>
 </p>
 
 # Tutorial: Parameterization of Metal Complexes
@@ -17,7 +17,7 @@ permalink: /Tutorial/metal-complexes/
 
 This tutorial offers a step-by-step guide to parameterizing a metal complex using **Gaussian** for QM calculations. The same approach can also be applied to **ORCA** and **GAMESS**. The example used throughout the tutorial is a [**ruthenium complex**](/Tutorial/example/Ru/COMPLEX.pdb), which features a ruthenium atom bonded to six nitrogen atoms, as illustrated in the figure below.
 <p align="center">
-  <img src="/Tutorial/example/Ru/RU2.bmp" alt="Ru complex" width="500"/>
+  <img src="/Tutorial/example/Ru/RU2.bmp" alt="Ru complex" width="300"/>
 </p>
 
 ## 1. QM calculation Outputs
