@@ -23,8 +23,24 @@ search:
   rel_url: true
   button: false
 
-just_the_docs:
-  collapse_sidebar: false
+# Disable collapsing of navigation
+nav_fold: false
+
+# Expand navigation by default
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      nav_fold: false
+
+# Ensure child pages are always visible
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      expand_nav: true
 
 # Navigation sidebar
 nav:
