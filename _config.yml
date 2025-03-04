@@ -23,15 +23,8 @@ search:
   rel_url: true
   button: false
 
-nav_fold: false
-
-# Ensure child sections are always visible
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      nav_fold: false
+just_the_docs:
+  collapse_sidebar: false
 
 # Navigation sidebar
 nav:
