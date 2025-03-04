@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "metalcomplex"
-parent: "tutorial"
+title: "metal complex"
+parent: "Tutorial"
 nav_order: 1
-permalink: /Tutorial/metalcomplex
+permalink: /Tutorial/metalcomplex/
 ---
 
 <!-- easyPARM Installation and Usage Guide -->
