@@ -1,4 +1,10 @@
-
+---
+layout: default
+title: "Parameterization of Metal Complexes"
+parent: "Tutorial"
+nav_order: 1
+permalink: /Tutorial
+---
 
 <!-- easyPARM Installation and Usage Guide -->
 <p align="center">
