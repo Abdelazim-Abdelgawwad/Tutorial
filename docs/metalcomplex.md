@@ -8,7 +8,7 @@ permalink: Parameterization of Metal Complexes
 
 <!-- easyPARM Installation and Usage Guide -->
 <p align="center">
-  <img src="/Tutorial/logo/easyPARM3.png" alt="easyPARM Logo" width="500"/>
+  <img src="/Tutorial/logo/easyPARM3.png" alt="easyPARM Logo" width="300"/>
 </p>
 
 # Tutorial: Parameterization of Metal Complexes
