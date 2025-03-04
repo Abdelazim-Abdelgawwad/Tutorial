@@ -34,13 +34,12 @@ defaults:
     values:
       nav_fold: false
 
-# Ensure child pages are always visible
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      expand_nav: true
+# Additional navigation configuration
+nav:
+  - title: Tutorial
+    children:
+      - title: "Parameterization of Metal Complexes"
+      - title: "Parameterization of Metalloproteins"
 
 # Navigation sidebar
 nav:
