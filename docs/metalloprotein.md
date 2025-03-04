@@ -17,7 +17,7 @@ permalink: /Tutorial/metalloprotein/
 This tutorial provides a step-by-step guide for parameterizing a metalloprotein using **Gaussian** for QM calculations. The same workflow can be applied to **ORCA** and **GAMESS** as well. The example used throughout the tutorial is **1SP2 PDB** [1SP2.pdb](/Tutorial/example/1SP2/1SP2.pdb), a protein containing a zinc atom coordinated to **two cysteines** and **two histidines** amino acids, as shown in the figure below.
 
 <p align="center">
-  <img src="/Tutorial/example/1SP2/SP.bmp" alt="1SP2 protein" width="500"/>
+  <img src="/Tutorial/example/1SP2/SP.bmp" alt="1SP2 protein" width="300"/>
 </p>
 
 ## 1. Preprocessing the PDB File
