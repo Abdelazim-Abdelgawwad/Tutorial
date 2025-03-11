@@ -24,7 +24,7 @@ easyPARM derives bond-stretching and bond-angle bending force field parameters f
 The tool facilitates the derivation of bond-stretching and bond-angle bending force field parameters for <strong>metalloproteins</strong> using the <strong>Seminario method</strong>. This capability streamlines the integration of these parameters into <strong>protein force fields</strong>.
 </p>  
 
-## **3. Generation of CHARMM Force Field Parameter Format**
+### **3. Generation of CHARMM Force Field Parameter Format**
 <p align="justify">
 easyPARM extends its capabilities to the <strong>CHARMM</strong> ecosystem by implementing the <strong>Seminario method</strong> for metal-containing systems. The tool processes Hessian matrices from <strong>Gaussian</strong>, <strong>Orca</strong>, or <strong>GAMESS</strong> quantum chemistry calculations to generate bond and angle parameters in native <strong>CHARMM</strong> format. For organic components, easyPARM seamlessly integrates parameters from the CGenFF force field, creating a complete parameter set for mixed metal-organic systems.
 </p>  
