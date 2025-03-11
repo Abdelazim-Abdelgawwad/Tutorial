@@ -1,0 +1,95 @@
+Remark line goes here
+MASS
+Nb 14.010        0.530
+Ru  101.0700        2.900
+ca 12.010        0.360
+cp 12.010        0.360
+h4 1.008         0.135
+ha 1.008         0.135
+
+
+BOND
+Nb-Ru 61.66 2.105
+Ru-Nb 58.65 2.105
+ca-ca 461.10 1.398
+ca-ha 345.80 1.086
+ca-Nb 488.00 1.339
+ca-h4 341.50 1.089
+cp-Nb 488.50 1.339
+ca-cp 450.20 1.406
+cp-cp 351.40 1.485
+
+
+ANGLE
+ca-Nb-Ru 142.670 125.537
+cp-Nb-Ru 147.710 115.684
+Nb-Ru-Nb 127.850 106.678
+Ru-Nb-ca 138.920 125.538
+Ru-Nb-cp 139.140 115.682
+ca-ca-ca 66.600 120.020
+ca-ca-ha 48.200 119.880
+ca-ca-cp 66.300 120.690
+ca-ca-Nb 68.800 122.940
+ca-ca-h4 48.100 120.340
+ca-Nb-cp 68.100 118.050
+h4-ca-Nb 51.900 116.030
+ca-cp-Nb 69.000 121.620
+cp-cp-Nb 68.200 116.610
+cp-ca-ha 48.000 119.860
+ca-cp-cp 64.000 121.110
+
+
+DIHE
+ca-ca-Nb-Ru   3    0.000       0.0000           3.000
+ca-Nb-Ru-Nb   3    0.000       0.0000           3.000
+Nb-Ru-Nb-cp   3    0.000       0.0000           3.000
+Nb-Ru-Nb-ca   3    0.000       0.0000           3.000
+cp-Nb-Ru-Nb   3    0.000       0.0000           3.000
+cp-cp-Nb-Ru   3    0.000       0.0000           3.000
+ca-cp-Nb-Ru   3    0.000       0.0000           3.000
+Ru-Nb-ca-ca   3    0.000       0.0000           3.000
+Ru-Nb-cp-ca   3    0.000       0.0000           3.000
+Ru-Nb-cp-cp   3    0.000       0.0000           3.000
+Ru-Nb-ca-h4   3    0.000       0.0000           3.000
+h4-ca-Nb-Ru   3    0.000       0.0000           3.000
+ca-ca-ca-Nb   4    14.500       180.0000           2.000
+ca-ca-ca-h4   4    14.500       180.0000           2.000
+ca-ca-ca-cp   4    14.500       180.0000           2.000
+ca-ca-ca-ha   4    14.500       180.0000           2.000
+ca-ca-Nb-cp   2    9.600       180.0000           2.000
+ca-cp-Nb-ca   2    9.600       180.0000           2.000
+cp-cp-Nb-ca   2    9.600       180.0000           2.000
+ca-ca-cp-Nb   4    14.500       180.0000           2.000
+ha-ca-cp-Nb   4    14.500       180.0000           2.000
+Nb-cp-cp-Nb   4    4.000       180.0000           2.000
+ca-cp-cp-Nb   4    4.000       180.0000           2.000
+ca-ca-cp-cp   4    14.500       180.0000           2.000
+ha-ca-cp-cp   4    14.500       180.0000           2.000
+ca-ca-ca-ca   4    14.500       180.0000           2.000
+ca-cp-cp-ca   4    4.000       180.0000           2.000
+h4-ca-Nb-cp   2    9.600       180.0000           2.000
+ha-ca-ca-Nb   4    14.500       180.0000           2.000
+cp-ca-ca-ha   4    14.500       180.0000           2.000
+ha-ca-ca-ha   4    14.500       180.0000           2.000
+h4-ca-ca-ha   4    14.500       180.0000           2.000
+
+
+IMPROPER
+ca-ca-ca-ha         1.1          180.0         2.0          Using general improper torsional angle  X- X-ca-ha, penalty score=  6.0)
+ca-h4-ca-nb         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 44.3 (use general term))
+ca-h4-ca-Nb         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 44.3 (use general term))
+ca-cp-cp-nb         1.1          180.0         2.0          Using the default value
+ca-cp-cp-Nb         1.1          180.0         2.0          Using the default value
+ca-cp-ca-ha         1.1          180.0         2.0          Using general improper torsional angle  X- X-ca-ha, penalty score=  6.0)
+
+
+NONBON
+ca          1.9080  0.0860
+Nb          1.8240  0.1700
+cp          1.9080  0.0860
+Ru          1.4815   0.0560
+ha          1.4590  0.0150
+h4          1.4090  0.0150
+
+
+
