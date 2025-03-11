@@ -11,7 +11,7 @@ permalink: /Tutorial/charmm/
   <img src="/Tutorial/logo/easyPARM3.png" alt="easyPARM Logo" width="500"/>
 </p>
 
-# CHARMM Parameterization of Metal Complexes
+# Tutorial: Parameterization of Metal Complexes (CHARMM Format)
 
 ## Overview  
 
@@ -210,8 +210,8 @@ Once the CHARMM parameters are generated, you can use **VMD** to prepare the PSF
    - Click **Create Chains**.
 
 <div align="center">
-  <img src="/Tutorial/example/Ru2/3.png" alt="VMD" width="500"/>
-  <img src="/Tutorial/example/Ru2/4.png" alt="VMD" width="500"/>
+  <img src="/Tutorial/example/Ru2/3.png" alt="VMD" width="48%" style="display: inline-block; margin-right: 2%"/>
+  <img src="/Tutorial/example/Ru2/4.png" alt="VMD" width="48%" style="display: inline-block"/>
 </div>
 
 4. This process will generate the output files:
