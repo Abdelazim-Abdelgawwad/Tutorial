@@ -198,8 +198,8 @@ Once the CHARMM parameters are generated, you can use **VMD** to prepare the PSF
 2. Navigate to **Extensions → Modeling → Automatic PSF Builder**.
 
 <div align="center">
-  <img src="/Tutorial/example/Ru2/1.png" alt="VMD" width="500"/>
-  <img src="/Tutorial/example/Ru2/2.png" alt="VMD" width="500"/>
+  <img src="/Tutorial/example/Ru2/1.png" alt="VMD" width="48%" style="display: inline-block; margin-right: 2%"/>
+  <img src="/Tutorial/example/Ru2/2.png" alt="VMD" width="48%" style="display: inline-block"/>
 </div>
 
 3. In the **Automatic PSF Builder** window:
@@ -219,7 +219,7 @@ Once the CHARMM parameters are generated, you can use **VMD** to prepare the PSF
    - [**COMPLEX_autopsf.pdb**](/Tutorial/example/Ru2/COMPLEX_autopsf.pdb)
 
 <div align="center">
-  <img src="/Tutorial/example/Ru2/5.png" alt="VMD" width="500"/>
+  <img src="/Tutorial/example/Ru2/5.png" alt="VMD" width="400"/>
 </div>
 
 Once you have the **PSF** and **PDB** files for your complex, along with the **PSF** and **PDB** files for other components such as membranes, lipids, or proteins, you can proceed to merging them in the next step.
@@ -230,7 +230,7 @@ Once you have the **PSF** and **PDB** files for your complex, along with the **P
 2. Navigate to **Extensions → Modeling → Merge Structures**.
 
 <div align="center">
-  <img src="/Tutorial/example/Ru2/6.png" alt="VMD" width="500"/>
+  <img src="/Tutorial/example/Ru2/6.png" alt="VMD" width="400"/>
 </div>
 
 3. Load the two different structures along with their respective **PSF** and **PDB** files.
