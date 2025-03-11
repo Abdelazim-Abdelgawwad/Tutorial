@@ -34,5 +34,6 @@ permalink: References
    [https://doi.org/10.1002/jcc.21367](https://doi.org/10.1002/jcc.21367).
 
 9. Humphrey, W.; Dalke, A.; Schulten, K. *VMD - Visual Molecular Dynamics.* J. Mol. Graphics **1996**, *14* (1), 33–38.  
-   [https://doi.org/10.1016/S0263-7855(96)00018-5](https://doi.org/10.1016/S0263-7855(96)00018-5).
+   [https://doi.org/10.1016/S0263-7855(96)00018-5](https://doi.org/10.1016/0263-7855(96)00018-5)
   
+---
