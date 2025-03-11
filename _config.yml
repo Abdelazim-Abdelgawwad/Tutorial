@@ -38,8 +38,9 @@ defaults:
 nav:
   - title: Tutorial
     children:
-      - title: "Parameterization of Metal Complexes"
-      - title: "Parameterization of Metalloproteins"
+      - title: "Parameterization of Metal Complexes (AMBER Format)"
+      - title: "Parameterization of Metalloproteins (AMBER Format)"
+      - title: "Parameterization of Metal Complexes (CHARMM Format)"
 
 # Navigation sidebar
 nav:
