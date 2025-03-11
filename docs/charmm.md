@@ -22,7 +22,6 @@ As an example, this tutorial uses a [**ruthenium complex**](/Tutorial/example/Ru
   <img src="/Tutorial/example/Ru/RU2.bmp" alt="Ru complex" width="200"/>
 </p>
 
-## Disclaimer for easyPARM
 ### Important Considerations  
 
 1. The code generates CHARMM parameters based on AMBER atom types. It initially assigns an AMBER atom type and maps it to the closest equivalent in **CGenFF**, iteratively refining the assignment until it determines the most suitable CHARMM atom type.  
