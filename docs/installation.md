@@ -48,12 +48,22 @@ Replace `file_name` with the actual script name.
 ## **3. Running easyPARM**
 Once the installation is complete, you can run easyPARM using one of the following methods:
 
-### **3.1 Running the Script Directly**
-Navigate to the directory where easyPARM is located and execute:
+### 3.1 Running the Script Directly  
 
+To run `easyPARM.sh`, follow these steps carefully:  
+1. **Navigate to your working directory.**  
+2. **Execute the script from the easyPARM directory** using:  
+
+   ```bash
+   ../easyPARM.sh
+   ```  
+After running the command, you should see an output like this:  
 ```bash
-./easyPARM.sh
-```
+Running in directory: /full/path/to/working_directory
+Script directory: /full/path/to/scripts_of_easyPARM
+```  
+> **⚠️ Important:** Always verify that both paths are correct before proceeding.  
+> If they are incorrect, check your current location and script path.  
 
 ### **3.2 Setting Up an Alias for Easy Access**
 To run easyPARM from any location in your terminal, create an alias by adding the following line to your `~/.bashrc` or `~/.bash_profile` file:
