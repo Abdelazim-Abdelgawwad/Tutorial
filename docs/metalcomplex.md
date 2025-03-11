@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Parameterization of Metal Complexes"
+title: "Parameterization of Metal Complexes (AMBER Format)"
 parent: "Tutorial"
 nav_order: 1
 permalink: /Tutorial/metal-complexes/
