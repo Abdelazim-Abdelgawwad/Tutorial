@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Parameterization of Metalloproteins"
+title: "Parameterization of Metalloproteins (AMBER Format)"
 parent: "Tutorial"
 nav_order: 2
 permalink: /Tutorial/metalloprotein/
