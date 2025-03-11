@@ -22,6 +22,7 @@ As an example, this tutorial uses a [**ruthenium complex**](/Tutorial/example/Ru
   <img src="/Tutorial/example/Ru/RU2.bmp" alt="Ru complex" width="200"/>
 </p>
 
+## Disclaimer for easyPARM
 ### Important Considerations  
 
 1. The code generates CHARMM parameters based on AMBER atom types. It initially assigns an AMBER atom type and maps it to the closest equivalent in **CGenFF**, iteratively refining the assignment until it determines the most suitable CHARMM atom type.  
@@ -30,9 +31,9 @@ As an example, this tutorial uses a [**ruthenium complex**](/Tutorial/example/Ru
 
 ### Recommendation  
 
-Before proceeding with production simulations, it is highly recommended to validate the generated parameters. A common approach is to solvate the complex and perform a long molecular dynamics (MD) simulation to check for any unexpected behavior. If any issues arise, you may need to refine the parameters or contact us for further assistance.  
+Before proceeding with production simulations, it is highly recommended to validate the generated parameters. A common approach is to solvate the complex and perform a long molecular dynamics (MD) simulation to check for any unexpected behavior and assess structural stability. If any issues arise, you may need to refine the parameters or contact us for further assistance.  
 
-We have tested these parameters on two different systems, and they performed well. However, given that each system is unique, independent validation remains essential.  
+We have tested these parameters on two different systems, and they performed well. However, given that **the parameters have not undergone systematic validation against CGenFF benchmarks and each system is unique**, independent validation remains essential. We encourage feedback and contributions to enhance the accuracy of the tool.
 
 ## 1. QM calculation Outputs
 - Optimized structure: [OPTIMIZED.xyz](/Tutorial/example/Ru/optimized_structure.xyz)
