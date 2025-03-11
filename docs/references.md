@@ -28,4 +28,11 @@ permalink: References
 6. Shirts, M. R.; Klein, C.; Swails, J. M.; Yin, J.; Gilson, M. K.; Mobley, D. L.; Case, D. A.; Zhong, E. D. *Lessons Learned from Comparing Molecular Dynamics Engines on the SAMPL5 Dataset.* J. Comput. Aided Mol. Des. **2017**, *31* (1), 147–161.  
    [https://doi.org/10.1007/s10822-016-9977-1](https://doi.org/10.1007/s10822-016-9977-1).  
 
-7. Cornell, W. D.; Cieplak, P.; Bayly, C. I.; Kollman, P. A. *Application of RESP Charges.* J. Am. Chem. Soc. **1993**, *115* (7), 9620–9631.  
+7. Cornell, W. D.; Cieplak, P.; Bayly, C. I.; Kollman, P. A. *Application of RESP Charges.* J. Am. Chem. Soc. **1993**, *115* (7), 9620–9631.
+
+8. Vanommeslaeghe, K.; Hatcher, E.; Acharya, C.; Kundu, S.; Zhong, S.; Shim, J.; Darian, E.; Guvench, O.; Lopes, P.; Vorobyov, I.; Mackerell, A. D. Jr. *CHARMM General Force Field: A Force Field for Drug-Like Molecules Compatible with the CHARMM All-Atom Additive Biological Force Fields.* J. Comput. Chem. **2010**, *31* (4), 671–690.  
+   [https://doi.org/10.1002/jcc.21367](https://doi.org/10.1002/jcc.21367).
+
+9. Humphrey, W.; Dalke, A.; Schulten, K. *VMD - Visual Molecular Dynamics.* J. Mol. Graphics **1996**, *14* (1), 33–38.  
+   [https://doi.org/10.1016/S0263-7855(96)00018-5](https://doi.org/10.1016/S0263-7855(96)00018-5).
+  
