@@ -1,69 +1,341 @@
 BONDS
-Nb   Ru      61.66    2.105
-Ru   Nb      58.65    2.105
+nA   Ru      60.42    2.105
+nB   Ru      62.90    2.105
+Ru   nC      58.86    2.105
+Ru   nD      56.18    2.105
+Ru   nE      59.49    2.105
+Ru   nF      60.07    2.105
 ca   ca     305.00    1.398
 ca   ha     340.00    1.086
-ca   Nb     488.00    1.339
+ca   nC     488.00    1.339
+ca   nA     488.00    1.339
+ca   nF     488.00    1.339
+ca   nE     488.00    1.339
+ca   nD     488.00    1.339
+ca   nB     488.00    1.339
 ca   h4     340.00    1.089
-cp   Nb     488.50    1.339
+cp   nC     488.50    1.339
+cp   nA     488.50    1.339
+cp   nF     488.50    1.339
+cp   nE     488.50    1.339
+cp   nD     488.50    1.339
+cp   nB     488.50    1.339
 ca   cp     305.00    1.406
 cp   cp     440.00    1.485
 
 ANGLES
-ca   Nb   Ru      71.33  125.537
-cp   Nb   Ru      73.86  115.684
-Nb   Ru   Nb      63.92  106.678
-Ru   Nb   ca      69.46  125.538
-Ru   Nb   cp      69.57  115.682
+ca   nA   Ru      71.33  125.537
+cp   nA   Ru      73.69  115.686
+nA   Ru   nB      59.59   77.882
+nA   Ru   nC      68.86   88.403
+nA   Ru   nD      61.87   97.061
+nA   Ru   nE      66.48   97.031
+nA   Ru   nF      62.03  172.991
+nB   Ru   nC      63.09   97.058
+nB   Ru   nD      62.71  173.044
+nB   Ru   nE      66.30   88.401
+nB   Ru   nF      62.46   97.013
+nC   Ru   nD      61.18   77.888
+nC   Ru   nE      63.20  173.016
+nC   Ru   nF      67.19   97.055
+nD   Ru   nE      64.16   97.021
+nD   Ru   nF      64.92   88.413
+nE   Ru   nF      64.85   77.886
+cp   nB   Ru      74.02  115.682
+Ru   nB   ca      70.90  125.537
+Ru   nC   ca      67.59  125.544
+Ru   nC   cp      70.55  115.678
+Ru   nD   cp      72.51  115.683
+Ru   nD   ca      72.39  125.537
+Ru   nE   cp      66.64  115.680
+Ru   nE   ca      65.16  125.539
+Ru   nF   cp      68.59  115.686
+Ru   nF   ca      71.27  125.534
 ca   ca   ca      40.00  120.020
 ca   ca   ha      30.00  119.880
 ca   ca   cp      40.00  120.690
-ca   ca   Nb      34.40  122.940
+ca   ca   nC      34.40  122.940
+ca   ca   nA      34.40  122.940
+ca   ca   nF      34.40  122.940
+ca   ca   nE      34.40  122.940
+ca   ca   nD      34.40  122.940
+ca   ca   nB      34.40  122.940
 ca   ca   h4      30.00  120.340
-ca   Nb   cp      34.05  118.050
-h4   ca   Nb      25.95  116.030
-ca   cp   Nb      34.50  121.620
-cp   cp   Nb      34.10  116.610
+ca   nC   cp      34.05  118.050
+ca   nA   cp      34.05  118.050
+ca   nF   cp      34.05  118.050
+ca   nE   cp      34.05  118.050
+ca   nD   cp      34.05  118.050
+ca   nB   cp      34.05  118.050
+h4   ca   nC      25.95  116.030
+h4   ca   nA      25.95  116.030
+h4   ca   nF      25.95  116.030
+h4   ca   nE      25.95  116.030
+h4   ca   nD      25.95  116.030
+h4   ca   nB      25.95  116.030
+ca   cp   nC      34.50  121.620
+ca   cp   nA      34.50  121.620
+ca   cp   nF      34.50  121.620
+ca   cp   nE      34.50  121.620
+ca   cp   nD      34.50  121.620
+ca   cp   nB      34.50  121.620
+cp   cp   nC      34.10  116.610
+cp   cp   nA      34.10  116.610
+cp   cp   nF      34.10  116.610
+cp   cp   nE      34.10  116.610
+cp   cp   nD      34.10  116.610
+cp   cp   nB      34.10  116.610
 cp   ca   ha      30.00  119.860
 ca   cp   cp      40.00  121.110
 
 DIHEDRALS
-ca   ca   Nb   Ru     0.0000   3   0.0000
-ca   Nb   Ru   Nb     0.0000   3   0.0000
-Nb   Ru   Nb   cp     0.0000   3   0.0000
-Nb   Ru   Nb   ca     0.0000   3   0.0000
-cp   Nb   Ru   Nb     0.0000   3   0.0000
-cp   cp   Nb   Ru     0.0000   3   0.0000
-ca   cp   Nb   Ru     0.0000   3   0.0000
-Ru   Nb   ca   ca     0.0000   3   0.0000
-Ru   Nb   cp   ca     0.0000   3   0.0000
-Ru   Nb   cp   cp     0.0000   3   0.0000
-Ru   Nb   ca   h4     0.0000   3   0.0000
-h4   ca   Nb   Ru     0.0000   3   0.0000
-ca   ca   ca   Nb     7.2500   4 180.0000
+ca   ca   nA   Ru     0.0000   3   0.0000
+ca   nA   Ru   nB     0.0000   3   0.0000
+ca   nA   Ru   nC     0.0000   3   0.0000
+ca   nA   Ru   nD     0.0000   3   0.0000
+ca   nA   Ru   nE     0.0000   3   0.0000
+ca   nA   Ru   nF     0.0000   3   0.0000
+nA   Ru   nB   cp     0.0000   3   0.0000
+nA   Ru   nB   ca     0.0000   3   0.0000
+nA   Ru   nC   ca     0.0000   3   0.0000
+nA   Ru   nC   cp     0.0000   3   0.0000
+nA   Ru   nD   cp     0.0000   3   0.0000
+nA   Ru   nD   ca     0.0000   3   0.0000
+nA   Ru   nE   cp     0.0000   3   0.0000
+nA   Ru   nE   ca     0.0000   3   0.0000
+nA   Ru   nF   cp     0.0000   3   0.0000
+nA   Ru   nF   ca     0.0000   3   0.0000
+cp   nA   Ru   nB     0.0000   3   0.0000
+cp   nA   Ru   nC     0.0000   3   0.0000
+cp   nA   Ru   nD     0.0000   3   0.0000
+cp   nA   Ru   nE     0.0000   3   0.0000
+cp   nA   Ru   nF     0.0000   3   0.0000
+cp   cp   nB   Ru     0.0000   3   0.0000
+ca   cp   nA   Ru     0.0000   3   0.0000
+cp   cp   nA   Ru     0.0000   3   0.0000
+cp   nB   Ru   nA     0.0000   3   0.0000
+cp   nB   Ru   nC     0.0000   3   0.0000
+cp   nB   Ru   nD     0.0000   3   0.0000
+cp   nB   Ru   nE     0.0000   3   0.0000
+cp   nB   Ru   nF     0.0000   3   0.0000
+nB   Ru   nA   ca     0.0000   3   0.0000
+nB   Ru   nA   cp     0.0000   3   0.0000
+nB   Ru   nC   ca     0.0000   3   0.0000
+nB   Ru   nC   cp     0.0000   3   0.0000
+nB   Ru   nD   cp     0.0000   3   0.0000
+nB   Ru   nD   ca     0.0000   3   0.0000
+nB   Ru   nE   cp     0.0000   3   0.0000
+nB   Ru   nE   ca     0.0000   3   0.0000
+nB   Ru   nF   cp     0.0000   3   0.0000
+nB   Ru   nF   ca     0.0000   3   0.0000
+Ru   nA   ca   ca     0.0000   3   0.0000
+Ru   nA   cp   ca     0.0000   3   0.0000
+Ru   nA   cp   cp     0.0000   3   0.0000
+Ru   nB   cp   cp     0.0000   3   0.0000
+Ru   nB   cp   ca     0.0000   3   0.0000
+Ru   nB   ca   ca     0.0000   3   0.0000
+Ru   nC   ca   ca     0.0000   3   0.0000
+Ru   nC   cp   ca     0.0000   3   0.0000
+Ru   nC   cp   cp     0.0000   3   0.0000
+Ru   nD   cp   cp     0.0000   3   0.0000
+Ru   nD   cp   ca     0.0000   3   0.0000
+Ru   nD   ca   ca     0.0000   3   0.0000
+Ru   nE   cp   cp     0.0000   3   0.0000
+Ru   nE   cp   ca     0.0000   3   0.0000
+Ru   nE   ca   ca     0.0000   3   0.0000
+Ru   nF   cp   cp     0.0000   3   0.0000
+Ru   nF   cp   ca     0.0000   3   0.0000
+Ru   nF   ca   ca     0.0000   3   0.0000
+nC   Ru   nA   ca     0.0000   3   0.0000
+nC   Ru   nA   cp     0.0000   3   0.0000
+nC   Ru   nB   cp     0.0000   3   0.0000
+nC   Ru   nB   ca     0.0000   3   0.0000
+nC   Ru   nD   cp     0.0000   3   0.0000
+nC   Ru   nD   ca     0.0000   3   0.0000
+nC   Ru   nE   cp     0.0000   3   0.0000
+nC   Ru   nE   ca     0.0000   3   0.0000
+nC   Ru   nF   cp     0.0000   3   0.0000
+nC   Ru   nF   ca     0.0000   3   0.0000
+ca   nC   Ru   nA     0.0000   3   0.0000
+ca   nC   Ru   nB     0.0000   3   0.0000
+ca   nC   Ru   nD     0.0000   3   0.0000
+ca   nC   Ru   nE     0.0000   3   0.0000
+ca   nC   Ru   nF     0.0000   3   0.0000
+ca   ca   nC   Ru     0.0000   3   0.0000
+ca   cp   nC   Ru     0.0000   3   0.0000
+cp   nC   Ru   nA     0.0000   3   0.0000
+cp   nC   Ru   nB     0.0000   3   0.0000
+cp   nC   Ru   nD     0.0000   3   0.0000
+cp   nC   Ru   nE     0.0000   3   0.0000
+cp   nC   Ru   nF     0.0000   3   0.0000
+cp   cp   nD   Ru     0.0000   3   0.0000
+cp   cp   nC   Ru     0.0000   3   0.0000
+cp   nD   Ru   nA     0.0000   3   0.0000
+cp   nD   Ru   nB     0.0000   3   0.0000
+cp   nD   Ru   nC     0.0000   3   0.0000
+cp   nD   Ru   nE     0.0000   3   0.0000
+cp   nD   Ru   nF     0.0000   3   0.0000
+nD   Ru   nA   ca     0.0000   3   0.0000
+nD   Ru   nA   cp     0.0000   3   0.0000
+nD   Ru   nB   cp     0.0000   3   0.0000
+nD   Ru   nB   ca     0.0000   3   0.0000
+nD   Ru   nC   ca     0.0000   3   0.0000
+nD   Ru   nC   cp     0.0000   3   0.0000
+nD   Ru   nE   cp     0.0000   3   0.0000
+nD   Ru   nE   ca     0.0000   3   0.0000
+nD   Ru   nF   cp     0.0000   3   0.0000
+nD   Ru   nF   ca     0.0000   3   0.0000
+ca   nD   Ru   nA     0.0000   3   0.0000
+ca   nD   Ru   nB     0.0000   3   0.0000
+ca   nD   Ru   nC     0.0000   3   0.0000
+ca   nD   Ru   nE     0.0000   3   0.0000
+ca   nD   Ru   nF     0.0000   3   0.0000
+ca   ca   nD   Ru     0.0000   3   0.0000
+ca   cp   nD   Ru     0.0000   3   0.0000
+nE   Ru   nA   ca     0.0000   3   0.0000
+nE   Ru   nA   cp     0.0000   3   0.0000
+nE   Ru   nB   cp     0.0000   3   0.0000
+nE   Ru   nB   ca     0.0000   3   0.0000
+nE   Ru   nC   ca     0.0000   3   0.0000
+nE   Ru   nC   cp     0.0000   3   0.0000
+nE   Ru   nD   cp     0.0000   3   0.0000
+nE   Ru   nD   ca     0.0000   3   0.0000
+nE   Ru   nF   cp     0.0000   3   0.0000
+nE   Ru   nF   ca     0.0000   3   0.0000
+cp   nE   Ru   nA     0.0000   3   0.0000
+cp   nE   Ru   nB     0.0000   3   0.0000
+cp   nE   Ru   nC     0.0000   3   0.0000
+cp   nE   Ru   nD     0.0000   3   0.0000
+cp   nE   Ru   nF     0.0000   3   0.0000
+cp   cp   nF   Ru     0.0000   3   0.0000
+cp   cp   nE   Ru     0.0000   3   0.0000
+cp   nF   Ru   nA     0.0000   3   0.0000
+cp   nF   Ru   nB     0.0000   3   0.0000
+cp   nF   Ru   nC     0.0000   3   0.0000
+cp   nF   Ru   nD     0.0000   3   0.0000
+cp   nF   Ru   nE     0.0000   3   0.0000
+ca   cp   nF   Ru     0.0000   3   0.0000
+ca   ca   nF   Ru     0.0000   3   0.0000
+ca   nF   Ru   nA     0.0000   3   0.0000
+ca   nF   Ru   nB     0.0000   3   0.0000
+ca   nF   Ru   nC     0.0000   3   0.0000
+ca   nF   Ru   nD     0.0000   3   0.0000
+ca   nF   Ru   nE     0.0000   3   0.0000
+nF   Ru   nA   ca     0.0000   3   0.0000
+nF   Ru   nA   cp     0.0000   3   0.0000
+nF   Ru   nB   cp     0.0000   3   0.0000
+nF   Ru   nB   ca     0.0000   3   0.0000
+nF   Ru   nC   ca     0.0000   3   0.0000
+nF   Ru   nC   cp     0.0000   3   0.0000
+nF   Ru   nD   cp     0.0000   3   0.0000
+nF   Ru   nD   ca     0.0000   3   0.0000
+nF   Ru   nE   cp     0.0000   3   0.0000
+nF   Ru   nE   ca     0.0000   3   0.0000
+ca   cp   nE   Ru     0.0000   3   0.0000
+ca   ca   nE   Ru     0.0000   3   0.0000
+ca   nE   Ru   nA     0.0000   3   0.0000
+ca   nE   Ru   nB     0.0000   3   0.0000
+ca   nE   Ru   nC     0.0000   3   0.0000
+ca   nE   Ru   nD     0.0000   3   0.0000
+ca   nE   Ru   nF     0.0000   3   0.0000
+ca   nB   Ru   nA     0.0000   3   0.0000
+ca   nB   Ru   nC     0.0000   3   0.0000
+ca   nB   Ru   nD     0.0000   3   0.0000
+ca   nB   Ru   nE     0.0000   3   0.0000
+ca   nB   Ru   nF     0.0000   3   0.0000
+ca   ca   nB   Ru     0.0000   3   0.0000
+ca   cp   nB   Ru     0.0000   3   0.0000
+Ru   nA   ca   h4     0.0000   3   0.0000
+Ru   nB   ca   h4     0.0000   3   0.0000
+Ru   nC   ca   h4     0.0000   3   0.0000
+Ru   nD   ca   h4     0.0000   3   0.0000
+Ru   nE   ca   h4     0.0000   3   0.0000
+Ru   nF   ca   h4     0.0000   3   0.0000
+h4   ca   nA   Ru     0.0000   3   0.0000
+h4   ca   nC   Ru     0.0000   3   0.0000
+h4   ca   nD   Ru     0.0000   3   0.0000
+h4   ca   nF   Ru     0.0000   3   0.0000
+h4   ca   nE   Ru     0.0000   3   0.0000
+h4   ca   nB   Ru     0.0000   3   0.0000
+ca   ca   ca   nC     7.2500   4 180.0000
+ca   ca   ca   nA     7.2500   4 180.0000
+ca   ca   ca   nF     7.2500   4 180.0000
+ca   ca   ca   nE     7.2500   4 180.0000
+ca   ca   ca   nD     7.2500   4 180.0000
+ca   ca   ca   nB     7.2500   4 180.0000
 ca   ca   ca   h4     4.2000   4 180.0000
 ca   ca   ca   cp     3.1000   4 180.0000
 ca   ca   ca   ha     4.2000   4 180.0000
-ca   ca   Nb   cp     4.8000   2 180.0000
-ca   cp   Nb   ca     4.8000   2 180.0000
-cp   cp   Nb   ca     4.8000   2 180.0000
-ca   ca   cp   Nb     7.2500   4 180.0000
-ha   ca   cp   Nb     7.2500   4 180.0000
-Nb   cp   cp   Nb     2.0000   4 180.0000
-ca   cp   cp   Nb     2.0000   4 180.0000
+ca   ca   nC   cp     4.8000   2 180.0000
+ca   ca   nA   cp     4.8000   2 180.0000
+ca   ca   nF   cp     4.8000   2 180.0000
+ca   ca   nE   cp     4.8000   2 180.0000
+ca   ca   nD   cp     4.8000   2 180.0000
+ca   ca   nB   cp     4.8000   2 180.0000
+ca   cp   nC   ca     4.8000   2 180.0000
+ca   cp   nA   ca     4.8000   2 180.0000
+ca   cp   nF   ca     4.8000   2 180.0000
+ca   cp   nE   ca     4.8000   2 180.0000
+ca   cp   nD   ca     4.8000   2 180.0000
+ca   cp   nB   ca     4.8000   2 180.0000
+cp   cp   nC   ca     4.8000   2 180.0000
+cp   cp   nA   ca     4.8000   2 180.0000
+cp   cp   nF   ca     4.8000   2 180.0000
+cp   cp   nE   ca     4.8000   2 180.0000
+cp   cp   nD   ca     4.8000   2 180.0000
+cp   cp   nB   ca     4.8000   2 180.0000
+ca   ca   cp   nC     7.2500   4 180.0000
+ca   ca   cp   nA     7.2500   4 180.0000
+ca   ca   cp   nF     7.2500   4 180.0000
+ca   ca   cp   nE     7.2500   4 180.0000
+ca   ca   cp   nD     7.2500   4 180.0000
+ca   ca   cp   nB     7.2500   4 180.0000
+ha   ca   cp   nC     7.2500   4 180.0000
+ha   ca   cp   nA     7.2500   4 180.0000
+ha   ca   cp   nF     7.2500   4 180.0000
+ha   ca   cp   nE     7.2500   4 180.0000
+ha   ca   cp   nD     7.2500   4 180.0000
+ha   ca   cp   nB     7.2500   4 180.0000
+nC   cp   cp   nD     2.0000   4 180.0000
+nA   cp   cp   nB     2.0000   4 180.0000
+nF   cp   cp   nE     2.0000   4 180.0000
+nE   cp   cp   nF     2.0000   4 180.0000
+nD   cp   cp   nC     2.0000   4 180.0000
+nB   cp   cp   nA     2.0000   4 180.0000
+ca   cp   cp   nC     2.0000   4 180.0000
+ca   cp   cp   nA     2.0000   4 180.0000
+ca   cp   cp   nF     2.0000   4 180.0000
+ca   cp   cp   nE     2.0000   4 180.0000
+ca   cp   cp   nD     2.0000   4 180.0000
+ca   cp   cp   nB     2.0000   4 180.0000
 ca   ca   cp   cp     3.1000   4 180.0000
 ha   ca   cp   cp     4.2000   4 180.0000
 ca   ca   ca   ca     3.1000   4 180.0000
 ca   cp   cp   ca     3.1000   4 180.0000
-h4   ca   Nb   cp     4.8000   2 180.0000
-ha   ca   ca   Nb     7.2500   4 180.0000
+h4   ca   nC   cp     4.8000   2 180.0000
+h4   ca   nA   cp     4.8000   2 180.0000
+h4   ca   nF   cp     4.8000   2 180.0000
+h4   ca   nE   cp     4.8000   2 180.0000
+h4   ca   nD   cp     4.8000   2 180.0000
+h4   ca   nB   cp     4.8000   2 180.0000
+ha   ca   ca   nC     7.2500   4 180.0000
+ha   ca   ca   nA     7.2500   4 180.0000
+ha   ca   ca   nF     7.2500   4 180.0000
+ha   ca   ca   nE     7.2500   4 180.0000
+ha   ca   ca   nD     7.2500   4 180.0000
+ha   ca   ca   nB     7.2500   4 180.0000
 cp   ca   ca   ha     4.2000   4 180.0000
 ha   ca   ca   ha     2.4000   4 180.0000
 h4   ca   ca   ha     2.4000   4 180.0000
 
 NONBONDED
 ca            0.000    -0.0700     1.9924
-Nb            0.000    -0.1700     1.8240
+nC            0.000    -0.1700     1.8240
+nA            0.000    -0.1700     1.8240
+nF            0.000    -0.1700     1.8240
+nE            0.000    -0.1700     1.8240
+nD            0.000    -0.1700     1.8240
+nB            0.000    -0.1700     1.8240
 cp            0.000    -0.0700     1.9924
 Ru            0.000    -0.0560     1.4815
 ha            0.000    -0.0300     1.3582

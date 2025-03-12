@@ -3,9 +3,14 @@
 
 
 MASS   1   ca    12.0110   C   
-MASS   4   Nb    14.0070   N   
+MASS   4   nA    14.0070   N   
 MASS   5   cp    12.0110   C   
+MASS   8   nB    14.0070   N   
 MASS   9   Ru    101.0700   Ru  
+MASS   10  nC    14.0070   N   
+MASS   17  nD    14.0070   N   
+MASS   22  nE    14.0070   N   
+MASS   29  nF    14.0070   N   
 MASS   38  ha    1.0080   H   
 MASS   40  h4    1.0080   H   
 
@@ -14,32 +19,32 @@ GROUP
 ATOM   C1   ca    -0.030388
 ATOM   C2   ca    -0.134232
 ATOM   C3   ca    -0.115082
-ATOM   N1   Nb     0.300399
+ATOM   N1   nA     0.300399
 ATOM   C4   cp     0.051227
 ATOM   C5   ca    -0.169043
 ATOM   C6   cp     0.051227
-ATOM   N2   Nb     0.300399
+ATOM   N2   nB     0.300399
 ATOM   Ru1  Ru    -1.390807
-ATOM   N3   Nb     0.300399
+ATOM   N3   nC     0.300399
 ATOM   C7   ca    -0.115082
 ATOM   C8   ca    -0.134232
 ATOM   C9   ca    -0.030388
 ATOM   C10  ca    -0.169043
 ATOM   C11  cp     0.051227
 ATOM   C12  cp     0.051227
-ATOM   N4   Nb     0.300399
+ATOM   N4   nD     0.300399
 ATOM   C13  ca    -0.115082
 ATOM   C14  ca    -0.134232
 ATOM   C15  ca    -0.030388
 ATOM   C16  ca    -0.169043
-ATOM   N5   Nb     0.300399
+ATOM   N5   nE     0.300399
 ATOM   C17  cp     0.051227
 ATOM   C18  cp     0.051227
 ATOM   C19  ca    -0.169043
 ATOM   C20  ca    -0.030388
 ATOM   C21  ca    -0.134232
 ATOM   C22  ca    -0.115082
-ATOM   N6   Nb     0.300399
+ATOM   N6   nF     0.300399
 ATOM   C23  ca    -0.169043
 ATOM   C24  ca    -0.030388
 ATOM   C25  ca    -0.134232

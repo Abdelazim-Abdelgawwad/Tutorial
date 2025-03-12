@@ -1,74 +1,346 @@
 Remark line goes here
 MASS
-Nb 14.010        0.530
 Ru  101.0700        2.900
 ca 12.010        0.360
 cp 12.010        0.360
 h4 1.008         0.135
 ha 1.008         0.135
+nA 14.010        0.530
+nB 14.010        0.530
+nC 14.010        0.530
+nD 14.010        0.530
+nE 14.010        0.530
+nF 14.010        0.530
 
 
 BOND
-Nb-Ru 61.66 2.105
-Ru-Nb 58.65 2.105
+nA-Ru 60.42 2.105
+nB-Ru 62.90 2.105
+Ru-nC 58.86 2.105
+Ru-nD 56.18 2.105
+Ru-nE 59.49 2.105
+Ru-nF 60.07 2.105
 ca-ca 461.10 1.398
 ca-ha 345.80 1.086
-ca-Nb 488.00 1.339
+ca-nC 488.00 1.339
+ca-nA 488.00 1.339
+ca-nF 488.00 1.339
+ca-nE 488.00 1.339
+ca-nD 488.00 1.339
+ca-nB 488.00 1.339
 ca-h4 341.50 1.089
-cp-Nb 488.50 1.339
+cp-nC 488.50 1.339
+cp-nA 488.50 1.339
+cp-nF 488.50 1.339
+cp-nE 488.50 1.339
+cp-nD 488.50 1.339
+cp-nB 488.50 1.339
 ca-cp 450.20 1.406
 cp-cp 351.40 1.485
 
 
 ANGLE
-ca-Nb-Ru 142.670 125.537
-cp-Nb-Ru 147.710 115.684
-Nb-Ru-Nb 127.850 106.678
-Ru-Nb-ca 138.920 125.538
-Ru-Nb-cp 139.140 115.682
+ca-nA-Ru 142.670 125.537
+cp-nA-Ru 147.380 115.686
+nA-Ru-nB 119.170 77.882
+nA-Ru-nC 137.710 88.403
+nA-Ru-nD 123.740 97.061
+nA-Ru-nE 132.960 97.031
+nA-Ru-nF 124.060 172.991
+nB-Ru-nC 126.170 97.058
+nB-Ru-nD 125.420 173.044
+nB-Ru-nE 132.600 88.401
+nB-Ru-nF 124.920 97.013
+nC-Ru-nD 122.360 77.888
+nC-Ru-nE 126.410 173.016
+nC-Ru-nF 134.390 97.055
+nD-Ru-nE 128.320 97.021
+nD-Ru-nF 129.830 88.413
+nE-Ru-nF 129.700 77.886
+cp-nB-Ru 148.040 115.682
+Ru-nB-ca 141.800 125.537
+Ru-nC-ca 135.190 125.544
+Ru-nC-cp 141.100 115.678
+Ru-nD-cp 145.020 115.683
+Ru-nD-ca 144.790 125.537
+Ru-nE-cp 133.270 115.680
+Ru-nE-ca 130.310 125.539
+Ru-nF-cp 137.190 115.686
+Ru-nF-ca 142.530 125.534
 ca-ca-ca 66.600 120.020
 ca-ca-ha 48.200 119.880
 ca-ca-cp 66.300 120.690
-ca-ca-Nb 68.800 122.940
+ca-ca-nC 68.800 122.940
+ca-ca-nA 68.800 122.940
+ca-ca-nF 68.800 122.940
+ca-ca-nE 68.800 122.940
+ca-ca-nD 68.800 122.940
+ca-ca-nB 68.800 122.940
 ca-ca-h4 48.100 120.340
-ca-Nb-cp 68.100 118.050
-h4-ca-Nb 51.900 116.030
-ca-cp-Nb 69.000 121.620
-cp-cp-Nb 68.200 116.610
+ca-nC-cp 68.100 118.050
+ca-nA-cp 68.100 118.050
+ca-nF-cp 68.100 118.050
+ca-nE-cp 68.100 118.050
+ca-nD-cp 68.100 118.050
+ca-nB-cp 68.100 118.050
+h4-ca-nC 51.900 116.030
+h4-ca-nA 51.900 116.030
+h4-ca-nF 51.900 116.030
+h4-ca-nE 51.900 116.030
+h4-ca-nD 51.900 116.030
+h4-ca-nB 51.900 116.030
+ca-cp-nC 69.000 121.620
+ca-cp-nA 69.000 121.620
+ca-cp-nF 69.000 121.620
+ca-cp-nE 69.000 121.620
+ca-cp-nD 69.000 121.620
+ca-cp-nB 69.000 121.620
+cp-cp-nC 68.200 116.610
+cp-cp-nA 68.200 116.610
+cp-cp-nF 68.200 116.610
+cp-cp-nE 68.200 116.610
+cp-cp-nD 68.200 116.610
+cp-cp-nB 68.200 116.610
 cp-ca-ha 48.000 119.860
 ca-cp-cp 64.000 121.110
 
 
 DIHE
-ca-ca-Nb-Ru   3    0.000       0.0000           3.000
-ca-Nb-Ru-Nb   3    0.000       0.0000           3.000
-Nb-Ru-Nb-cp   3    0.000       0.0000           3.000
-Nb-Ru-Nb-ca   3    0.000       0.0000           3.000
-cp-Nb-Ru-Nb   3    0.000       0.0000           3.000
-cp-cp-Nb-Ru   3    0.000       0.0000           3.000
-ca-cp-Nb-Ru   3    0.000       0.0000           3.000
-Ru-Nb-ca-ca   3    0.000       0.0000           3.000
-Ru-Nb-cp-ca   3    0.000       0.0000           3.000
-Ru-Nb-cp-cp   3    0.000       0.0000           3.000
-Ru-Nb-ca-h4   3    0.000       0.0000           3.000
-h4-ca-Nb-Ru   3    0.000       0.0000           3.000
-ca-ca-ca-Nb   4    14.500       180.0000           2.000
+ca-ca-nA-Ru   3    0.000       0.0000           3.000
+ca-nA-Ru-nB   3    0.000       0.0000           3.000
+ca-nA-Ru-nC   3    0.000       0.0000           3.000
+ca-nA-Ru-nD   3    0.000       0.0000           3.000
+ca-nA-Ru-nE   3    0.000       0.0000           3.000
+ca-nA-Ru-nF   3    0.000       0.0000           3.000
+nA-Ru-nB-cp   3    0.000       0.0000           3.000
+nA-Ru-nB-ca   3    0.000       0.0000           3.000
+nA-Ru-nC-ca   3    0.000       0.0000           3.000
+nA-Ru-nC-cp   3    0.000       0.0000           3.000
+nA-Ru-nD-cp   3    0.000       0.0000           3.000
+nA-Ru-nD-ca   3    0.000       0.0000           3.000
+nA-Ru-nE-cp   3    0.000       0.0000           3.000
+nA-Ru-nE-ca   3    0.000       0.0000           3.000
+nA-Ru-nF-cp   3    0.000       0.0000           3.000
+nA-Ru-nF-ca   3    0.000       0.0000           3.000
+cp-nA-Ru-nB   3    0.000       0.0000           3.000
+cp-nA-Ru-nC   3    0.000       0.0000           3.000
+cp-nA-Ru-nD   3    0.000       0.0000           3.000
+cp-nA-Ru-nE   3    0.000       0.0000           3.000
+cp-nA-Ru-nF   3    0.000       0.0000           3.000
+cp-cp-nB-Ru   3    0.000       0.0000           3.000
+ca-cp-nA-Ru   3    0.000       0.0000           3.000
+cp-cp-nA-Ru   3    0.000       0.0000           3.000
+cp-nB-Ru-nA   3    0.000       0.0000           3.000
+cp-nB-Ru-nC   3    0.000       0.0000           3.000
+cp-nB-Ru-nD   3    0.000       0.0000           3.000
+cp-nB-Ru-nE   3    0.000       0.0000           3.000
+cp-nB-Ru-nF   3    0.000       0.0000           3.000
+nB-Ru-nA-ca   3    0.000       0.0000           3.000
+nB-Ru-nA-cp   3    0.000       0.0000           3.000
+nB-Ru-nC-ca   3    0.000       0.0000           3.000
+nB-Ru-nC-cp   3    0.000       0.0000           3.000
+nB-Ru-nD-cp   3    0.000       0.0000           3.000
+nB-Ru-nD-ca   3    0.000       0.0000           3.000
+nB-Ru-nE-cp   3    0.000       0.0000           3.000
+nB-Ru-nE-ca   3    0.000       0.0000           3.000
+nB-Ru-nF-cp   3    0.000       0.0000           3.000
+nB-Ru-nF-ca   3    0.000       0.0000           3.000
+Ru-nA-ca-ca   3    0.000       0.0000           3.000
+Ru-nA-cp-ca   3    0.000       0.0000           3.000
+Ru-nA-cp-cp   3    0.000       0.0000           3.000
+Ru-nB-cp-cp   3    0.000       0.0000           3.000
+Ru-nB-cp-ca   3    0.000       0.0000           3.000
+Ru-nB-ca-ca   3    0.000       0.0000           3.000
+Ru-nC-ca-ca   3    0.000       0.0000           3.000
+Ru-nC-cp-ca   3    0.000       0.0000           3.000
+Ru-nC-cp-cp   3    0.000       0.0000           3.000
+Ru-nD-cp-cp   3    0.000       0.0000           3.000
+Ru-nD-cp-ca   3    0.000       0.0000           3.000
+Ru-nD-ca-ca   3    0.000       0.0000           3.000
+Ru-nE-cp-cp   3    0.000       0.0000           3.000
+Ru-nE-cp-ca   3    0.000       0.0000           3.000
+Ru-nE-ca-ca   3    0.000       0.0000           3.000
+Ru-nF-cp-cp   3    0.000       0.0000           3.000
+Ru-nF-cp-ca   3    0.000       0.0000           3.000
+Ru-nF-ca-ca   3    0.000       0.0000           3.000
+nC-Ru-nA-ca   3    0.000       0.0000           3.000
+nC-Ru-nA-cp   3    0.000       0.0000           3.000
+nC-Ru-nB-cp   3    0.000       0.0000           3.000
+nC-Ru-nB-ca   3    0.000       0.0000           3.000
+nC-Ru-nD-cp   3    0.000       0.0000           3.000
+nC-Ru-nD-ca   3    0.000       0.0000           3.000
+nC-Ru-nE-cp   3    0.000       0.0000           3.000
+nC-Ru-nE-ca   3    0.000       0.0000           3.000
+nC-Ru-nF-cp   3    0.000       0.0000           3.000
+nC-Ru-nF-ca   3    0.000       0.0000           3.000
+ca-nC-Ru-nA   3    0.000       0.0000           3.000
+ca-nC-Ru-nB   3    0.000       0.0000           3.000
+ca-nC-Ru-nD   3    0.000       0.0000           3.000
+ca-nC-Ru-nE   3    0.000       0.0000           3.000
+ca-nC-Ru-nF   3    0.000       0.0000           3.000
+ca-ca-nC-Ru   3    0.000       0.0000           3.000
+ca-cp-nC-Ru   3    0.000       0.0000           3.000
+cp-nC-Ru-nA   3    0.000       0.0000           3.000
+cp-nC-Ru-nB   3    0.000       0.0000           3.000
+cp-nC-Ru-nD   3    0.000       0.0000           3.000
+cp-nC-Ru-nE   3    0.000       0.0000           3.000
+cp-nC-Ru-nF   3    0.000       0.0000           3.000
+cp-cp-nD-Ru   3    0.000       0.0000           3.000
+cp-cp-nC-Ru   3    0.000       0.0000           3.000
+cp-nD-Ru-nA   3    0.000       0.0000           3.000
+cp-nD-Ru-nB   3    0.000       0.0000           3.000
+cp-nD-Ru-nC   3    0.000       0.0000           3.000
+cp-nD-Ru-nE   3    0.000       0.0000           3.000
+cp-nD-Ru-nF   3    0.000       0.0000           3.000
+nD-Ru-nA-ca   3    0.000       0.0000           3.000
+nD-Ru-nA-cp   3    0.000       0.0000           3.000
+nD-Ru-nB-cp   3    0.000       0.0000           3.000
+nD-Ru-nB-ca   3    0.000       0.0000           3.000
+nD-Ru-nC-ca   3    0.000       0.0000           3.000
+nD-Ru-nC-cp   3    0.000       0.0000           3.000
+nD-Ru-nE-cp   3    0.000       0.0000           3.000
+nD-Ru-nE-ca   3    0.000       0.0000           3.000
+nD-Ru-nF-cp   3    0.000       0.0000           3.000
+nD-Ru-nF-ca   3    0.000       0.0000           3.000
+ca-nD-Ru-nA   3    0.000       0.0000           3.000
+ca-nD-Ru-nB   3    0.000       0.0000           3.000
+ca-nD-Ru-nC   3    0.000       0.0000           3.000
+ca-nD-Ru-nE   3    0.000       0.0000           3.000
+ca-nD-Ru-nF   3    0.000       0.0000           3.000
+ca-ca-nD-Ru   3    0.000       0.0000           3.000
+ca-cp-nD-Ru   3    0.000       0.0000           3.000
+nE-Ru-nA-ca   3    0.000       0.0000           3.000
+nE-Ru-nA-cp   3    0.000       0.0000           3.000
+nE-Ru-nB-cp   3    0.000       0.0000           3.000
+nE-Ru-nB-ca   3    0.000       0.0000           3.000
+nE-Ru-nC-ca   3    0.000       0.0000           3.000
+nE-Ru-nC-cp   3    0.000       0.0000           3.000
+nE-Ru-nD-cp   3    0.000       0.0000           3.000
+nE-Ru-nD-ca   3    0.000       0.0000           3.000
+nE-Ru-nF-cp   3    0.000       0.0000           3.000
+nE-Ru-nF-ca   3    0.000       0.0000           3.000
+cp-nE-Ru-nA   3    0.000       0.0000           3.000
+cp-nE-Ru-nB   3    0.000       0.0000           3.000
+cp-nE-Ru-nC   3    0.000       0.0000           3.000
+cp-nE-Ru-nD   3    0.000       0.0000           3.000
+cp-nE-Ru-nF   3    0.000       0.0000           3.000
+cp-cp-nF-Ru   3    0.000       0.0000           3.000
+cp-cp-nE-Ru   3    0.000       0.0000           3.000
+cp-nF-Ru-nA   3    0.000       0.0000           3.000
+cp-nF-Ru-nB   3    0.000       0.0000           3.000
+cp-nF-Ru-nC   3    0.000       0.0000           3.000
+cp-nF-Ru-nD   3    0.000       0.0000           3.000
+cp-nF-Ru-nE   3    0.000       0.0000           3.000
+ca-cp-nF-Ru   3    0.000       0.0000           3.000
+ca-ca-nF-Ru   3    0.000       0.0000           3.000
+ca-nF-Ru-nA   3    0.000       0.0000           3.000
+ca-nF-Ru-nB   3    0.000       0.0000           3.000
+ca-nF-Ru-nC   3    0.000       0.0000           3.000
+ca-nF-Ru-nD   3    0.000       0.0000           3.000
+ca-nF-Ru-nE   3    0.000       0.0000           3.000
+nF-Ru-nA-ca   3    0.000       0.0000           3.000
+nF-Ru-nA-cp   3    0.000       0.0000           3.000
+nF-Ru-nB-cp   3    0.000       0.0000           3.000
+nF-Ru-nB-ca   3    0.000       0.0000           3.000
+nF-Ru-nC-ca   3    0.000       0.0000           3.000
+nF-Ru-nC-cp   3    0.000       0.0000           3.000
+nF-Ru-nD-cp   3    0.000       0.0000           3.000
+nF-Ru-nD-ca   3    0.000       0.0000           3.000
+nF-Ru-nE-cp   3    0.000       0.0000           3.000
+nF-Ru-nE-ca   3    0.000       0.0000           3.000
+ca-cp-nE-Ru   3    0.000       0.0000           3.000
+ca-ca-nE-Ru   3    0.000       0.0000           3.000
+ca-nE-Ru-nA   3    0.000       0.0000           3.000
+ca-nE-Ru-nB   3    0.000       0.0000           3.000
+ca-nE-Ru-nC   3    0.000       0.0000           3.000
+ca-nE-Ru-nD   3    0.000       0.0000           3.000
+ca-nE-Ru-nF   3    0.000       0.0000           3.000
+ca-nB-Ru-nA   3    0.000       0.0000           3.000
+ca-nB-Ru-nC   3    0.000       0.0000           3.000
+ca-nB-Ru-nD   3    0.000       0.0000           3.000
+ca-nB-Ru-nE   3    0.000       0.0000           3.000
+ca-nB-Ru-nF   3    0.000       0.0000           3.000
+ca-ca-nB-Ru   3    0.000       0.0000           3.000
+ca-cp-nB-Ru   3    0.000       0.0000           3.000
+Ru-nA-ca-h4   3    0.000       0.0000           3.000
+Ru-nB-ca-h4   3    0.000       0.0000           3.000
+Ru-nC-ca-h4   3    0.000       0.0000           3.000
+Ru-nD-ca-h4   3    0.000       0.0000           3.000
+Ru-nE-ca-h4   3    0.000       0.0000           3.000
+Ru-nF-ca-h4   3    0.000       0.0000           3.000
+h4-ca-nA-Ru   3    0.000       0.0000           3.000
+h4-ca-nC-Ru   3    0.000       0.0000           3.000
+h4-ca-nD-Ru   3    0.000       0.0000           3.000
+h4-ca-nF-Ru   3    0.000       0.0000           3.000
+h4-ca-nE-Ru   3    0.000       0.0000           3.000
+h4-ca-nB-Ru   3    0.000       0.0000           3.000
+ca-ca-ca-nC   4    14.500       180.0000           2.000
+ca-ca-ca-nA   4    14.500       180.0000           2.000
+ca-ca-ca-nF   4    14.500       180.0000           2.000
+ca-ca-ca-nE   4    14.500       180.0000           2.000
+ca-ca-ca-nD   4    14.500       180.0000           2.000
+ca-ca-ca-nB   4    14.500       180.0000           2.000
 ca-ca-ca-h4   4    14.500       180.0000           2.000
 ca-ca-ca-cp   4    14.500       180.0000           2.000
 ca-ca-ca-ha   4    14.500       180.0000           2.000
-ca-ca-Nb-cp   2    9.600       180.0000           2.000
-ca-cp-Nb-ca   2    9.600       180.0000           2.000
-cp-cp-Nb-ca   2    9.600       180.0000           2.000
-ca-ca-cp-Nb   4    14.500       180.0000           2.000
-ha-ca-cp-Nb   4    14.500       180.0000           2.000
-Nb-cp-cp-Nb   4    4.000       180.0000           2.000
-ca-cp-cp-Nb   4    4.000       180.0000           2.000
+ca-ca-nC-cp   2    9.600       180.0000           2.000
+ca-ca-nA-cp   2    9.600       180.0000           2.000
+ca-ca-nF-cp   2    9.600       180.0000           2.000
+ca-ca-nE-cp   2    9.600       180.0000           2.000
+ca-ca-nD-cp   2    9.600       180.0000           2.000
+ca-ca-nB-cp   2    9.600       180.0000           2.000
+ca-cp-nC-ca   2    9.600       180.0000           2.000
+ca-cp-nA-ca   2    9.600       180.0000           2.000
+ca-cp-nF-ca   2    9.600       180.0000           2.000
+ca-cp-nE-ca   2    9.600       180.0000           2.000
+ca-cp-nD-ca   2    9.600       180.0000           2.000
+ca-cp-nB-ca   2    9.600       180.0000           2.000
+cp-cp-nC-ca   2    9.600       180.0000           2.000
+cp-cp-nA-ca   2    9.600       180.0000           2.000
+cp-cp-nF-ca   2    9.600       180.0000           2.000
+cp-cp-nE-ca   2    9.600       180.0000           2.000
+cp-cp-nD-ca   2    9.600       180.0000           2.000
+cp-cp-nB-ca   2    9.600       180.0000           2.000
+ca-ca-cp-nC   4    14.500       180.0000           2.000
+ca-ca-cp-nA   4    14.500       180.0000           2.000
+ca-ca-cp-nF   4    14.500       180.0000           2.000
+ca-ca-cp-nE   4    14.500       180.0000           2.000
+ca-ca-cp-nD   4    14.500       180.0000           2.000
+ca-ca-cp-nB   4    14.500       180.0000           2.000
+ha-ca-cp-nC   4    14.500       180.0000           2.000
+ha-ca-cp-nA   4    14.500       180.0000           2.000
+ha-ca-cp-nF   4    14.500       180.0000           2.000
+ha-ca-cp-nE   4    14.500       180.0000           2.000
+ha-ca-cp-nD   4    14.500       180.0000           2.000
+ha-ca-cp-nB   4    14.500       180.0000           2.000
+nC-cp-cp-nD   4    4.000       180.0000           2.000
+nA-cp-cp-nB   4    4.000       180.0000           2.000
+nF-cp-cp-nE   4    4.000       180.0000           2.000
+nE-cp-cp-nF   4    4.000       180.0000           2.000
+nD-cp-cp-nC   4    4.000       180.0000           2.000
+nB-cp-cp-nA   4    4.000       180.0000           2.000
+ca-cp-cp-nC   4    4.000       180.0000           2.000
+ca-cp-cp-nA   4    4.000       180.0000           2.000
+ca-cp-cp-nF   4    4.000       180.0000           2.000
+ca-cp-cp-nE   4    4.000       180.0000           2.000
+ca-cp-cp-nD   4    4.000       180.0000           2.000
+ca-cp-cp-nB   4    4.000       180.0000           2.000
 ca-ca-cp-cp   4    14.500       180.0000           2.000
 ha-ca-cp-cp   4    14.500       180.0000           2.000
 ca-ca-ca-ca   4    14.500       180.0000           2.000
 ca-cp-cp-ca   4    4.000       180.0000           2.000
-h4-ca-Nb-cp   2    9.600       180.0000           2.000
-ha-ca-ca-Nb   4    14.500       180.0000           2.000
+h4-ca-nC-cp   2    9.600       180.0000           2.000
+h4-ca-nA-cp   2    9.600       180.0000           2.000
+h4-ca-nF-cp   2    9.600       180.0000           2.000
+h4-ca-nE-cp   2    9.600       180.0000           2.000
+h4-ca-nD-cp   2    9.600       180.0000           2.000
+h4-ca-nB-cp   2    9.600       180.0000           2.000
+ha-ca-ca-nC   4    14.500       180.0000           2.000
+ha-ca-ca-nA   4    14.500       180.0000           2.000
+ha-ca-ca-nF   4    14.500       180.0000           2.000
+ha-ca-ca-nE   4    14.500       180.0000           2.000
+ha-ca-ca-nD   4    14.500       180.0000           2.000
+ha-ca-ca-nB   4    14.500       180.0000           2.000
 cp-ca-ca-ha   4    14.500       180.0000           2.000
 ha-ca-ca-ha   4    14.500       180.0000           2.000
 h4-ca-ca-ha   4    14.500       180.0000           2.000
@@ -76,16 +348,31 @@ h4-ca-ca-ha   4    14.500       180.0000           2.000
 
 IMPROPER
 ca-ca-ca-ha         1.1          180.0         2.0          Using general improper torsional angle  X- X-ca-ha, penalty score=  6.0)
+ca-h4-ca-nC         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 44.3 (use general term))
+ca-h4-ca-nA         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 44.3 (use general term))
+ca-h4-ca-nF         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 44.3 (use general term))
 ca-h4-ca-nb         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 44.3 (use general term))
-ca-h4-ca-Nb         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 44.3 (use general term))
+ca-h4-ca-nE         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 44.3 (use general term))
+ca-h4-ca-nD         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 44.3 (use general term))
+ca-h4-ca-nB         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 44.3 (use general term))
+ca-cp-cp-nC         1.1          180.0         2.0          Using the default value
+ca-cp-cp-nA         1.1          180.0         2.0          Using the default value
+ca-cp-cp-nF         1.1          180.0         2.0          Using the default value
 ca-cp-cp-nb         1.1          180.0         2.0          Using the default value
-ca-cp-cp-Nb         1.1          180.0         2.0          Using the default value
+ca-cp-cp-nE         1.1          180.0         2.0          Using the default value
+ca-cp-cp-nD         1.1          180.0         2.0          Using the default value
+ca-cp-cp-nB         1.1          180.0         2.0          Using the default value
 ca-cp-ca-ha         1.1          180.0         2.0          Using general improper torsional angle  X- X-ca-ha, penalty score=  6.0)
 
 
 NONBON
 ca          1.9080  0.0860
-Nb          1.8240  0.1700
+nC          1.8240  0.1700
+nA          1.8240  0.1700
+nF          1.8240  0.1700
+nE          1.8240  0.1700
+nD          1.8240  0.1700
+nB          1.8240  0.1700
 cp          1.9080  0.0860
 Ru          1.4815   0.0560
 ha          1.4590  0.0150
