@@ -175,7 +175,7 @@ Would you like to generate the CHARMM force field format? (y/n): y
 #### 3.3.1 CHARMM Outputs
 - **Force Field Parameters:** [`COMPLEX.prm`](/Tutorial/example/Ru2/COMPLEX.prm)
 - **Metal Complex PDB:** [`COMPLEX.pdb`](/Tutorial/example/Ru2/COMPLEX.pdb)
-- **Topology File:** [`Complex.top`](/Tutorial/example/Ru2/Complex.top)
+- **Topology File:** [`Complex.top`](/Tutorial/example/Ru2/COMPLEX.top)
 
 #### 3.3.2 Explanation of Output Files
 - **`COMPLEX.prm`**: Contains the derived force field parameters, including those from CGenFF and the Seminario method.
