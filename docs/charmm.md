@@ -24,7 +24,7 @@ As an example, this tutorial uses a [**ruthenium complex**](/Tutorial/example/Ru
 
 ### Important Considerations  
 
-1. The code generates CHARMM parameters based on AMBER atom types. It initially assigns an AMBER atom type and maps it to the closest equivalent in **CGenFF**, iteratively refining the assignment until it determines the most suitable CHARMM atom type.  
+1. The code generates CHARMM parameters based on GAFF atom types. It initially assigns a GAFF atom type and maps it to the closest equivalent in **CGenFF**, iteratively refining the assignment until it determines the most suitable CHARMM atom type.  
    
 2. The code uses the atomic charges provided by the user, whether from **RESP**, **CHELPG**, or other charge derivation schemes. However, note that the **CGenFF** charge scheme is specifically designed for the CHARMM force field and is generally more accurate. Despite this, **RESP** charges have been successfully used in CHARMM-based simulations, as demonstrated in [this study](https://doi.org/10.1021/acs.jcim.0c00346).  
 
