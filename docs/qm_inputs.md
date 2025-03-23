@@ -53,7 +53,32 @@ freq(noraman) int(ultrafinegrid) iop(7/33=1)
 charge multiplicity
 coordinates
 ```
+### **1.3 Charge Calculation Using the RESP Method**
+Next, calculate the molecular charge using the MK method in Gaussian. This step will produce the charge output in the .log file.
 
+```bash
+%mem=30GB 
+%nproc=24 #p 
+B3LYP/gen pseudo=read SCF=tight Pop=(mkuff) iop(6/33=2) iop(6/42=6) iop(6/50=1)
+#Comment
+charge multiplicity
+coordinates
+
+C N H 0 
+6-31G* 
+****
+Ru 0 
+SDD 
+****
+
+Ru 0 
+SDD
+
+output.resp
+
+output.resp
+
+```
 ## **2. ORCA Input**
 
 ### **2.1 Structure Optimization**
