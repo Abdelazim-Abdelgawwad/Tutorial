@@ -1,0 +1,1020 @@
+Remark line goes here
+MASS
+C  12.010        0.616
+CC 12.010        0.360
+CR 12.010        0.360
+CT 12.010        0.878
+CV 12.010        0.360
+Fe   55.8450        2.900
+H 1.008         0.161
+H1 1.008         0.135
+H4 1.008         0.135
+H5 1.008         0.135
+HC 1.008         0.135
+N  14.010        0.530
+N0 14.010        0.530
+N1 14.010        0.530
+NA 14.010        0.530
+O  16.000        0.434
+SH 32.060        2.900
+XC 12.010        0.878
+c  12.010        0.616
+c3 12.010        0.878
+cc 12.010        0.360
+cd 12.010        0.360
+ce 12.010        0.360
+h1 1.008         0.135
+ha 1.008         0.135
+hc 1.008         0.135
+hn 1.008         0.161
+n  14.010        0.530
+n0 14.010        0.530
+n1 14.010        0.530
+n2 14.010        0.530
+n3 14.010        0.530
+o  16.000        0.434
+
+
+BOND
+N0-Fe 63.55 1.982
+N1-Fe 61.95 1.957
+Fe-n0 49.45 1.945
+Fe-n1 38.06 2.033
+Fe-n2 41.81 2.075
+Fe-n3 54.57 2.038
+hn-n 403.20 1.013
+H-N 403.20 1.013
+XC-N 328.70 1.462
+c-N 427.60 1.379
+C-n 427.60 1.379
+C-N 427.60 1.379
+c3-h1 330.60 1.097
+XC-H1 330.60 1.097
+CT-H1 330.60 1.097
+c3-c3 300.90 1.538
+XC-CT 300.90 1.538
+CT-XC 300.90 1.538
+c-c3 313.00 1.524
+C-XC 313.00 1.524
+c3-hc 330.60 1.097
+CT-HC 330.60 1.097
+c3-cc 334.80 1.502
+CT-CC 334.80 1.502
+CC-NA 441.10 1.369
+cc-cd 500.90 1.373
+CC-CV 500.90 1.373
+CR-NA 525.40 1.317
+CR-H5 351.80 1.082
+CV-N0 425.80 1.380
+CV-N1 425.80 1.380
+CR-N0 425.80 1.380
+CR-N1 425.80 1.380
+cd-n0 425.80 1.380
+CV-H4 352.00 1.082
+c-o 637.70 1.218
+C-O 637.70 1.218
+c3-SH 215.90 1.839
+CT-SH 215.90 1.839
+cc-ce 386.90 1.454
+cd-ce 513.00 1.366
+ce-ha 342.50 1.088
+cc-n0 425.80 1.380
+cc-cc 419.80 1.428
+cd-cd 419.80 1.428
+c3-cd 334.80 1.502
+cc-n2 525.40 1.317
+cc-n1 525.40 1.317
+cc-n3 525.40 1.317
+cd-n2 441.10 1.369
+cd-n1 441.10 1.369
+cd-n3 441.10 1.369
+
+
+ANGLE
+CR-N0-Fe 106.290 127.231
+CV-N0-Fe 111.570 127.299
+N0-Fe-N1 57.450 168.808
+N0-Fe-n0 81.510 94.350
+N0-Fe-n1 92.850 91.632
+N0-Fe-n2 65.750 84.295
+N0-Fe-n3 85.670 88.406
+N1-Fe-n0 97.810 96.248
+N1-Fe-n1 93.380 91.603
+N1-Fe-n2 75.850 85.081
+N1-Fe-n3 86.000 88.019
+n0-Fe-n1 141.940 91.906
+n0-Fe-n2 86.270 178.590
+n0-Fe-n3 132.530 89.929
+n1-Fe-n2 129.970 88.524
+n1-Fe-n3 123.900 178.156
+n2-Fe-n3 122.030 89.645
+CR-N1-Fe 101.900 127.845
+CV-N1-Fe 102.300 128.211
+Fe-n0-cc 139.580 128.207
+Fe-n0-cd 137.800 126.819
+Fe-n1-cc 118.710 125.316
+Fe-n1-cd 118.710 128.554
+Fe-n2-cc 129.780 126.950
+Fe-n2-cd 127.910 126.649
+Fe-n3-cc 109.420 126.672
+Fe-n3-cd 111.670 127.341
+H1-XC-N 49.800 108.880
+CT-XC-N 65.900 111.610
+C-XC-N 67.000 109.060
+n-C-O 74.200 123.050
+N-c-o 74.200 123.050
+N-C-O 74.200 123.050
+c3-c-N 66.800 115.180
+XC-C-n 66.800 115.180
+XC-C-N 66.800 115.180
+XC-N-H 45.800 117.680
+c-N-H 48.300 117.550
+C-n-hn 48.300 117.550
+C-N-H 48.300 117.550
+c-N-XC 63.400 120.690
+C-N-XC 63.400 120.690
+c3-c3-hc 46.300 109.800
+XC-CT-HC 46.300 109.800
+c3-c3-cc 63.500 111.930
+XC-CT-CC 63.500 111.930
+c3-c-o 67.400 123.200
+XC-C-O 67.400 123.200
+c3-c3-h1 46.400 109.560
+XC-CT-H1 46.400 109.560
+CT-XC-H1 46.400 109.560
+C-XC-H1 47.000 108.220
+c-c3-c3 63.300 111.040
+C-XC-CT 63.300 111.040
+CT-CC-NA 66.000 120.950
+c3-cc-cd 64.700 119.450
+CT-CC-CV 64.700 119.450
+HC-CT-HC 39.400 107.580
+hc-c3-hc 39.400 107.580
+cc-c3-hc 47.200 110.490
+CC-CT-HC 47.200 110.490
+CC-NA-CR 71.800 105.490
+CC-CV-N0 73.400 106.990
+CC-CV-N1 73.400 106.990
+CC-CV-H4 47.300 128.480
+CV-CC-NA 72.200 111.650
+H5-CR-NA 50.600 125.520
+N0-CR-NA 74.900 112.220
+N1-CR-NA 74.900 112.220
+CV-N0-CR 68.500 109.900
+CV-N1-CR 68.500 109.900
+CR-N0-CV 68.500 109.900
+CR-N1-CV 68.500 109.900
+H5-CR-N0 49.600 121.550
+H5-CR-N1 49.600 121.550
+H4-CV-N0 49.800 120.530
+H4-CV-N1 49.800 120.530
+c3-c3-SH 61.300 110.270
+XC-CT-SH 61.300 110.270
+c3-SH-CT 60.200 99.240
+CT-SH-c3 60.200 99.240
+H1-CT-H1 39.200 108.460
+H1-CT-SH 42.100 108.760
+h1-c3-SH 42.100 108.760
+cd-c3-SH 61.400 111.160
+ce-cc-n0 66.100 124.350
+cc-cc-ce 62.800 127.060
+ce-cd-n2 68.700 123.980
+ce-cd-n1 68.700 123.980
+ce-cd-n3 68.700 123.980
+cd-cd-ce 65.900 122.720
+ce-cd-n0 68.100 124.930
+ce-cc-n2 68.100 121.700
+ce-cc-n1 68.100 121.700
+ce-cc-n3 68.100 121.700
+cc-cc-n0 68.600 117.770
+cd-cd-n0 68.600 117.770
+cc-ce-cd 63.200 130.610
+cc-ce-ha 47.500 115.440
+cc-n0-cd 63.500 128.010
+cc-cc-cd 68.200 114.190
+c3-cc-cc 64.600 115.970
+cc-cd-cd 68.200 114.190
+c3-cd-cc 64.700 119.450
+cd-c3-hc 47.200 110.490
+cd-ce-ha 50.100 114.950
+c3-cd-cd 64.600 115.970
+c-c3-hc 46.900 108.770
+o-c-o 77.900 130.250
+cc-cc-n2 71.600 112.560
+cc-cc-n1 71.600 112.560
+cc-cc-n3 71.600 112.560
+cd-cd-n2 67.600 121.980
+cd-cd-n1 67.600 121.980
+cd-cd-n3 67.600 121.980
+cc-n2-cd 71.800 105.490
+cc-n1-cd 71.800 105.490
+cc-n3-cd 71.800 105.490
+c3-c3-cd 63.500 111.930
+cd-c3-h1 47.400 109.640
+hn-n-hn 39.600 117.950
+
+
+DIHE
+CC-CV-N0-Fe   3    0.000       0.0000           3.000
+CR-N0-Fe-N1   3    0.000       0.0000           3.000
+CR-N0-Fe-n0   3    0.000       0.0000           3.000
+CR-N0-Fe-n1   3    0.000       0.0000           3.000
+CR-N0-Fe-n2   3    0.000       0.0000           3.000
+CR-N0-Fe-n3   3    0.000       0.0000           3.000
+N0-Fe-N1-CR   3    0.000       0.0000           3.000
+N0-Fe-N1-CV   3    0.000       0.0000           3.000
+N0-Fe-n0-cc   3    0.000       0.0000           3.000
+N0-Fe-n0-cd   3    0.000       0.0000           3.000
+N0-Fe-n1-cc   3    0.000       0.0000           3.000
+N0-Fe-n1-cd   3    0.000       0.0000           3.000
+N0-Fe-n2-cc   3    0.000       0.0000           3.000
+N0-Fe-n2-cd   3    0.000       0.0000           3.000
+N0-Fe-n3-cc   3    0.000       0.0000           3.000
+N0-Fe-n3-cd   3    0.000       0.0000           3.000
+CV-N0-Fe-N1   3    0.000       0.0000           3.000
+CV-N0-Fe-n0   3    0.000       0.0000           3.000
+CV-N0-Fe-n1   3    0.000       0.0000           3.000
+CV-N0-Fe-n2   3    0.000       0.0000           3.000
+CV-N0-Fe-n3   3    0.000       0.0000           3.000
+CC-CV-N1-Fe   3    0.000       0.0000           3.000
+CR-N1-Fe-N0   3    0.000       0.0000           3.000
+CR-N1-Fe-n0   3    0.000       0.0000           3.000
+CR-N1-Fe-n1   3    0.000       0.0000           3.000
+CR-N1-Fe-n2   3    0.000       0.0000           3.000
+CR-N1-Fe-n3   3    0.000       0.0000           3.000
+N1-Fe-N0-CR   3    0.000       0.0000           3.000
+N1-Fe-N0-CV   3    0.000       0.0000           3.000
+N1-Fe-n0-cc   3    0.000       0.0000           3.000
+N1-Fe-n0-cd   3    0.000       0.0000           3.000
+N1-Fe-n1-cc   3    0.000       0.0000           3.000
+N1-Fe-n1-cd   3    0.000       0.0000           3.000
+N1-Fe-n2-cc   3    0.000       0.0000           3.000
+N1-Fe-n2-cd   3    0.000       0.0000           3.000
+N1-Fe-n3-cc   3    0.000       0.0000           3.000
+N1-Fe-n3-cd   3    0.000       0.0000           3.000
+CV-N1-Fe-N0   3    0.000       0.0000           3.000
+CV-N1-Fe-n0   3    0.000       0.0000           3.000
+CV-N1-Fe-n1   3    0.000       0.0000           3.000
+CV-N1-Fe-n2   3    0.000       0.0000           3.000
+CV-N1-Fe-n3   3    0.000       0.0000           3.000
+Fe-N0-CV-CC   3    0.000       0.0000           3.000
+Fe-N1-CV-CC   3    0.000       0.0000           3.000
+Fe-n0-cc-ce   3    0.000       0.0000           3.000
+Fe-n0-cc-cc   3    0.000       0.0000           3.000
+Fe-n0-cd-ce   3    0.000       0.0000           3.000
+Fe-n0-cd-cd   3    0.000       0.0000           3.000
+Fe-n1-cc-ce   3    0.000       0.0000           3.000
+Fe-n1-cc-cc   3    0.000       0.0000           3.000
+Fe-n1-cd-ce   3    0.000       0.0000           3.000
+Fe-n1-cd-cd   3    0.000       0.0000           3.000
+Fe-n2-cc-ce   3    0.000       0.0000           3.000
+Fe-n2-cc-cc   3    0.000       0.0000           3.000
+Fe-n2-cd-ce   3    0.000       0.0000           3.000
+Fe-n2-cd-cd   3    0.000       0.0000           3.000
+Fe-n3-cc-ce   3    0.000       0.0000           3.000
+Fe-n3-cc-cc   3    0.000       0.0000           3.000
+Fe-n3-cd-ce   3    0.000       0.0000           3.000
+Fe-n3-cd-cd   3    0.000       0.0000           3.000
+ce-cc-n0-Fe   3    0.000       0.0000           3.000
+ce-cd-n3-Fe   3    0.000       0.0000           3.000
+ce-cd-n0-Fe   3    0.000       0.0000           3.000
+ce-cc-n1-Fe   3    0.000       0.0000           3.000
+ce-cd-n1-Fe   3    0.000       0.0000           3.000
+ce-cc-n2-Fe   3    0.000       0.0000           3.000
+ce-cd-n2-Fe   3    0.000       0.0000           3.000
+ce-cc-n3-Fe   3    0.000       0.0000           3.000
+n0-Fe-N0-CR   3    0.000       0.0000           3.000
+n0-Fe-N0-CV   3    0.000       0.0000           3.000
+n0-Fe-N1-CR   3    0.000       0.0000           3.000
+n0-Fe-N1-CV   3    0.000       0.0000           3.000
+n0-Fe-n1-cc   3    0.000       0.0000           3.000
+n0-Fe-n1-cd   3    0.000       0.0000           3.000
+n0-Fe-n2-cc   3    0.000       0.0000           3.000
+n0-Fe-n2-cd   3    0.000       0.0000           3.000
+n0-Fe-n3-cc   3    0.000       0.0000           3.000
+n0-Fe-n3-cd   3    0.000       0.0000           3.000
+cc-n0-Fe-N0   3    0.000       0.0000           3.000
+cc-n0-Fe-N1   3    0.000       0.0000           3.000
+cc-n0-Fe-n1   3    0.000       0.0000           3.000
+cc-n0-Fe-n2   3    0.000       0.0000           3.000
+cc-n0-Fe-n3   3    0.000       0.0000           3.000
+cc-cc-n0-Fe   3    0.000       0.0000           3.000
+cd-cd-n0-Fe   3    0.000       0.0000           3.000
+cd-n0-Fe-N0   3    0.000       0.0000           3.000
+cd-n0-Fe-N1   3    0.000       0.0000           3.000
+cd-n0-Fe-n1   3    0.000       0.0000           3.000
+cd-n0-Fe-n2   3    0.000       0.0000           3.000
+cd-n0-Fe-n3   3    0.000       0.0000           3.000
+n1-Fe-N0-CR   3    0.000       0.0000           3.000
+n1-Fe-N0-CV   3    0.000       0.0000           3.000
+n1-Fe-N1-CR   3    0.000       0.0000           3.000
+n1-Fe-N1-CV   3    0.000       0.0000           3.000
+n1-Fe-n0-cc   3    0.000       0.0000           3.000
+n1-Fe-n0-cd   3    0.000       0.0000           3.000
+n1-Fe-n2-cc   3    0.000       0.0000           3.000
+n1-Fe-n2-cd   3    0.000       0.0000           3.000
+n1-Fe-n3-cc   3    0.000       0.0000           3.000
+n1-Fe-n3-cd   3    0.000       0.0000           3.000
+cc-n1-Fe-N0   3    0.000       0.0000           3.000
+cc-n1-Fe-N1   3    0.000       0.0000           3.000
+cc-n1-Fe-n0   3    0.000       0.0000           3.000
+cc-n1-Fe-n2   3    0.000       0.0000           3.000
+cc-n1-Fe-n3   3    0.000       0.0000           3.000
+cc-cc-n1-Fe   3    0.000       0.0000           3.000
+cd-cd-n1-Fe   3    0.000       0.0000           3.000
+cd-n1-Fe-N0   3    0.000       0.0000           3.000
+cd-n1-Fe-N1   3    0.000       0.0000           3.000
+cd-n1-Fe-n0   3    0.000       0.0000           3.000
+cd-n1-Fe-n2   3    0.000       0.0000           3.000
+cd-n1-Fe-n3   3    0.000       0.0000           3.000
+n2-Fe-N0-CR   3    0.000       0.0000           3.000
+n2-Fe-N0-CV   3    0.000       0.0000           3.000
+n2-Fe-N1-CR   3    0.000       0.0000           3.000
+n2-Fe-N1-CV   3    0.000       0.0000           3.000
+n2-Fe-n0-cc   3    0.000       0.0000           3.000
+n2-Fe-n0-cd   3    0.000       0.0000           3.000
+n2-Fe-n1-cc   3    0.000       0.0000           3.000
+n2-Fe-n1-cd   3    0.000       0.0000           3.000
+n2-Fe-n3-cc   3    0.000       0.0000           3.000
+n2-Fe-n3-cd   3    0.000       0.0000           3.000
+cc-n2-Fe-N0   3    0.000       0.0000           3.000
+cc-n2-Fe-N1   3    0.000       0.0000           3.000
+cc-n2-Fe-n0   3    0.000       0.0000           3.000
+cc-n2-Fe-n1   3    0.000       0.0000           3.000
+cc-n2-Fe-n3   3    0.000       0.0000           3.000
+cc-cc-n2-Fe   3    0.000       0.0000           3.000
+cd-cd-n2-Fe   3    0.000       0.0000           3.000
+cd-n2-Fe-N0   3    0.000       0.0000           3.000
+cd-n2-Fe-N1   3    0.000       0.0000           3.000
+cd-n2-Fe-n0   3    0.000       0.0000           3.000
+cd-n2-Fe-n1   3    0.000       0.0000           3.000
+cd-n2-Fe-n3   3    0.000       0.0000           3.000
+n3-Fe-N0-CR   3    0.000       0.0000           3.000
+n3-Fe-N0-CV   3    0.000       0.0000           3.000
+n3-Fe-N1-CR   3    0.000       0.0000           3.000
+n3-Fe-N1-CV   3    0.000       0.0000           3.000
+n3-Fe-n0-cc   3    0.000       0.0000           3.000
+n3-Fe-n0-cd   3    0.000       0.0000           3.000
+n3-Fe-n1-cc   3    0.000       0.0000           3.000
+n3-Fe-n1-cd   3    0.000       0.0000           3.000
+n3-Fe-n2-cc   3    0.000       0.0000           3.000
+n3-Fe-n2-cd   3    0.000       0.0000           3.000
+cc-n3-Fe-N0   3    0.000       0.0000           3.000
+cc-n3-Fe-N1   3    0.000       0.0000           3.000
+cc-n3-Fe-n0   3    0.000       0.0000           3.000
+cc-n3-Fe-n1   3    0.000       0.0000           3.000
+cc-n3-Fe-n2   3    0.000       0.0000           3.000
+cc-cc-n3-Fe   3    0.000       0.0000           3.000
+cd-cd-n3-Fe   3    0.000       0.0000           3.000
+cd-n3-Fe-N0   3    0.000       0.0000           3.000
+cd-n3-Fe-N1   3    0.000       0.0000           3.000
+cd-n3-Fe-n0   3    0.000       0.0000           3.000
+cd-n3-Fe-n1   3    0.000       0.0000           3.000
+cd-n3-Fe-n2   3    0.000       0.0000           3.000
+NA-CR-N0-Fe   3    0.000       0.0000           3.000
+NA-CR-N1-Fe   3    0.000       0.0000           3.000
+Fe-N0-CR-NA   3    0.000       0.0000           3.000
+Fe-N1-CR-NA   3    0.000       0.0000           3.000
+H5-CR-N0-Fe   3    0.000       0.0000           3.000
+H4-CV-N0-Fe   3    0.000       0.0000           3.000
+H5-CR-N1-Fe   3    0.000       0.0000           3.000
+H4-CV-N1-Fe   3    0.000       0.0000           3.000
+Fe-N0-CR-H5   3    0.000       0.0000           3.000
+Fe-N0-CV-H4   3    0.000       0.0000           3.000
+Fe-N1-CR-H5   3    0.000       0.0000           3.000
+Fe-N1-CV-H4   3    0.000       0.0000           3.000
+HC-CT-XC-N   9    1.400       0.0000           3.000
+CC-CT-XC-N   9    1.400       0.0000           3.000
+O-C-XC-N   6    0.000       180.0000           2.000
+n-C-XC-N    1    1.700       180.000          -1.000
+N-C-XC-N    1    1.700       180.000          -1.000
+n-C-XC-N   1    2.000       180.0000           2.000
+N-C-XC-N   1    2.000       180.0000           2.000
+N-c-c3-hc   6    0.000       180.0000           2.000
+H1-XC-N-H   6    0.000       0.0000           2.000
+CT-XC-N-H   6    0.000       0.0000           2.000
+C-XC-N-H   6    0.000       0.0000           2.000
+o-c-N-H   1    2.500       180.000          -2.000
+O-C-n-hn   1    2.500       180.000          -2.000
+O-C-N-H   1    2.500       180.000          -2.000
+o-c-N-H   1    2.000       0.0000           1.000
+O-C-n-hn   1    2.000       0.0000           1.000
+O-C-N-H   1    2.000       0.0000           1.000
+c3-c-N-H   4    10.000       180.0000           2.000
+XC-C-n-hn   4    10.000       180.0000           2.000
+XC-C-N-H   4    10.000       180.0000           2.000
+o-c-N-XC   4    10.000       180.0000           2.000
+O-C-N-XC   4    10.000       180.0000           2.000
+c3-c-N-XC   1    0.000         0.000          -2.000
+XC-C-N-XC   1    0.000         0.000          -2.000
+c3-c-N-XC   1    1.500       180.0000           1.000
+XC-C-N-XC   1    1.500       180.0000           1.000
+XC-CT-CC-NA   6    0.000       0.0000           3.000
+c3-c3-cc-cd   6    0.000       0.0000           3.000
+XC-CT-CC-CV   6    0.000       0.0000           3.000
+H1-XC-CT-HC   9    1.400       0.0000           3.000
+h1-c3-c3-hc   9    1.400       0.0000           3.000
+CC-CT-XC-H1   9    1.400       0.0000           3.000
+O-C-XC-H1   1    0.800         0.000          -1.000
+O-C-XC-H1   1    0.000         0.000          -2.000
+O-C-XC-H1   1    0.080       180.0000           3.000
+n-C-XC-H1   6    0.000       180.0000           2.000
+N-C-XC-H1   6    0.000       180.0000           2.000
+o-c-c3-c3   6    0.000       180.0000           2.000
+O-C-XC-CT   6    0.000       180.0000           2.000
+n-C-XC-CT   1    0.100         0.000          -4.000
+N-C-XC-CT   1    0.100         0.000          -4.000
+n-C-XC-CT   1    0.070       0.0000           2.000
+N-C-XC-CT   1    0.070       0.0000           2.000
+CT-CC-NA-CR   2    9.500       180.0000           2.000
+CT-CC-CV-N0   4    16.000       180.0000           2.000
+CT-CC-CV-N1   4    16.000       180.0000           2.000
+CT-CC-CV-H4   4    16.000       180.0000           2.000
+HC-CT-CC-NA   6    0.000       0.0000           3.000
+HC-CT-CC-CV   6    0.000       0.0000           3.000
+hc-c3-cc-cd   6    0.000       0.0000           3.000
+H5-CR-NA-CC   2    9.500       180.0000           2.000
+N0-CR-NA-CC   2    9.500       180.0000           2.000
+N1-CR-NA-CC   2    9.500       180.0000           2.000
+NA-CC-CV-N0   4    16.000       180.0000           2.000
+NA-CC-CV-N1   4    16.000       180.0000           2.000
+NA-CC-CV-H4   4    16.000       180.0000           2.000
+NA-CR-N0-CV   4    6.800       180.0000           2.000
+NA-CR-N1-CV   4    6.800       180.0000           2.000
+CC-CV-N0-CR   4    6.800       180.0000           2.000
+CC-CV-N1-CR   4    6.800       180.0000           2.000
+H4-CV-N0-CR   4    6.800       180.0000           2.000
+H4-CV-N1-CR   4    6.800       180.0000           2.000
+H5-CR-N0-CV   4    6.800       180.0000           2.000
+H5-CR-N1-CV   4    6.800       180.0000           2.000
+CV-CC-NA-CR   2    9.500       180.0000           2.000
+c-c3-c3-hc   9    1.400       0.0000           3.000
+C-XC-CT-HC   9    1.400       0.0000           3.000
+c-c3-c3-cc   9    1.400       0.0000           3.000
+C-XC-CT-CC   9    1.400       0.0000           3.000
+H1-CT-XC-N   9    1.400       0.0000           3.000
+N-XC-CT-SH   9    1.400       0.0000           3.000
+c3-c3-SH-CT   3    1.000       0.0000           3.000
+XC-CT-SH-c3   3    1.000       0.0000           3.000
+H1-XC-CT-H1   9    1.400       0.0000           3.000
+H1-CT-XC-H1   9    1.400       0.0000           3.000
+H1-XC-CT-SH   9    1.400       0.0000           3.000
+cd-c3-SH-CT   3    1.000       0.0000           3.000
+H1-CT-SH-c3   3    1.000       0.0000           3.000
+h1-c3-SH-CT   3    1.000       0.0000           3.000
+hc-c3-c3-SH   9    1.400       0.0000           3.000
+C-XC-CT-H1   9    1.400       0.0000           3.000
+C-XC-CT-SH   9    1.400       0.0000           3.000
+H1-XC-N-c   6    0.000       0.0000           2.000
+H1-XC-N-C   6    0.000       0.0000           2.000
+CT-XC-N-c    1    0.500       180.000          -4.000
+CT-XC-N-C    1    0.500       180.000          -4.000
+CT-XC-N-c    1    0.150       180.000          -3.000
+CT-XC-N-C    1    0.150       180.000          -3.000
+CT-XC-N-c    1    0.000         0.000          -2.000
+CT-XC-N-C    1    0.000         0.000          -2.000
+CT-XC-N-c   1    0.530       0.0000           1.000
+CT-XC-N-C   1    0.530       0.0000           1.000
+C-XC-N-c    1    0.850       180.000          -2.000
+C-XC-N-C    1    0.850       180.000          -2.000
+C-XC-N-c   1    0.800       0.0000           1.000
+C-XC-N-C   1    0.800       0.0000           1.000
+cd-cc-cc-ce   4    16.000       180.0000           2.000
+c3-cc-cc-ce   4    16.000       180.0000           2.000
+cd-cc-cc-n0   4    16.000       180.0000           2.000
+c3-cc-cc-n0   4    16.000       180.0000           2.000
+n2-cd-ce-cc   4    26.600       180.0000           2.000
+n1-cd-ce-cc   4    26.600       180.0000           2.000
+n3-cd-ce-cc   4    26.600       180.0000           2.000
+cd-cd-ce-cc   4    26.600       180.0000           2.000
+ce-cd-n0-cc   4    6.800       180.0000           2.000
+cd-cd-n0-cc   4    6.800       180.0000           2.000
+cc-cc-cd-cd   4    16.000       180.0000           2.000
+cc-cc-cd-c3   4    16.000       180.0000           2.000
+c3-c3-cc-cc   6    0.000       0.0000           3.000
+hc-c3-cc-cc   6    0.000       0.0000           3.000
+cc-cd-cd-ce   4    16.000       180.0000           2.000
+cc-cd-cd-n0   4    16.000       180.0000           2.000
+hc-c3-cd-cc   6    0.000       0.0000           3.000
+cc-c3-c3-hc   9    1.400       0.0000           3.000
+n2-cc-ce-cd   4    4.000       180.0000           2.000
+n1-cc-ce-cd   4    4.000       180.0000           2.000
+n3-cc-ce-cd   4    4.000       180.0000           2.000
+cc-cc-ce-cd   4    4.000       180.0000           2.000
+ce-cc-n0-cd   4    6.800       180.0000           2.000
+cc-cc-n0-cd   4    6.800       180.0000           2.000
+hc-c3-cd-cd   6    0.000       0.0000           3.000
+c3-cd-cd-ce   4    16.000       180.0000           2.000
+c3-cd-cd-n0   4    16.000       180.0000           2.000
+c3-cc-cd-cd   4    16.000       180.0000           2.000
+c3-cc-cd-c3   4    16.000       180.0000           2.000
+cd-cc-cc-n2   4    16.000       180.0000           2.000
+cd-cc-cc-n1   4    16.000       180.0000           2.000
+cd-cc-cc-n3   4    16.000       180.0000           2.000
+c3-cc-cc-n2   4    16.000       180.0000           2.000
+c3-cc-cc-n1   4    16.000       180.0000           2.000
+c3-cc-cc-n3   4    16.000       180.0000           2.000
+n0-cd-ce-cc   4    26.600       180.0000           2.000
+ce-cd-n2-cc   2    9.500       180.0000           2.000
+ce-cd-n1-cc   2    9.500       180.0000           2.000
+ce-cd-n3-cc   2    9.500       180.0000           2.000
+cd-cd-n2-cc   2    9.500       180.0000           2.000
+cd-cd-n1-cc   2    9.500       180.0000           2.000
+cd-cd-n3-cc   2    9.500       180.0000           2.000
+cc-cd-cd-n2   4    16.000       180.0000           2.000
+cc-cd-cd-n1   4    16.000       180.0000           2.000
+cc-cd-cd-n3   4    16.000       180.0000           2.000
+SH-c3-cd-cc   6    0.000       0.0000           3.000
+c3-c3-cd-cc   6    0.000       0.0000           3.000
+h1-c3-cd-cc   6    0.000       0.0000           3.000
+cd-c3-c3-hc   9    1.400       0.0000           3.000
+ce-cc-n2-cd   2    9.500       180.0000           2.000
+ce-cc-n1-cd   2    9.500       180.0000           2.000
+ce-cc-n3-cd   2    9.500       180.0000           2.000
+cc-cc-n2-cd   2    9.500       180.0000           2.000
+cc-cc-n1-cd   2    9.500       180.0000           2.000
+cc-cc-n3-cd   2    9.500       180.0000           2.000
+SH-c3-cd-cd   6    0.000       0.0000           3.000
+c3-c3-cd-cd   6    0.000       0.0000           3.000
+h1-c3-cd-cd   6    0.000       0.0000           3.000
+c3-cd-cd-n2   4    16.000       180.0000           2.000
+c3-cd-cd-n1   4    16.000       180.0000           2.000
+c3-cd-cd-n3   4    16.000       180.0000           2.000
+c-c3-c3-cd   9    1.400       0.0000           3.000
+n0-cc-ce-cd   4    4.000       180.0000           2.000
+o-c-c3-hc   1    0.800         0.000          -1.000
+o-c-c3-hc   1    0.000         0.000          -2.000
+o-c-c3-hc   1    0.080       180.0000           3.000
+hc-c3-c3-hc   1    0.150       0.0000           3.000
+n2-cd-ce-ha   4    26.600       180.0000           2.000
+n1-cd-ce-ha   4    26.600       180.0000           2.000
+n3-cd-ce-ha   4    26.600       180.0000           2.000
+cd-cd-ce-ha   4    26.600       180.0000           2.000
+n2-cc-ce-ha   4    4.000       180.0000           2.000
+n1-cc-ce-ha   4    4.000       180.0000           2.000
+n3-cc-ce-ha   4    4.000       180.0000           2.000
+cc-cc-ce-ha   4    4.000       180.0000           2.000
+n0-cd-ce-ha   4    26.600       180.0000           2.000
+n0-cc-ce-ha   4    4.000       180.0000           2.000
+
+
+IMPROPER
+c-c3-n-hn         1.1          180.0         2.0
+c-c3-n-H         1.1          180.0         2.0
+c-c3-N-hn         1.1          180.0         2.0
+c-c3-N-H         1.1          180.0         2.0
+c-XC-n-hn         1.1          180.0         2.0
+c-XC-n-H         1.1          180.0         2.0
+c-XC-N-hn         1.1          180.0         2.0
+c-XC-N-H         1.1          180.0         2.0
+c-CT-n-hn         1.1          180.0         2.0
+c-CT-n-H         1.1          180.0         2.0
+c-CT-N-hn         1.1          180.0         2.0
+c-CT-N-H         1.1          180.0         2.0
+C-c3-n-hn         1.1          180.0         2.0
+C-c3-n-H         1.1          180.0         2.0
+C-c3-N-hn         1.1          180.0         2.0
+C-c3-N-H         1.1          180.0         2.0
+C-XC-n-hn         1.1          180.0         2.0
+C-XC-n-H         1.1          180.0         2.0
+C-XC-N-hn         1.1          180.0         2.0
+C-XC-N-H         1.1          180.0         2.0
+C-CT-n-hn         1.1          180.0         2.0
+C-CT-n-H         1.1          180.0         2.0
+C-CT-N-hn         1.1          180.0         2.0
+C-CT-N-H         1.1          180.0         2.0
+c3-CV-cc-NA         1.1          180.0         2.0          Using the default value
+c3-CV-cc-nc         1.1          180.0         2.0          Using the default value
+c3-CV-CC-NA         1.1          180.0         2.0          Using the default value
+c3-CV-CC-nc         1.1          180.0         2.0          Using the default value
+c3-CR-cc-NA         1.1          180.0         2.0          Using the default value
+c3-CR-cc-nc         1.1          180.0         2.0          Using the default value
+c3-CR-CC-NA         1.1          180.0         2.0          Using the default value
+c3-CR-CC-nc         1.1          180.0         2.0          Using the default value
+c3-cd-cc-NA         1.1          180.0         2.0          Using the default value
+c3-cd-cc-nc         1.1          180.0         2.0          Using the default value
+c3-cd-CC-NA         1.1          180.0         2.0          Using the default value
+c3-cd-CC-nc         1.1          180.0         2.0          Using the default value
+XC-CV-cc-NA         1.1          180.0         2.0          Using the default value
+XC-CV-cc-nc         1.1          180.0         2.0          Using the default value
+XC-CV-CC-NA         1.1          180.0         2.0          Using the default value
+XC-CV-CC-nc         1.1          180.0         2.0          Using the default value
+XC-CR-cc-NA         1.1          180.0         2.0          Using the default value
+XC-CR-cc-nc         1.1          180.0         2.0          Using the default value
+XC-CR-CC-NA         1.1          180.0         2.0          Using the default value
+XC-CR-CC-nc         1.1          180.0         2.0          Using the default value
+XC-cd-cc-NA         1.1          180.0         2.0          Using the default value
+XC-cd-cc-nc         1.1          180.0         2.0          Using the default value
+XC-cd-CC-NA         1.1          180.0         2.0          Using the default value
+XC-cd-CC-nc         1.1          180.0         2.0          Using the default value
+CT-CV-cc-NA         1.1          180.0         2.0          Using the default value
+CT-CV-cc-nc         1.1          180.0         2.0          Using the default value
+CT-CV-CC-NA         1.1          180.0         2.0          Using the default value
+CT-CV-CC-nc         1.1          180.0         2.0          Using the default value
+CT-CR-cc-NA         1.1          180.0         2.0          Using the default value
+CT-CR-cc-nc         1.1          180.0         2.0          Using the default value
+CT-CR-CC-NA         1.1          180.0         2.0          Using the default value
+CT-CR-CC-nc         1.1          180.0         2.0          Using the default value
+CT-cd-cc-NA         1.1          180.0         2.0          Using the default value
+CT-cd-cc-nc         1.1          180.0         2.0          Using the default value
+CT-cd-CC-NA         1.1          180.0         2.0          Using the default value
+CT-cd-CC-nc         1.1          180.0         2.0          Using the default value
+h5-N0-CV-NA         1.1          180.0         2.0          Using the default value
+h5-N0-CV-nc         1.1          180.0         2.0          Using the default value
+h5-N0-CR-NA         1.1          180.0         2.0          Using the default value
+h5-N0-CR-nc         1.1          180.0         2.0          Using the default value
+h5-N0-cd-NA         1.1          180.0         2.0          Using the default value
+h5-N0-cd-nc         1.1          180.0         2.0          Using the default value
+h5-n0-CV-NA         1.1          180.0         2.0          Using the default value
+h5-n0-CV-nc         1.1          180.0         2.0          Using the default value
+h5-n0-CR-NA         1.1          180.0         2.0          Using the default value
+h5-n0-CR-nc         1.1          180.0         2.0          Using the default value
+h5-n0-cd-NA         1.1          180.0         2.0          Using the default value
+h5-n0-cd-nc         1.1          180.0         2.0          Using the default value
+h5-N1-CV-NA         1.1          180.0         2.0          Using the default value
+h5-N1-CV-nc         1.1          180.0         2.0          Using the default value
+h5-N1-CR-NA         1.1          180.0         2.0          Using the default value
+h5-N1-CR-nc         1.1          180.0         2.0          Using the default value
+h5-N1-cd-NA         1.1          180.0         2.0          Using the default value
+h5-N1-cd-nc         1.1          180.0         2.0          Using the default value
+h5-na-CV-NA         1.1          180.0         2.0          Using the default value
+h5-na-CV-nc         1.1          180.0         2.0          Using the default value
+h5-na-CR-NA         1.1          180.0         2.0          Using the default value
+h5-na-CR-nc         1.1          180.0         2.0          Using the default value
+h5-na-cd-NA         1.1          180.0         2.0          Using the default value
+h5-na-cd-nc         1.1          180.0         2.0          Using the default value
+H5-N0-CV-NA         1.1          180.0         2.0          Using the default value
+H5-N0-CV-nc         1.1          180.0         2.0          Using the default value
+H5-N0-CR-NA         1.1          180.0         2.0          Using the default value
+H5-N0-CR-nc         1.1          180.0         2.0          Using the default value
+H5-N0-cd-NA         1.1          180.0         2.0          Using the default value
+H5-N0-cd-nc         1.1          180.0         2.0          Using the default value
+H5-n0-CV-NA         1.1          180.0         2.0          Using the default value
+H5-n0-CV-nc         1.1          180.0         2.0          Using the default value
+H5-n0-CR-NA         1.1          180.0         2.0          Using the default value
+H5-n0-CR-nc         1.1          180.0         2.0          Using the default value
+H5-n0-cd-NA         1.1          180.0         2.0          Using the default value
+H5-n0-cd-nc         1.1          180.0         2.0          Using the default value
+H5-N1-CV-NA         1.1          180.0         2.0          Using the default value
+H5-N1-CV-nc         1.1          180.0         2.0          Using the default value
+H5-N1-CR-NA         1.1          180.0         2.0          Using the default value
+H5-N1-CR-nc         1.1          180.0         2.0          Using the default value
+H5-N1-cd-NA         1.1          180.0         2.0          Using the default value
+H5-N1-cd-nc         1.1          180.0         2.0          Using the default value
+H5-na-CV-NA         1.1          180.0         2.0          Using the default value
+H5-na-CV-nc         1.1          180.0         2.0          Using the default value
+H5-na-CR-NA         1.1          180.0         2.0          Using the default value
+H5-na-CR-nc         1.1          180.0         2.0          Using the default value
+H5-na-cd-NA         1.1          180.0         2.0          Using the default value
+H5-na-cd-nc         1.1          180.0         2.0          Using the default value
+cc-H4-CV-N0         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+cc-H4-CV-n0         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+cc-H4-CV-N1         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+cc-H4-CV-na         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+cc-H4-CR-N0         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+cc-H4-CR-n0         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+cc-H4-CR-N1         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+cc-H4-CR-na         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+cc-H4-cd-N0         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+cc-H4-cd-n0         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+cc-H4-cd-N1         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+cc-H4-cd-na         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+cc-h4-CV-N0         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+cc-h4-CV-n0         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+cc-h4-CV-N1         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+cc-h4-CV-na         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+cc-h4-CR-N0         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+cc-h4-CR-n0         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+cc-h4-CR-N1         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+cc-h4-CR-na         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+cc-h4-cd-N0         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+cc-h4-cd-n0         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+cc-h4-cd-N1         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+cc-h4-cd-na         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+CC-H4-CV-N0         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+CC-H4-CV-n0         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+CC-H4-CV-N1         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+CC-H4-CV-na         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+CC-H4-CR-N0         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+CC-H4-CR-n0         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+CC-H4-CR-N1         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+CC-H4-CR-na         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+CC-H4-cd-N0         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+CC-H4-cd-n0         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+CC-H4-cd-N1         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+CC-H4-cd-na         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+CC-h4-CV-N0         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+CC-h4-CV-n0         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+CC-h4-CV-N1         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+CC-h4-CV-na         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+CC-h4-CR-N0         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+CC-h4-CR-n0         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+CC-h4-CR-N1         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+CC-h4-CR-na         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+CC-h4-cd-N0         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+CC-h4-cd-n0         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+CC-h4-cd-N1         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+CC-h4-cd-na         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.2 (use general term))
+c3-n-c-o         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+c3-n-c-O         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+c3-n-C-o         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+c3-n-C-O         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+c3-N-c-o         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+c3-N-c-O         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+c3-N-C-o         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+c3-N-C-O         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+XC-n-c-o         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+XC-n-c-O         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+XC-n-C-o         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+XC-n-C-O         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+XC-N-c-o         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+XC-N-c-O         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+XC-N-C-o         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+XC-N-C-O         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+CT-n-c-o         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+CT-n-c-O         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+CT-n-C-o         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+CT-n-C-O         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+CT-N-c-o         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+CT-N-c-O         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+CT-N-C-o         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+CT-N-C-O         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+cc-CV-ce-ha         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 46.8 (use general term))
+cc-CR-ce-ha         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 46.8 (use general term))
+cc-cd-ce-ha         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 46.8 (use general term))
+CC-CV-ce-ha         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 46.8 (use general term))
+CC-CR-ce-ha         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 46.8 (use general term))
+CC-cd-ce-ha         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 46.8 (use general term))
+cc-ce-cc-N0         1.1          180.0         2.0          Using the default value
+cc-ce-cc-n0         1.1          180.0         2.0          Using the default value
+cc-ce-cc-N1         1.1          180.0         2.0          Using the default value
+cc-ce-cc-na         1.1          180.0         2.0          Using the default value
+cc-ce-CC-N0         1.1          180.0         2.0          Using the default value
+cc-ce-CC-n0         1.1          180.0         2.0          Using the default value
+cc-ce-CC-N1         1.1          180.0         2.0          Using the default value
+cc-ce-CC-na         1.1          180.0         2.0          Using the default value
+CC-ce-cc-N0         1.1          180.0         2.0          Using the default value
+CC-ce-cc-n0         1.1          180.0         2.0          Using the default value
+CC-ce-cc-N1         1.1          180.0         2.0          Using the default value
+CC-ce-cc-na         1.1          180.0         2.0          Using the default value
+CC-ce-CC-N0         1.1          180.0         2.0          Using the default value
+CC-ce-CC-n0         1.1          180.0         2.0          Using the default value
+CC-ce-CC-N1         1.1          180.0         2.0          Using the default value
+CC-ce-CC-na         1.1          180.0         2.0          Using the default value
+c3-cc-cc-CV         1.1          180.0         2.0          Using the default value
+c3-cc-cc-CR         1.1          180.0         2.0          Using the default value
+c3-cc-cc-cd         1.1          180.0         2.0          Using the default value
+c3-cc-CC-CV         1.1          180.0         2.0          Using the default value
+c3-cc-CC-CR         1.1          180.0         2.0          Using the default value
+c3-cc-CC-cd         1.1          180.0         2.0          Using the default value
+c3-CC-cc-CV         1.1          180.0         2.0          Using the default value
+c3-CC-cc-CR         1.1          180.0         2.0          Using the default value
+c3-CC-cc-cd         1.1          180.0         2.0          Using the default value
+c3-CC-CC-CV         1.1          180.0         2.0          Using the default value
+c3-CC-CC-CR         1.1          180.0         2.0          Using the default value
+c3-CC-CC-cd         1.1          180.0         2.0          Using the default value
+XC-cc-cc-CV         1.1          180.0         2.0          Using the default value
+XC-cc-cc-CR         1.1          180.0         2.0          Using the default value
+XC-cc-cc-cd         1.1          180.0         2.0          Using the default value
+XC-cc-CC-CV         1.1          180.0         2.0          Using the default value
+XC-cc-CC-CR         1.1          180.0         2.0          Using the default value
+XC-cc-CC-cd         1.1          180.0         2.0          Using the default value
+XC-CC-cc-CV         1.1          180.0         2.0          Using the default value
+XC-CC-cc-CR         1.1          180.0         2.0          Using the default value
+XC-CC-cc-cd         1.1          180.0         2.0          Using the default value
+XC-CC-CC-CV         1.1          180.0         2.0          Using the default value
+XC-CC-CC-CR         1.1          180.0         2.0          Using the default value
+XC-CC-CC-cd         1.1          180.0         2.0          Using the default value
+CT-cc-cc-CV         1.1          180.0         2.0          Using the default value
+CT-cc-cc-CR         1.1          180.0         2.0          Using the default value
+CT-cc-cc-cd         1.1          180.0         2.0          Using the default value
+CT-cc-CC-CV         1.1          180.0         2.0          Using the default value
+CT-cc-CC-CR         1.1          180.0         2.0          Using the default value
+CT-cc-CC-cd         1.1          180.0         2.0          Using the default value
+CT-CC-cc-CV         1.1          180.0         2.0          Using the default value
+CT-CC-cc-CR         1.1          180.0         2.0          Using the default value
+CT-CC-cc-cd         1.1          180.0         2.0          Using the default value
+CT-CC-CC-CV         1.1          180.0         2.0          Using the default value
+CT-CC-CC-CR         1.1          180.0         2.0          Using the default value
+CT-CC-CC-cd         1.1          180.0         2.0          Using the default value
+c3-cc-CV-CV         1.1          180.0         2.0          Using the default value
+c3-cc-CV-CR         1.1          180.0         2.0          Using the default value
+c3-cc-CV-cd         1.1          180.0         2.0          Using the default value
+c3-cc-CR-CV         1.1          180.0         2.0          Using the default value
+c3-cc-CR-CR         1.1          180.0         2.0          Using the default value
+c3-cc-CR-cd         1.1          180.0         2.0          Using the default value
+c3-cc-cd-CV         1.1          180.0         2.0          Using the default value
+c3-cc-cd-CR         1.1          180.0         2.0          Using the default value
+c3-cc-cd-cd         1.1          180.0         2.0          Using the default value
+c3-CC-CV-CV         1.1          180.0         2.0          Using the default value
+c3-CC-CV-CR         1.1          180.0         2.0          Using the default value
+c3-CC-CV-cd         1.1          180.0         2.0          Using the default value
+c3-CC-CR-CV         1.1          180.0         2.0          Using the default value
+c3-CC-CR-CR         1.1          180.0         2.0          Using the default value
+c3-CC-CR-cd         1.1          180.0         2.0          Using the default value
+c3-CC-cd-CV         1.1          180.0         2.0          Using the default value
+c3-CC-cd-CR         1.1          180.0         2.0          Using the default value
+c3-CC-cd-cd         1.1          180.0         2.0          Using the default value
+XC-cc-CV-CV         1.1          180.0         2.0          Using the default value
+XC-cc-CV-CR         1.1          180.0         2.0          Using the default value
+XC-cc-CV-cd         1.1          180.0         2.0          Using the default value
+XC-cc-CR-CV         1.1          180.0         2.0          Using the default value
+XC-cc-CR-CR         1.1          180.0         2.0          Using the default value
+XC-cc-CR-cd         1.1          180.0         2.0          Using the default value
+XC-cc-cd-CV         1.1          180.0         2.0          Using the default value
+XC-cc-cd-CR         1.1          180.0         2.0          Using the default value
+XC-cc-cd-cd         1.1          180.0         2.0          Using the default value
+XC-CC-CV-CV         1.1          180.0         2.0          Using the default value
+XC-CC-CV-CR         1.1          180.0         2.0          Using the default value
+XC-CC-CV-cd         1.1          180.0         2.0          Using the default value
+XC-CC-CR-CV         1.1          180.0         2.0          Using the default value
+XC-CC-CR-CR         1.1          180.0         2.0          Using the default value
+XC-CC-CR-cd         1.1          180.0         2.0          Using the default value
+XC-CC-cd-CV         1.1          180.0         2.0          Using the default value
+XC-CC-cd-CR         1.1          180.0         2.0          Using the default value
+XC-CC-cd-cd         1.1          180.0         2.0          Using the default value
+CT-cc-CV-CV         1.1          180.0         2.0          Using the default value
+CT-cc-CV-CR         1.1          180.0         2.0          Using the default value
+CT-cc-CV-cd         1.1          180.0         2.0          Using the default value
+CT-cc-CR-CV         1.1          180.0         2.0          Using the default value
+CT-cc-CR-CR         1.1          180.0         2.0          Using the default value
+CT-cc-CR-cd         1.1          180.0         2.0          Using the default value
+CT-cc-cd-CV         1.1          180.0         2.0          Using the default value
+CT-cc-cd-CR         1.1          180.0         2.0          Using the default value
+CT-cc-cd-cd         1.1          180.0         2.0          Using the default value
+CT-CC-CV-CV         1.1          180.0         2.0          Using the default value
+CT-CC-CV-CR         1.1          180.0         2.0          Using the default value
+CT-CC-CV-cd         1.1          180.0         2.0          Using the default value
+CT-CC-CR-CV         1.1          180.0         2.0          Using the default value
+CT-CC-CR-CR         1.1          180.0         2.0          Using the default value
+CT-CC-CR-cd         1.1          180.0         2.0          Using the default value
+CT-CC-cd-CV         1.1          180.0         2.0          Using the default value
+CT-CC-cd-CR         1.1          180.0         2.0          Using the default value
+CT-CC-cd-cd         1.1          180.0         2.0          Using the default value
+CV-ce-CV-N0         1.1          180.0         2.0          Using the default value
+CV-ce-CV-n0         1.1          180.0         2.0          Using the default value
+CV-ce-CV-N1         1.1          180.0         2.0          Using the default value
+CV-ce-CV-na         1.1          180.0         2.0          Using the default value
+CV-ce-CR-N0         1.1          180.0         2.0          Using the default value
+CV-ce-CR-n0         1.1          180.0         2.0          Using the default value
+CV-ce-CR-N1         1.1          180.0         2.0          Using the default value
+CV-ce-CR-na         1.1          180.0         2.0          Using the default value
+CV-ce-cd-N0         1.1          180.0         2.0          Using the default value
+CV-ce-cd-n0         1.1          180.0         2.0          Using the default value
+CV-ce-cd-N1         1.1          180.0         2.0          Using the default value
+CV-ce-cd-na         1.1          180.0         2.0          Using the default value
+CR-ce-CV-N0         1.1          180.0         2.0          Using the default value
+CR-ce-CV-n0         1.1          180.0         2.0          Using the default value
+CR-ce-CV-N1         1.1          180.0         2.0          Using the default value
+CR-ce-CV-na         1.1          180.0         2.0          Using the default value
+CR-ce-CR-N0         1.1          180.0         2.0          Using the default value
+CR-ce-CR-n0         1.1          180.0         2.0          Using the default value
+CR-ce-CR-N1         1.1          180.0         2.0          Using the default value
+CR-ce-CR-na         1.1          180.0         2.0          Using the default value
+CR-ce-cd-N0         1.1          180.0         2.0          Using the default value
+CR-ce-cd-n0         1.1          180.0         2.0          Using the default value
+CR-ce-cd-N1         1.1          180.0         2.0          Using the default value
+CR-ce-cd-na         1.1          180.0         2.0          Using the default value
+cd-ce-CV-N0         1.1          180.0         2.0          Using the default value
+cd-ce-CV-n0         1.1          180.0         2.0          Using the default value
+cd-ce-CV-N1         1.1          180.0         2.0          Using the default value
+cd-ce-CV-na         1.1          180.0         2.0          Using the default value
+cd-ce-CR-N0         1.1          180.0         2.0          Using the default value
+cd-ce-CR-n0         1.1          180.0         2.0          Using the default value
+cd-ce-CR-N1         1.1          180.0         2.0          Using the default value
+cd-ce-CR-na         1.1          180.0         2.0          Using the default value
+cd-ce-cd-N0         1.1          180.0         2.0          Using the default value
+cd-ce-cd-n0         1.1          180.0         2.0          Using the default value
+cd-ce-cd-N1         1.1          180.0         2.0          Using the default value
+cd-ce-cd-na         1.1          180.0         2.0          Using the default value
+c3-o-c-o          1.1          180.0         2.0          Using general improper torsional angle  X- o- c- o, penalty score=  3.0)
+c3-o-c-O          1.1          180.0         2.0          Using general improper torsional angle  X- o- c- o, penalty score=  3.0)
+c3-o-C-o          1.1          180.0         2.0          Using general improper torsional angle  X- o- c- o, penalty score=  3.0)
+c3-o-C-O          1.1          180.0         2.0          Using general improper torsional angle  X- o- c- o, penalty score=  3.0)
+c3-O-c-o          1.1          180.0         2.0          Using general improper torsional angle  X- o- c- o, penalty score=  3.0)
+c3-O-c-O          1.1          180.0         2.0          Using general improper torsional angle  X- o- c- o, penalty score=  3.0)
+c3-O-C-o          1.1          180.0         2.0          Using general improper torsional angle  X- o- c- o, penalty score=  3.0)
+c3-O-C-O          1.1          180.0         2.0          Using general improper torsional angle  X- o- c- o, penalty score=  3.0)
+XC-o-c-o          1.1          180.0         2.0          Using general improper torsional angle  X- o- c- o, penalty score=  3.0)
+XC-o-c-O          1.1          180.0         2.0          Using general improper torsional angle  X- o- c- o, penalty score=  3.0)
+XC-o-C-o          1.1          180.0         2.0          Using general improper torsional angle  X- o- c- o, penalty score=  3.0)
+XC-o-C-O          1.1          180.0         2.0          Using general improper torsional angle  X- o- c- o, penalty score=  3.0)
+XC-O-c-o          1.1          180.0         2.0          Using general improper torsional angle  X- o- c- o, penalty score=  3.0)
+XC-O-c-O          1.1          180.0         2.0          Using general improper torsional angle  X- o- c- o, penalty score=  3.0)
+XC-O-C-o          1.1          180.0         2.0          Using general improper torsional angle  X- o- c- o, penalty score=  3.0)
+XC-O-C-O          1.1          180.0         2.0          Using general improper torsional angle  X- o- c- o, penalty score=  3.0)
+CT-o-c-o          1.1          180.0         2.0          Using general improper torsional angle  X- o- c- o, penalty score=  3.0)
+CT-o-c-O          1.1          180.0         2.0          Using general improper torsional angle  X- o- c- o, penalty score=  3.0)
+CT-o-C-o          1.1          180.0         2.0          Using general improper torsional angle  X- o- c- o, penalty score=  3.0)
+CT-o-C-O          1.1          180.0         2.0          Using general improper torsional angle  X- o- c- o, penalty score=  3.0)
+CT-O-c-o          1.1          180.0         2.0          Using general improper torsional angle  X- o- c- o, penalty score=  3.0)
+CT-O-c-O          1.1          180.0         2.0          Using general improper torsional angle  X- o- c- o, penalty score=  3.0)
+CT-O-C-o          1.1          180.0         2.0          Using general improper torsional angle  X- o- c- o, penalty score=  3.0)
+CT-O-C-O          1.1          180.0         2.0          Using general improper torsional angle  X- o- c- o, penalty score=  3.0)
+cc-ce-cc-nd         1.1          180.0         2.0          Using the default value
+cc-ce-cc-n2         1.1          180.0         2.0          Using the default value
+cc-ce-cc-n1         1.1          180.0         2.0          Using the default value
+cc-ce-cc-n3         1.1          180.0         2.0          Using the default value
+cc-ce-CC-nd         1.1          180.0         2.0          Using the default value
+cc-ce-CC-n2         1.1          180.0         2.0          Using the default value
+cc-ce-CC-n1         1.1          180.0         2.0          Using the default value
+cc-ce-CC-n3         1.1          180.0         2.0          Using the default value
+CC-ce-cc-nd         1.1          180.0         2.0          Using the default value
+CC-ce-cc-n2         1.1          180.0         2.0          Using the default value
+CC-ce-cc-n1         1.1          180.0         2.0          Using the default value
+CC-ce-cc-n3         1.1          180.0         2.0          Using the default value
+CC-ce-CC-nd         1.1          180.0         2.0          Using the default value
+CC-ce-CC-n2         1.1          180.0         2.0          Using the default value
+CC-ce-CC-n1         1.1          180.0         2.0          Using the default value
+CC-ce-CC-n3         1.1          180.0         2.0          Using the default value
+CV-ce-CV-nd         1.1          180.0         2.0          Using the default value
+CV-ce-CV-n2         1.1          180.0         2.0          Using the default value
+CV-ce-CV-n1         1.1          180.0         2.0          Using the default value
+CV-ce-CV-n3         1.1          180.0         2.0          Using the default value
+CV-ce-CR-nd         1.1          180.0         2.0          Using the default value
+CV-ce-CR-n2         1.1          180.0         2.0          Using the default value
+CV-ce-CR-n1         1.1          180.0         2.0          Using the default value
+CV-ce-CR-n3         1.1          180.0         2.0          Using the default value
+CV-ce-cd-nd         1.1          180.0         2.0          Using the default value
+CV-ce-cd-n2         1.1          180.0         2.0          Using the default value
+CV-ce-cd-n1         1.1          180.0         2.0          Using the default value
+CV-ce-cd-n3         1.1          180.0         2.0          Using the default value
+CR-ce-CV-nd         1.1          180.0         2.0          Using the default value
+CR-ce-CV-n2         1.1          180.0         2.0          Using the default value
+CR-ce-CV-n1         1.1          180.0         2.0          Using the default value
+CR-ce-CV-n3         1.1          180.0         2.0          Using the default value
+CR-ce-CR-nd         1.1          180.0         2.0          Using the default value
+CR-ce-CR-n2         1.1          180.0         2.0          Using the default value
+CR-ce-CR-n1         1.1          180.0         2.0          Using the default value
+CR-ce-CR-n3         1.1          180.0         2.0          Using the default value
+CR-ce-cd-nd         1.1          180.0         2.0          Using the default value
+CR-ce-cd-n2         1.1          180.0         2.0          Using the default value
+CR-ce-cd-n1         1.1          180.0         2.0          Using the default value
+CR-ce-cd-n3         1.1          180.0         2.0          Using the default value
+cd-ce-CV-nd         1.1          180.0         2.0          Using the default value
+cd-ce-CV-n2         1.1          180.0         2.0          Using the default value
+cd-ce-CV-n1         1.1          180.0         2.0          Using the default value
+cd-ce-CV-n3         1.1          180.0         2.0          Using the default value
+cd-ce-CR-nd         1.1          180.0         2.0          Using the default value
+cd-ce-CR-n2         1.1          180.0         2.0          Using the default value
+cd-ce-CR-n1         1.1          180.0         2.0          Using the default value
+cd-ce-CR-n3         1.1          180.0         2.0          Using the default value
+cd-ce-cd-nd         1.1          180.0         2.0          Using the default value
+cd-ce-cd-n2         1.1          180.0         2.0          Using the default value
+cd-ce-cd-n1         1.1          180.0         2.0          Using the default value
+cd-ce-cd-n3         1.1          180.0         2.0          Using the default value
+c-hn-n-hn         1.1          180.0         2.0          Using general improper torsional angle  X- X- n-hn, penalty score=  6.0)
+c-hn-n-H         1.1          180.0         2.0          Using general improper torsional angle  X- X- n-hn, penalty score=  6.0)
+c-hn-N-hn         1.1          180.0         2.0          Using general improper torsional angle  X- X- n-hn, penalty score=  6.0)
+c-hn-N-H         1.1          180.0         2.0          Using general improper torsional angle  X- X- n-hn, penalty score=  6.0)
+c-H-n-hn         1.1          180.0         2.0          Using general improper torsional angle  X- X- n-hn, penalty score=  6.0)
+c-H-n-H         1.1          180.0         2.0          Using general improper torsional angle  X- X- n-hn, penalty score=  6.0)
+c-H-N-hn         1.1          180.0         2.0          Using general improper torsional angle  X- X- n-hn, penalty score=  6.0)
+c-H-N-H         1.1          180.0         2.0          Using general improper torsional angle  X- X- n-hn, penalty score=  6.0)
+C-hn-n-hn         1.1          180.0         2.0          Using general improper torsional angle  X- X- n-hn, penalty score=  6.0)
+C-hn-n-H         1.1          180.0         2.0          Using general improper torsional angle  X- X- n-hn, penalty score=  6.0)
+C-hn-N-hn         1.1          180.0         2.0          Using general improper torsional angle  X- X- n-hn, penalty score=  6.0)
+C-hn-N-H         1.1          180.0         2.0          Using general improper torsional angle  X- X- n-hn, penalty score=  6.0)
+C-H-n-hn         1.1          180.0         2.0          Using general improper torsional angle  X- X- n-hn, penalty score=  6.0)
+C-H-n-H         1.1          180.0         2.0          Using general improper torsional angle  X- X- n-hn, penalty score=  6.0)
+C-H-N-hn         1.1          180.0         2.0          Using general improper torsional angle  X- X- n-hn, penalty score=  6.0)
+C-H-N-H         1.1          180.0         2.0          Using general improper torsional angle  X- X- n-hn, penalty score=  6.0)
+
+
+NONBON
+n           1.8240  0.1700
+N           1.8240  0.1700
+hn          0.6000  0.0157
+H          0.6000  0.0157
+c3          1.9080  0.1094
+XC          1.9080  0.1094
+CT          1.9080  0.1094
+H1          1.3870  0.0157
+h1          1.3870  0.0157
+HC          1.4870  0.0157
+hc          1.4870  0.0157
+cc          1.9080  0.0860
+CC          1.9080  0.0860
+NA          1.8240  0.1700
+CV          1.9080  0.0860
+CR          1.9080  0.0860
+cd          1.9080  0.0860
+H5          1.3590  0.0150
+N0          1.8240  0.1700
+n0          1.8240  0.1700
+N1          1.8240  0.1700
+H4          1.4090  0.0150
+c           1.9080  0.0860
+C           1.9080  0.0860
+o           1.6612  0.2100
+O           1.6612  0.2100
+SH          2.0000  0.2500
+Fe          1.4560   0.0130
+ce          1.9080  0.0860
+n2          1.8240  0.1700
+n1          1.8240  0.1700
+n3          1.8240  0.1700
+ha          1.4590  0.0150
+
+
+
