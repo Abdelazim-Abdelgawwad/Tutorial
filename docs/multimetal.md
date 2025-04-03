@@ -69,15 +69,26 @@ Then, create three copies of **deprotonated.pdb** as:
 - **protein1.pdb**
 - **protein2.pdb**
 - **protein3.pdb**
+- 
+Each ligand must be added to its corresponding protein file individually. Follow these steps to create three separate protein-ligand complexes:
 
-Manually add **ligand1_h.pdb**, **ligand2_h.pdb**, and **ligand3_h.pdb** to these respective protein files.
-At the end of this step, you should have:
-
+Ensure you have the following files ready:
+- **ligand1_h.pdb**, **ligand2_h.pdb**, and **ligand3_h.pdb**
+Add ligands to corresponding protein files
+```
+ligand1_h.pdb → protein1.pdb
+ligand2_h.pdb → protein2.pdb
+ligand3_h.pdb → protein3.pdb
+```
+After completion, you should have three separate protein-ligand complex files:
 1. [**protein1.pdb**](/Tutorial/example/1RWJ/output1.pdb)
 2. [**protein2.pdb**](/Tutorial/example/1RWJ/output2.pdb)
 3. [**protein3.pdb**](/Tutorial/example/1RWJ/output3.pdb)
 
----
+> **Note:** Each file contains exactly one protein structure with its corresponding ligand. Do not combine multiple ligands into a single protein file.
+
+## Next Steps
+After creating these files, proceed to the parameterization stage as described in the following section.
 
 ## 2. Generating the XYZ Structure with easyPARM
 Run **easyPARM** and select **option 2**:
