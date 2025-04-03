@@ -42,7 +42,7 @@ After downloading the PDB file from the [Protein Data Bank](https://www.rcsb.org
 
 ### 1.1 Preprocessing Tools
 We will use the following tool:
-- [H++](http://newbiophysics.cs.vt.edu/H++) to prepare the system [**1RWJ.pdb**](/Tutorial/example/1RWJ/1rwj.pdb). After using **H++**, you will notice that the metal and its non-standard residues are removed, leaving only standard residues in the output file [**prepared.pdb**](/Tutorial/example/1RWJ/output.pdb).
+- [H++](http://newbiophysics.cs.vt.edu/H++) to prepare the system [**1RWJ.pdb**](/Tutorial/example/1RWJ/1rwj.pdb). After using **H++**, you will notice that the metal and its non-standard residues are removed, leaving only standard residues in the output file [**prepared.pdb**](/Tutorial/example/1RWJ/protonated.pdb).
 
 **Important Notes:**
 - Protonation states of residues linked to the metal, such as **histidine** and **cysteine**, may not be correct after preprocessing. Verify the PDB file and make necessary adjustments:
