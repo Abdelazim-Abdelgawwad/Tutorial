@@ -373,7 +373,7 @@ This marks the **completion of the metalloprotein parameterization**, ensuring a
 ## 7. Molecular Dynamic Simulation
 
 <p align="center">
-  <img src="/Tutorial/example/1RWJ/simulation.gif" alt="simulation protein" width="400"/>
+  <img src="/Tutorial/example/1RWJ/simulation.mp4" alt="simulation protein" width="400"/>
 </p>
 
 ---
