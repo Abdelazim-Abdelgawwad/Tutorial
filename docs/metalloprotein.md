@@ -172,6 +172,10 @@ Provide the **final metalloprotein PDB file**:
 Please provide the metalloprotein PDB file: final_complex.pdb
 ```
 
+### 4.8 Change Residue ID 
+```shell
+Would you like to change the residue ID (Default= mol)? (y/n): n
+```
 ## 5. Output Generation
 Upon completion, easyPARM generates the following files:
 
