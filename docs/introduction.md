@@ -24,17 +24,23 @@ easyPARM derives bond-stretching and bond-angle bending force field parameters f
 The tool facilitates the derivation of bond-stretching and bond-angle bending force field parameters for <strong>metalloproteins</strong> using the <strong>Seminario method</strong>. This capability streamlines the integration of these parameters into <strong>protein force fields</strong>.
 </p>  
 
-### **3. Generation of CHARMM Force Field Parameter Format**
+### **3. Force Field Parameterization of Multi-Metal Metalloproteins**
+
+<p align="justify">
+Our tool enables precise derivation of bond-stretching and bond-angle bending force field parameters for <strong>multi-metal metalloproteins</strong> through the <strong>Seminario method</strong>. This advanced capability seamlessly integrates these parameters into standard <strong>protein force fields</strong>, streamlining the generation of comprehensive parameter libraries.
+</p>
+
+### **4. Generation of CHARMM Force Field Parameter Format**
 <p align="justify">
 easyPARM extends its capabilities to the <strong>CHARMM</strong> ecosystem by implementing the <strong>Seminario method</strong> for metal-containing systems. The tool processes Hessian matrices from <strong>Gaussian</strong>, <strong>Orca</strong>, or <strong>GAMESS</strong> quantum chemistry calculations to generate bond and angle parameters in native <strong>CHARMM</strong> format. For organic components, easyPARM seamlessly integrates parameters from the CGenFF force field, creating a complete parameter set for mixed metal-organic systems.
 </p>  
 
-### **4. AMBER Format Conversion to GROMACS or OpenMM**  
+### **5. AMBER Format Conversion to GROMACS or OpenMM**  
 <p align="justify">
 easyPARM utilizes <strong>ParmEd</strong> to convert <strong>AMBER-format files</strong> into <strong>GROMACS</strong> or <strong>OpenMM</strong> formats, facilitating compatibility with other molecular dynamics engines.
 </p>  
 
-### **5. Charge Restraints with REsP Fitting**  
+### **6. Charge Restraints with REsP Fitting**  
 <p align="justify">
 easyPARM supports the application of <strong>charge restraints</strong> on specific atoms using the <strong>Restrained Electrostatic Potential (REsP) fitting</strong> approach. This helps achieve a more accurate electrostatic potential around the molecule while keeping the charge distribution physically meaningful.
 </p>  
@@ -47,14 +53,14 @@ The <strong>easyPARM</strong> code was written by <strong>Abdelazim M. A. Abdelg
 </p>
 
 <p align="justify">
-This code (<strong>version 3.10</strong>) is <strong>free software</strong>: you can redistribute it and/or modify it under the <strong>GNU Lesser General Public License (LGPL) Version 2.1, February 1999</strong>.
+This code (<strong>version 3.20</strong>) is <strong>free software</strong>: you can redistribute it and/or modify it under the <strong>GNU Lesser General Public License (LGPL) Version 2.1, February 1999</strong>.
 </p>
 
 ---
 
 ## **Key Features**
 
-- Generates parameters for **metal-containing** and **metalloprotein** systems using a combination of the **General AMBER Force Field (GAFF)** and missing parameters for bond stretching and angle bending involving **metals and coordinating atoms** using the **Seminario method**.
+- Generates parameters for **metal-containing** and **multi-metal metalloprotein** systems using a combination of the **General AMBER Force Field (GAFF)** and missing parameters for bond stretching and angle bending involving **metals and coordinating atoms** using the **Seminario method**.
 
 - Capable of generating parameters for **entire structures in non-metal systems** using **GAFF or AMBER**.
 
