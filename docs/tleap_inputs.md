@@ -101,8 +101,8 @@ bond PRO1.27.N PRO1.26.C
 bond PRO1.27.C PRO1.28.N
 
 # Save vacuum files
-savepdb mol 1SP2_vacuum.pdb
-saveamberparm mol 1SP2_vacuum.prmtop 1SP2_vacuum.inpcrd
+savepdb PRO1 1SP2_vacuum.pdb
+saveamberparm PRO1 1SP2_vacuum.prmtop 1SP2_vacuum.inpcrd
 
 # Solvate the system
 solvateoct PRO1 TIP3PBOX 10.0
@@ -159,8 +159,8 @@ bond PRO1.27.N PRO1.26.C
 bond PRO1.27.C PRO1.28.N
 
 # Save vacuum files
-savepdb mol 1SP2_vacuum.pdb
-saveamberparm mol 1SP2_vacuum.prmtop 1SP2_vacuum.inpcrd
+savepdb PRO1 1SP2_vacuum.pdb
+saveamberparm PRO1 1SP2_vacuum.prmtop 1SP2_vacuum.inpcrd
 
 # Solvate the system
 solvateoct PRO1 TIP3PBOX 10.0
