@@ -60,7 +60,62 @@ quit
 ```
 
 ## **Metalloprotein Input Example**
-This example illustrates the setup for a metalloprotein system:
+These examples illustrate the setup for a metalloprotein system:
+
+1- Using COMPLEX.lib 
+```bash
+source leaprc.gaff
+source leaprc.protein.ff19SB
+source leaprc.water.tip3p
+loadamberparams frcmod.ionsjc_tip3p
+
+# Define hybridization
+addAtomTypes {
+ { "Zn" "Zn" "sp3" }
+ { "s1" "S" "sp3" }
+ { "s2" "S" "sp3" }
+ { "n3" "N" "sp3" }
+ { "n4" "N" "sp3" }
+}
+
+# Load force field for residues and metal
+loadamberparams COMPLEX.frcmod
+# Load library for residues and metals 
+loadoff COMPLEX.lib
+PRO1 = loadpdb "easyPARM_MetalloProtein.pdb"
+
+# Define metal coordination bonds
+bond PRO1.32.Zn1 PRO1.5.SG
+bond PRO1.32.Zn1 PRO1.10.SG
+bond PRO1.32.Zn1 PRO1.23.NE2
+bond PRO1.32.Zn1 PRO1.27.NE2
+
+# Link adjacent residues
+bond PRO1.5.N PRO1.4.C
+bond PRO1.5.C PRO1.6.N
+bond PRO1.10.N PRO1.9.C
+bond PRO1.10.C PRO1.11.N
+bond PRO1.23.N PRO1.22.C
+bond PRO1.23.C PRO1.24.N
+bond PRO1.27.N PRO1.26.C
+bond PRO1.27.C PRO1.28.N
+
+# Save vacuum files
+savepdb mol 1SP2_vacuum.pdb
+saveamberparm mol 1SP2_vacuum.prmtop 1SP2_vacuum.inpcrd
+
+# Solvate the system
+solvateoct PRO1 TIP3PBOX 10.0
+check PRO1 charge
+addions PRO1 Cl- 0.
+addions PRO1 Na+ 0.
+
+# Save solvated files
+saveamberparm PRO1 1SP2_solvated.prmtop 1SP2_solvated.inpcrd
+savepdb PRO1 1SP2_solvated.pdb
+quit
+```
+2- Using mol2 and hybridization files 
 ```bash
 source leaprc.gaff
 source leaprc.protein.ff19SB
@@ -118,10 +173,11 @@ saveamberparm PRO1 1SP2_solvated.prmtop 1SP2_solvated.inpcrd
 savepdb PRO1 1SP2_solvated.pdb
 quit
 ```
+## Notes
 
-### Notes:
-1. Ensure the `frcmod` and `mol2` files for your metal-containing residues are correctly generated using `easyPARM`.
-2. Modify the hybridization section based on the `Hybridization_Info.dat` file.
-3. Adjust metal coordination bonds according to the `Bond_Info.dat` file.
-4. For solvated systems, modify the box dimensions and ion addition steps as needed.
+1. Ensure the *frcmod* and *mol2* files for your metal-containing residues are correctly generated using easyPARM.
+2. Modify the hybridization section based on the **Hybridization_Info.dat** file, especially if using option 2 for metalloproteins.
+3. If using **COMPLEX.lib**, the *addAtomTypes* section is not needed.
+4. Adjust metal coordination bonds according to the **Bond_Info.dat** file.
+5. For solvated systems, modify the box dimensions and ion addition steps as needed.
 
