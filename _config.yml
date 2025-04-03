@@ -40,6 +40,7 @@ nav:
     children:
       - title: "Parameterization of Metal Complexes (AMBER Format)"
       - title: "Parameterization of Metalloproteins (AMBER Format)"
+      - title: "Parameterization of Multi-Metal Metalloproteins (AMBER Format)"
       - title: "Parameterization of Metal Complexes (CHARMM Format)"
 
 # Navigation sidebar
