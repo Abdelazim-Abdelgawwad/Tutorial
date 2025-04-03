@@ -17,7 +17,7 @@ permalink: multimetal metalloprotein
 This tutorial provides a step-by-step guide for parameterizing a multi-metal metalloprotein using **Gaussian** for QM calculations. The same workflow can be applied to **ORCA** and **GAMESS** as well. The example used throughout the tutorial is [**1RWJ.pdb**](/Tutorial/example/1RWJ/1rwj.pdb), a protein containing a three-heme c structure, each containing an iron (Fe) atom, as shown in the figure below.
 
 <p align="center">
-  <img src="/Tutorial/example/1RWJ/1RWJ.bmp" alt="1RWJ protein" width="350"/>
+  <img src="/Tutorial/example/1RWJ/1RWJ.bmp" alt="1RWJ protein" width="450"/>
 </p>
 
 ## Parameterization Challenges and Strategy
