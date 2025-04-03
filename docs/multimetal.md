@@ -32,7 +32,7 @@ This tutorial highlights the capabilities of **easyPARM** by demonstrating how t
 The figure below illustrates these coordination environments:
 
 <p align="center">
-  <img src="/Tutorial/example/1RWJ/heme_coordination.png" alt="Heme Coordination" width="400"/>
+  <img src="/Tutorial/example/1RWJ/heme_coordination.png" alt="Heme Coordination" width="450"/>
 </p>
 
 This workflow ensures accurate force field parameters for multi-metal systems, making it easier to simulate metalloproteins with complex coordination environments. 
