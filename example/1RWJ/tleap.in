@@ -1,0 +1,61 @@
+source leaprc.gaff
+source leaprc.protein.ff19SB
+source leaprc.water.tip3p
+loadamberparams frcmod.ionsjc_tip3p
+
+# Load force field and library for residues and metal
+loadamberparams COMPLEX_1HE.frcmod
+loadamberparams COMPLEX_2HE.frcmod
+loadamberparams COMPLEX_3HE.frcmod
+loadoff COMPLEX.lib
+
+
+PRO = loadpdb "easyPARM_MetalloProtein_Final.pdb"
+
+# Define bonds for the metal coordination and Link adjacent residues
+bond PRO.82.Fe1 PRO.23.NE2
+bond PRO.82.Fe1 PRO.36.NE2
+bond PRO.82.C18 PRO.32.SG
+bond PRO.82.C25 PRO.35.SG
+bond PRO.34.C PRO.35.N
+bond PRO.31.C PRO.32.N
+bond PRO.35.C PRO.36.N
+bond PRO.23.C PRO.24.N
+bond PRO.22.C PRO.23.N
+bond PRO.36.C PRO.37.N
+bond PRO.32.C PRO.33.N
+bond PRO.83.Fe1 PRO.26.NE2
+bond PRO.83.Fe1 PRO.64.NE2
+bond PRO.83.C18 PRO.60.SG
+bond PRO.83.C25 PRO.63.SG
+bond PRO.62.C PRO.63.N
+bond PRO.26.C PRO.27.N
+bond PRO.63.C PRO.64.N
+bond PRO.64.C PRO.65.N
+bond PRO.59.C PRO.60.N
+bond PRO.25.C PRO.26.N
+bond PRO.60.C PRO.61.N
+bond PRO.84.Fe1 PRO.51.SD
+bond PRO.84.Fe1 PRO.80.NE2
+bond PRO.84.C18 PRO.76.SG
+bond PRO.84.C25 PRO.79.SG
+bond PRO.51.C PRO.52.N
+bond PRO.80.C PRO.81.N
+bond PRO.50.C PRO.51.N
+bond PRO.76.C PRO.77.N
+bond PRO.79.C PRO.80.N
+bond PRO.75.C PRO.76.N
+bond PRO.78.C PRO.79.N
+
+# Save vacuum files
+savepdb PRO 1RWJ_vacuum.pdb
+saveamberparm PRO 1RWJ_vacuum.prmtop 1RWJ_vacumm.inpcrd
+# Solvate the system
+solvateoct PRO TIP3PBOX 10.0
+check PRO charge
+addions PRO Cl- 0.
+addions PRO Na+ 0.
+# Save solvated files
+saveamberparm PRO1 1RWJ_solvated.prmtop 1RWJ_solvated.inpcrd
+savepdb PRO1 1RWJ_solvated.pdb
+quit
