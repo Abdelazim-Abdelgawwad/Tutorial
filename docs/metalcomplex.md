@@ -123,6 +123,10 @@ Please provide the formatted checkpoint file (.fchk): COMPLEX.fchk
 ```shell
 Does your structure belong to MetalloProtein? (y/n): n
 ```
+### 2.8 Change Residue ID 
+```shell
+Would you like to change the residue ID (Default= mol)? (y/n): n
+```
 
 ## 3. Output Generation
 Upon completion, easyPARM generates the following files:
