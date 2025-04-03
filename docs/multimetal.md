@@ -347,7 +347,8 @@ Finalize by merging metal atoms from `reference.pdb` into the correct residue ID
 ```shell
 cp easyPARM_MetalloProtein_3HE.pdb easyPARM_MetalloProtein_Final.pdb
 ```
-This final structure is now ready for **tleap**.
+
+This [easyPARM_MetalloProtein_Final.pdb](/Tutorial/example/1RWJ/easyPARM_MetalloProtein_Final.pdb) final structure is now ready for **tleap**.
 
 ## 6. Running tleap
 
