@@ -1,0 +1,88 @@
+USER  MOD reduce.4.10.230211 H: found=0, std=0, add=32, rem=0, adj=3
+USER  MOD -----------------------------------------------------------------
+USER  MOD scores for adjustable sidechains, with "set" totals for H,N and Q
+USER  MOD "o" means original, "f" means flipped, "180deg" is methyl default
+USER  MOD "!" flags a clash with an overlap of 0.40A or greater
+USER  MOD flip categories: "K"=keep, "C"=clashes, "X"=uncertain, "F"=flip
+USER  MOD NoAdj-H: A  90 HEC H2D : A  90 HEC O2D : A  90 HEC CGD :(short bond)
+USER  MOD NoAdj-H: A  90 HEC H2A : A  90 HEC O2A : A  90 HEC CGA :(short bond)
+USER  MOD Single : A  90 HEC CMA :methyl  150:sc=    1.43   (180deg=1.43)
+USER  MOD Single : A  90 HEC CMB :methyl  -30:sc=    2.05   (180deg=-0.0757)
+USER  MOD Single : A  90 HEC CMC :methyl  -30:sc=    1.72   (180deg=-0.993!)
+USER  MOD Single : A  90 HEC CMD :methyl  -30:sc=    1.38   (180deg=0.291)
+USER  MOD -----------------------------------------------------------------
+HETATM 1171 Fe  HEC A  90      18.817   1.370  20.570  1.00 16.58      2    Fe
+HETATM 1172  CHA HEC A  90      20.664  -0.927  18.764  1.00 15.06      2    C
+HETATM 1173  CHB HEC A  90      19.980   0.003  23.505  1.00 15.51      2    C
+HETATM 1174  CHC HEC A  90      17.083   3.723  22.376  1.00 15.31      2    C
+HETATM 1175  CHD HEC A  90      17.255   2.380  17.712  1.00 15.36      2    C
+HETATM 1176  NA  HEC A  90      20.083  -0.099  21.029  1.00 15.47      2    N
+HETATM 1177  C1A HEC A  90      20.766  -0.951  20.162  1.00 16.20      2    C
+HETATM 1178  C2A HEC A  90      21.541  -1.933  20.923  1.00 16.56      2    C
+HETATM 1179  C3A HEC A  90      21.342  -1.665  22.240  1.00 16.07      2    C
+HETATM 1180  C4A HEC A  90      20.438  -0.538  22.301  1.00 16.21      2    C
+HETATM 1181  CMA HEC A  90      21.923  -2.439  23.429  1.00 17.48      2    C
+HETATM 1182  CAA HEC A  90      22.408  -3.054  20.369  1.00 18.75      2    C
+HETATM 1183  CBA HEC A  90      23.811  -2.535  20.105  1.00 22.69      2    C
+HETATM 1184  CGA HEC A  90      24.767  -3.627  19.672  1.00 24.76      2    C
+HETATM 1185  O1A HEC A  90      25.948  -3.310  19.413  1.00 25.97      2    O
+HETATM 1186  O2A HEC A  90      24.340  -4.798  19.591  1.00 22.86      2    O
+HETATM 1187  NB  HEC A  90      18.624   1.799  22.504  1.00 15.68      2    N
+HETATM 1188  C1B HEC A  90      19.138   1.099  23.590  1.00 15.16      2    C
+HETATM 1189  C2B HEC A  90      18.724   1.677  24.842  1.00 15.07      2    C
+HETATM 1190  C3B HEC A  90      17.983   2.780  24.537  1.00 15.38      2    C
+HETATM 1191  C4B HEC A  90      17.900   2.833  23.082  1.00 16.29      2    C
+HETATM 1192  CMB HEC A  90      18.954   1.091  26.236  1.00 14.01      2    C
+HETATM 1193  CAB HEC A  90      17.432   3.801  25.529  1.00 17.68      2    C
+HETATM 1194  CBB HEC A  90      18.540   4.540  26.283  1.00 17.67      2    C
+HETATM 1195  NC  HEC A  90      17.472   2.754  20.144  1.00 14.97      2    N
+HETATM 1196  C1C HEC A  90      16.882   3.669  20.995  1.00 15.06      2    C
+HETATM 1197  C2C HEC A  90      15.942   4.509  20.274  1.00 14.68      2    C
+HETATM 1198  C3C HEC A  90      15.952   4.091  18.985  1.00 15.08      2    C
+HETATM 1199  C4C HEC A  90      16.915   3.010  18.906  1.00 14.59      2    C
+HETATM 1200  CMC HEC A  90      15.044   5.594  20.880  1.00 17.43      2    C
+HETATM 1201  CAC HEC A  90      14.982   4.509  17.869  1.00 14.91      2    C
+HETATM 1202  CBC HEC A  90      15.040   5.990  17.490  1.00 17.10      2    C
+HETATM 1203  ND  HEC A  90      18.990   0.885  18.659  1.00 14.75      2    N
+HETATM 1204  C1D HEC A  90      18.275   1.435  17.596  1.00 15.58      2    C
+HETATM 1205  C2D HEC A  90      18.747   0.908  16.334  1.00 15.52      2    C
+HETATM 1206  C3D HEC A  90      19.679  -0.033  16.612  1.00 16.05      2    C
+HETATM 1207  C4D HEC A  90      19.838  -0.048  18.062  1.00 14.76      2    C
+HETATM 1208  CMD HEC A  90      18.349   1.383  14.943  1.00 13.62      2    C
+HETATM 1209  CAD HEC A  90      20.373  -0.891  15.559  1.00 16.49      2    C
+HETATM 1210  CBD HEC A  90      19.615  -2.167  15.210  1.00 20.04      2    C
+HETATM 1211  CGD HEC A  90      20.295  -2.965  14.108  1.00 20.42      2    C
+HETATM 1212  O1D HEC A  90      21.539  -2.941  14.045  1.00 22.02      2    O
+HETATM 1213  O2D HEC A  90      19.590  -3.626  13.317  1.00 21.44      2    O
+HETATM    0 HMD3 HEC A  90      17.443   1.728  14.966  1.00 13.62      2    H   new
+HETATM    0 HMD2 HEC A  90      18.954   2.084  14.655  1.00 13.62      2    H   new
+HETATM    0 HMD1 HEC A  90      18.396   0.640  14.321  1.00 13.62      2    H   new
+HETATM    0 HMC3 HEC A  90      14.821   5.356  21.794  1.00 17.43      2    H   new
+HETATM    0 HMC2 HEC A  90      15.512   6.443  20.873  1.00 17.43      2    H   new
+HETATM    0 HMC1 HEC A  90      14.230   5.670  20.358  1.00 17.43      2    H   new
+HETATM    0 HMB3 HEC A  90      18.977   0.123  26.181  1.00 14.01      2    H   new
+HETATM    0 HMB2 HEC A  90      19.798   1.414  26.588  1.00 14.01      2    H   new
+HETATM    0 HMB1 HEC A  90      18.233   1.364  26.825  1.00 14.01      2    H   new
+HETATM    0 HMA3 HEC A  90      22.044  -1.837  24.180  1.00 17.48      2    H   new
+HETATM    0 HMA2 HEC A  90      21.314  -3.150  23.681  1.00 17.48      2    H   new
+HETATM    0 HMA1 HEC A  90      22.779  -2.820  23.180  1.00 17.48      2    H   new
+HETATM    0 HBD2 HEC A  90      19.535  -2.720  16.003  1.00 20.04      2    H   new
+HETATM    0 HBD1 HEC A  90      18.714  -1.939  14.931  1.00 20.04      2    H   new
+HETATM    0 HBC3 HEC A  90      14.824   6.531  18.265  1.00 17.10      2    H   new
+HETATM    0 HBC2 HEC A  90      15.933   6.210  17.181  1.00 17.10      2    H   new
+HETATM    0 HBC1 HEC A  90      14.400   6.169  16.783  1.00 17.10      2    H   new
+HETATM    0 HBB3 HEC A  90      19.076   3.901  26.778  1.00 17.67      2    H   new
+HETATM    0 HBB2 HEC A  90      19.103   5.012  25.650  1.00 17.67      2    H   new
+HETATM    0 HBB1 HEC A  90      18.144   5.176  26.899  1.00 17.67      2    H   new
+HETATM    0 HBA2 HEC A  90      23.775  -1.851  19.418  1.00 22.69      2    H   new
+HETATM    0 HBA1 HEC A  90      24.152  -2.112  20.909  1.00 22.69      2    H   new
+HETATM    0 HAD2 HEC A  90      20.493  -0.365  14.753  1.00 16.49      2    H   new
+HETATM    0 HAD1 HEC A  90      21.258  -1.127  15.878  1.00 16.49      2    H   new
+HETATM    0 HAA2 HEC A  90      22.440  -3.791  20.999  1.00 18.75      2    H   new
+HETATM    0 HAA1 HEC A  90      22.021  -3.398  19.549  1.00 18.75      2    H   new
+HETATM    0  HHD HEC A  90      16.754   2.611  16.914  1.00 15.36      2    H   new
+HETATM    0  HHC HEC A  90      16.629   4.419  22.876  1.00 15.31      2    H   new
+HETATM    0  HHB HEC A  90      20.269  -0.414  24.331  1.00 15.51      2    H   new
+HETATM    0  HHA HEC A  90      21.198  -1.557  18.256  1.00 15.06      2    H   new
+HETATM    0  HAC HEC A  90      14.380   3.882  17.438  1.00 14.91      2    H   new
+HETATM    0  HAB HEC A  90      16.486   3.963  25.666  1.00 17.68      2    H   new

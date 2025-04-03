@@ -1,0 +1,8 @@
+addAtomTypes {
+  { "N0" "N" "sp3" }
+  { "N1" "N" "sp3" }
+  { "n0" "N" "sp3" }
+  { "n1" "N" "sp3" }
+  { "n2" "N" "sp3" }
+  { "n3" "N" "sp3" }
+}
