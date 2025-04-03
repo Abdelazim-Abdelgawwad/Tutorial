@@ -2,7 +2,7 @@
 layout: default
 title: "Parameterization of Multi-Metal Metalloproteins (AMBER Format)"
 parent: "Tutorial"
-nav_order: 2
+nav_order: 3
 permalink: multimetal metalloprotein
 ---
 
