@@ -69,15 +69,6 @@ source leaprc.protein.ff19SB
 source leaprc.water.tip3p
 loadamberparams frcmod.ionsjc_tip3p
 
-# Define hybridization
-addAtomTypes {
- { "Zn" "Zn" "sp3" }
- { "s1" "S" "sp3" }
- { "s2" "S" "sp3" }
- { "n3" "N" "sp3" }
- { "n4" "N" "sp3" }
-}
-
 # Load force field for residues and metal
 loadamberparams COMPLEX.frcmod
 # Load library for residues and metals 
