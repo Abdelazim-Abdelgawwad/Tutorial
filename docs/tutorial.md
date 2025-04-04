@@ -42,6 +42,7 @@ For detailed guidance, please navigate to the specific subsections:
 - **Parameterization of Metalloproteins**
   - Focuses on metalloprotein systems
   - 1SP2 system example
+  - 1RWJ system example
 
 ### Support and Guidance
 
