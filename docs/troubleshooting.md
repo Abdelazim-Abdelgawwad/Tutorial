@@ -50,3 +50,22 @@ To resolve this issue, increase the maximum bond limit in the AmberTools source 
    ```
 3. Change <code>8</code> to the desired number of bonds.
 4. Recompile Amber to apply the changes, allowing Tleap to recognize the new <code>MAXBONDS</code> limit.
+
+Here’s a polished version with a clear and concise title:  
+
+## <strong>3. Resolving Atom Mismatch Errors in Metalloprotein Parameterization</strong> 
+
+If you encounter the following error while generating parameters for a metalloprotein system:  
+
+```bash
+Error processing files: Number of atoms mismatch: Structure has 91, MOL2 has 63
+```  
+
+This error occurs because the structure used during optimization, frequency, and charge calculations is incorrect—it lacks the necessary capping atom.  
+
+### Solution:  
+To fix this issue, use **Option 2** in the **easyPARM** menu to generate the correct structure. Alternatively, you can manually add the capping atom, though **Option 2** is strongly recommended for accuracy.  
+```  
+
+This version improves clarity, flow, and formatting while making the solution more actionable. Let me know if you need further refinements! 🚀
+
