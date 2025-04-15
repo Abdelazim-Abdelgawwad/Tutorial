@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "QM Inputs"
-nav_order: 5
+nav_order: 6
 permalink: QM Inputs 
 ---
 
