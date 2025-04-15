@@ -12,7 +12,7 @@ permalink: Introduction
 
 # <strong>Introduction<strong>
 
-<strong>easyPARM</strong> is a computational tool designed with four key functionalities:  
+<strong>easyPARM</strong> is a computational tool designed with six key functionalities:  
 
 ### **1. Force Field Parameter Derivation for Metal-Containing Systems**  
 <p align="justify">
@@ -53,7 +53,7 @@ The <strong>easyPARM</strong> code was written by <strong>Abdelazim M. A. Abdelg
 </p>
 
 <p align="justify">
-This code (<strong>version 3.20</strong>) is <strong>free software</strong>: you can redistribute it and/or modify it under the <strong>GNU Lesser General Public License (LGPL) Version 2.1, February 1999</strong>.
+This code (<strong>version 3.25</strong>) is <strong>free software</strong>: you can redistribute it and/or modify it under the <strong>GNU Lesser General Public License (LGPL) Version 2.1, February 1999</strong>.
 </p>
 
 ---
