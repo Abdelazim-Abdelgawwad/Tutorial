@@ -57,7 +57,7 @@ METHOD = 1                       # 1 = RESP, 2 = Mulliken, 3 = ESP, 4 = AM1-BCC
 
 # Required for all charge methods
 ATOM_TYPE = 2                    # 1 = AMBER, 2 = GAFF, 3 = GAFF2
-CHARGE_OUTPUT = mol2_comp.log    # Charge output file (.log, .out, .vpot, or .dat)
+CHARGE_OUTPUT = CHARGES.log    # Charge output file (.log, .out, .vpot, or .dat)
 
 # Quantum Mechanics Output Format
 # 1 = Orca Output, 2 = Gaussian Output, 3 = Gaussian Checkpoint, 
