@@ -84,7 +84,7 @@ RESID_ID = no                    # Define residue ID? (yes/no)
 # RESID_NAME = LIG               # Three-letter residue name (only if RESID_ID = yes)
 
 # Force Field Configuration
-CHARMM_FF = no                   # Use CHARMM force field? (yes/no)
+CHARMM_FF = no                   # Generate CHARMM force field? (yes/no)
 
 # Charge Restraints
 CHARGE_RESTRAIN = no             # Apply charge restraints? (yes/no)
