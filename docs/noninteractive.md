@@ -5,11 +5,11 @@ nav_order: 4
 permalink: Non-Interactive Mode
 ---
 
-# Non-Interactive Mode
-
 <p align="center">
   <img src="/Tutorial/logo/easyPARM3.png" alt="easyPARM Logo" width="500"/>
 </p>
+
+# Non-Interactive Mode
 
 ## Installation
 
