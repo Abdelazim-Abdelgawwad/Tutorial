@@ -47,7 +47,7 @@ easyPARM supports the application of <strong>charge restraints</strong> on speci
 
 ### **7. Enhanced GAFF Atom Type Assignment**
 <p align="justify">
-easyPARM provides advanced atom type assignment capabilities that accurately determine <strong>GAFF atom types</strong> even when <strong>Antechamber</strong> fails, particularly for complex <strong>metal-containing structures</strong>. Using sophisticated analysis of molecular topology, ring systems, hybridization states, and aromaticity, this functionality ensures precise atom typing that directly improves the quality of the resulting <strong>force field parameters</strong>.
+easyPARM provides advanced atom type assignment capabilities that accurately determine <strong>GAFF atom types</strong> even when <strong>Antechamber</strong> fails, particularly for complex <strong>multi metal-containing structures</strong>. Using sophisticated analysis of molecular topology, ring systems, hybridization states, and aromaticity, this functionality ensures precise atom typing that directly improves the quality of the resulting <strong>force field parameters</strong>.
 </p>
 
 ---
