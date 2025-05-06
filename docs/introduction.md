@@ -45,6 +45,11 @@ easyPARM utilizes <strong>ParmEd</strong> to convert <strong>AMBER-format files<
 easyPARM supports the application of <strong>charge restraints</strong> on specific atoms using the <strong>Restrained Electrostatic Potential (REsP) fitting</strong> approach. This helps achieve a more accurate electrostatic potential around the molecule while keeping the charge distribution physically meaningful.
 </p>  
 
+### **7. Enhanced GAFF Atom Type Assignment**
+<p align="justify">
+easyPARM provides advanced atom type assignment capabilities that accurately determine <strong>GAFF atom types</strong> even when <strong>Antechamber</strong> fails, particularly for complex <strong>metal-containing structures</strong>. Using sophisticated analysis of molecular topology, ring systems, hybridization states, and aromaticity, this functionality ensures precise atom typing that directly improves the quality of the resulting <strong>force field parameters</strong>.
+</p>
+
 ---
 
 ## **Authors & License**  
@@ -53,7 +58,7 @@ The <strong>easyPARM</strong> code was written by <strong>Abdelazim M. A. Abdelg
 </p>
 
 <p align="justify">
-This code (<strong>version 3.25</strong>) is <strong>free software</strong>: you can redistribute it and/or modify it under the <strong>GNU Lesser General Public License (LGPL) Version 2.1, February 1999</strong>.
+This code (<strong>version 3.30</strong>) is <strong>free software</strong>: you can redistribute it and/or modify it under the <strong>GNU Lesser General Public License (LGPL) Version 2.1, February 1999</strong>.
 </p>
 
 ---
