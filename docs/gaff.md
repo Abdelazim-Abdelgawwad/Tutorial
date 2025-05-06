@@ -81,7 +81,7 @@ coordinated with organic ligands. These Pd centers are arranged to form a discre
 
 </p>
 
-<p align="justify"
+<p align="justify">
 
 When processed with standard Antechamber, it frequently fails to assign atom types correctly. 
 In successful cases, the resulting [COMPLEX_antechamber.mol2](/Tutorial/example/gaff/antechamber.mol2) file shows 
