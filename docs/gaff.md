@@ -81,8 +81,6 @@ coordinated with organic ligands. These Pd centers are arranged to form a discre
 
 </p>
 
-<p align="justify">
-
 When processed with standard Antechamber, it frequently fails to assign atom types correctly. 
 In successful cases, the resulting [COMPLEX_antechamber.mol2](/Tutorial/example/gaff/antechamber.mol2) file shows 
 overly simplified atom typing, with most carbon atoms assigned as c2 and most nitrogen atoms as n2—a significant oversimplification 
@@ -91,8 +89,6 @@ In contrast, easyPARM's enhanced atom typing system produces [COMPLEX_easyPARM.m
 with properly diversified atom types (cc, cd, etc. for carbons), capturing the true chemical environment of each atom.
 
 This improved atom typing capability significantly enhances force field accuracy for complex systems. particularly those containing multiple metal centers or unusual coordination environments.
-</p>
-
 
 ### MD Simulation
 
