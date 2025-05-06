@@ -91,8 +91,8 @@ In contrast, easyPARM's enhanced atom typing system produces [COMPLEX_easyPARM.m
 with properly diversified atom types (cc, cd, etc. for carbons), capturing the true chemical environment of each atom.
 
 This improved atom typing capability significantly enhances force field accuracy for complex systems. particularly those containing multiple metal centers or unusual coordination environments.
-
 </p>
+
 
 ### MD Simulation
 
