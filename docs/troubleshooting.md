@@ -65,7 +65,55 @@ This error occurs because the structure used during optimization, frequency, and
 
 ### Solution:  
 To fix this issue, use **Option 2** in the **easyPARM** menu to generate the correct structure. Alternatively, you can manually add the capping atom, though **Option 2** is strongly recommended for accuracy.  
-```  
 
+## <strong>4. Error: Bad Substitution in Bash Script</strong>
+<p align="justify">
+When running the <code>./easyPARM</code> script, you may encounter errors like the following:
+</p>
+
+```
+./01_easyPARM.sh: line 782: ${metalloprotein_choice,,}: bad substitution
+./01_easyPARM.sh: line 811: ${charmm_FF,,}: bad substitution
+```
+
+<p align="justify">
+This error occurs because the script is using the Bash-specific lowercase conversion operator <code>${variable,,}</code>, which is not supported in older Bash versions or other shells.
+</p>
+
+### <strong>Solution: Updating the Shebang Line</strong>
+<p align="justify">
+The most effective solution is to modify the shebang line at the beginning of the script to ensure it uses a compatible Bash version:
+</p>
+
+```bash
+# Change this:
+#!/bin/bash
+
+# To this:
+#!/usr/bin/env bash
+```
+
+<p align="justify">
+This change ensures that the system will use the most appropriate version of Bash available in the environment, rather than the one specifically located at <code>/bin/bash</code>, which may be outdated.
+</p>
+
+### <strong> Alternative Solutions</strong>
+<p align="justify">
+If changing the shebang doesn't resolve the issue, you can try:
+</p>
+
+Upgrading your Bash version to 4.0 or newer
+
+
+### <strong>Verification</strong>
+<p align="justify">
+After implementing the fix, the script should properly handle the case conversion for <code>metalloprotein_choice</code> and <code>charmm_FF</code> variables, allowing it to generate the CHARMM files correctly.
+</p>
+
+<p align="justify">
+Confirm the fix worked by ensuring that all subsequent functionalities, such as residue name changes and parameter file generation, complete without errors.
+</p>
+
+``` 
 This version improves clarity, flow, and formatting while making the solution more actionable. Let me know if you need further refinements! 🚀
 
