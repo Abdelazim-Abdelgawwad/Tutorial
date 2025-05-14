@@ -1,5 +1,4 @@
 source leaprc.gaff
-source leaprc.protein.ff19SB
 source leaprc.water.tip3p
 loadamberparams frcmod.ionsjc_tip3p
 # Define hybridization
@@ -12,6 +11,8 @@ addAtomTypes {
 }
 # Load force field for residues and metal
 loadamberparams COMPLEX.frcmod
+# Load protein force field
+source leaprc.protein.ff19SB
 # Load residues and metal
 CY1 = loadmol2 "CY1.mol2"
 CY2 = loadmol2 "CY2.mol2"
