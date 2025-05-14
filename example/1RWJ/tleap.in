@@ -1,12 +1,14 @@
 source leaprc.gaff
-source leaprc.protein.ff19SB
 source leaprc.water.tip3p
 loadamberparams frcmod.ionsjc_tip3p
 
-# Load force field and library for residues and metal
+# Load force field
 loadamberparams COMPLEX_1HE.frcmod
 loadamberparams COMPLEX_2HE.frcmod
 loadamberparams COMPLEX_3HE.frcmod
+# Load protein force field
+source leaprc.protein.ff19SB
+# Load library for residues and metal
 loadoff COMPLEX.lib
 
 
