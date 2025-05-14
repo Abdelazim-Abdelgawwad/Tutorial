@@ -65,12 +65,13 @@ These examples illustrate the setup for a metalloprotein system:
 1- Using COMPLEX.lib 
 ```bash
 source leaprc.gaff
-source leaprc.protein.ff19SB
 source leaprc.water.tip3p
 loadamberparams frcmod.ionsjc_tip3p
 
 # Load force field for residues and metal
 loadamberparams COMPLEX.frcmod
+# Load protein force field
+source leaprc.protein.ff19SB
 # Load library for residues and metals 
 loadoff COMPLEX.lib
 PRO1 = loadpdb "easyPARM_MetalloProtein.pdb"
@@ -109,7 +110,6 @@ quit
 2- Using mol2 and hybridization files 
 ```bash
 source leaprc.gaff
-source leaprc.protein.ff19SB
 source leaprc.water.tip3p
 loadamberparams frcmod.ionsjc_tip3p
 
@@ -124,6 +124,9 @@ addAtomTypes {
 
 # Load force field for residues and metal
 loadamberparams COMPLEX.frcmod
+
+# Load protein force field
+source leaprc.protein.ff19SB
 
 # Load residues and metal
 CY1 = loadmol2 "CY1.mol2"
@@ -167,8 +170,9 @@ quit
 ## Notes
 
 1. Ensure the *frcmod* and *mol2* files for your metal-containing residues are correctly generated using easyPARM.
-2. Modify the hybridization section based on the **Hybridization_Info.dat** file, especially if using option 2 for metalloproteins.
-3. If using **COMPLEX.lib**, the *addAtomTypes* section is not needed.
-4. Adjust metal coordination bonds according to the **Bond_Info.dat** file.
-5. For solvated systems, modify the box dimensions and ion addition steps as needed.
+2. Load your metalloprotein frcmod file before loading the protein force field **ff19SB** to ensure tleap will use the standard force field parameters for standard amino acid residues. 
+3. Modify the hybridization section based on the **Hybridization_Info.dat** file, especially if using option 2 for metalloproteins.
+4. If using **COMPLEX.lib**, the *addAtomTypes* section is not needed.
+5. Adjust metal coordination bonds according to the **Bond_Info.dat** file.
+6. For solvated systems, modify the box dimensions and ion addition steps as needed.
 
