@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Psi4 Support"
-nav_order: 12
+nav_order: 9
 permalink: Psi4 Support
 ---
 
