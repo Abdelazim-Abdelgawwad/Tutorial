@@ -161,7 +161,6 @@ psi4.set_options({
     'd_convergence': 1e-6,
     'g_convergence': 'GAU_LOOSE',
     'geom_maxiter': 300,
-    'dft_pruning_scheme': 'robust',
     'dft_nuclear_scheme': 'treutler'
 })
 ```
