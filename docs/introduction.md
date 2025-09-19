@@ -16,7 +16,7 @@ permalink: Introduction
 
 ### **1. Force Field Parameter Derivation for Metal-Containing Systems**  
 <p align="justify">
-easyPARM derives bond-stretching and bond-angle bending force field parameters for metal-containing molecular systems using the <strong>Seminario method</strong>. This ensures accurate parameter generation tailored for the <strong>AMBER</strong> software suite, based on the Hessian matrix produced by frequency calculation in <strong>Gaussian, Orca,</strong> or <strong>GAMESS</strong> software.
+easyPARM derives bond-stretching and bond-angle bending force field parameters for metal-containing molecular systems using the <strong>Seminario method</strong>. This ensures accurate parameter generation tailored for the <strong>AMBER</strong> software suite, based on the Hessian matrix produced by frequency calculation in <strong>Gaussian, Orca,</strong> or <strong>GAMESS</strong> <strong>PSI4</strong>software.
 </p>  
 
 ### **2. Force Field Parameterization for Metalloproteins**  
@@ -58,7 +58,7 @@ The <strong>easyPARM</strong> code was written by <strong>Abdelazim M. A. Abdelg
 </p>
 
 <p align="justify">
-This code (<strong>version 3.30</strong>) is <strong>free software</strong>: you can redistribute it and/or modify it under the <strong>GNU Lesser General Public License (LGPL) Version 2.1, February 1999</strong>.
+This code (<strong>version 4.10</strong>) is <strong>free software</strong>: you can redistribute it and/or modify it under the <strong>GNU Lesser General Public License (LGPL) Version 2.1, February 1999</strong>.
 </p>
 
 ---
