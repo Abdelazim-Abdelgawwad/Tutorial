@@ -114,6 +114,31 @@ After implementing the fix, the script should properly handle the case conversio
 Confirm the fix worked by ensuring that all subsequent functionalities, such as residue name changes and parameter file generation, complete without errors.
 </p>
 
+Here’s how you could write that in the same **troubleshooting style** as your earlier example:
+
+---
+
+## <strong>5. `sed -i` Command on macOS</strong>
+
+<p align="justify">  
+On macOS, the <code>sed</code> command always expects a backup suffix when using the <code>-i</code> option. If no suffix is provided, the command will fail. To resolve this, you must provide an empty string <code>''</code> after <code>-i</code>.  
+</p>  
+
+Incorrect usage:
+
+```bash
+sed -i "1s/.*/$first_line/" "$RUN_DIR/esp.in"
+```
+
+Correct usage (with empty string as suffix):
+
+```bash
+sed -i'' "1s/.*/$first_line/" "$RUN_DIR/esp.in"
+```
+
+<p align="justify"> ✅ This problem has been resolved in <strong>easyPARM v4.10</strong>, so there is no need to manually add the backup suffix in the latest version. </p>
+
+
 ``` 
 This version improves clarity, flow, and formatting while making the solution more actionable. Let me know if you need further refinements! 🚀
 
