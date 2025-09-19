@@ -117,12 +117,13 @@ NEWGTO  Pt "SDD" END
 NewECP Pt "SDD" end
 end
 %scf MaxIter 1000 end
-! CHELPG
+! CHELPG # You can use ! CHELPG or RESP if you have the newest version of ORCA
 %maxcore 5000
 * xyz charge multiplicity
 Coordinates
 *
 ````
+<p align="justify"> The release of <strong>ORCA 6.0</strong> introduces built-in support for RESP charge fitting via the <code>!RESP</code> keyword. Building on this, <strong>easyPARM v4.10</strong> now allows users to select charge fitting using either <strong>CHELPG</strong> or <strong>RESP</strong> directly through ORCA, or alternatively, to provide an electrostatic potential (<code>.vpot</code>) and calculate RESP charges with easyPARM. </p> <p align="justify"> It is important to note that charges obtained from ORCA and those computed via easyPARM may differ slightly, since the fitting procedures are not identical. </p>
 
 ## **3. GAMESS Input**
 
