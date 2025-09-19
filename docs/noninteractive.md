@@ -39,14 +39,19 @@ To use non-interactive mode, create an input configuration file with your system
 PARAMETERIZE = 1                 # Generate molecular parameters (1 = yes)
 AMBER_CONFIG = 1                 # AMBER configuration (1 = loaded AMBER, 2 = AMBER path)
 #AMBER_PATH = /path/to/AMBER     # For AMBER_CONFIG = 2 
-CHARGE = 0                       # Total charge of the molecule
+CHARGE = 1                       # Total charge of the molecule
 MULTIPLICITY = 1                 # Spin multiplicity of the molecule
 STRUCTURE_FILE = OPTIMIZED.xyz   # Optimized molecular structure file name
 
 # Charge Calculation Method
-# 1 = RESP (GAUSSIAN), 2 = CHELPG (ORCA), 3 = RESP (ORCA), 
-# 4 = RESP (GAMESS), 5 = GAMESS CHARGES
-CHARGE_METHOD = 1
+# 1 = RESP (GAUSSIAN), 2 = CHELPG/RESP (ORCA), 3 = RESP (ORCA), 
+# 4 = RESP (GAMESS), 5 = GAMESS CHARGES, 6= PSI4 (RESP)
+CHARGE_METHOD = 6
+
+# PSI4 controls whether to run a new calculation:
+#   ON  -> run calculation (not done yet)
+#   OFF -> skip calculation (already done)
+PSI4 = ON
 
 # Parameters for charge calculation
 # These parameters depend on your CHARGE_METHOD selection
@@ -56,13 +61,14 @@ INPUT_FORMAT = 1                 # 1 = .log file, 2 = .gesp file
 METHOD = 1                       # 1 = RESP, 2 = Mulliken, 3 = ESP, 4 = AM1-BCC
 
 # Required for all charge methods
-ATOM_TYPE = 2                    # 1 = AMBER, 2 = GAFF, 3 = GAFF2
-CHARGE_OUTPUT = CHARGES.log    # Charge output file (.log, .out, .vpot, or .dat)
+ATOM_TYPE = 3                    # 1 = AMBER, 2 = GAFF, 3 = GAFF2
+
+#CHARGE_OUTPUT = resp_charges.dat    # Charge output file (.log, .out, .vpot, or .dat)
 
 # Quantum Mechanics Output Format
 # 1 = Orca Output, 2 = Gaussian Output, 3 = Gaussian Checkpoint, 
-# 4 = Gaussian Formatted Checkpoint, 5 = Gamess Output
-QM_OUTPUT = 4
+# 4 = Gaussian Formatted Checkpoint, 5 = Gamess Output, 6= PSI4 Output
+QM_OUTPUT = 6
 
 # QM output files based on QM_OUTPUT selection
 # Uncomment the appropriate options for your QM_OUTPUT value
@@ -73,8 +79,13 @@ QM_OUTPUT = 4
 # CHK_FILE = output.chk          # For QM_OUTPUT = 3
 # GAUSSIAN_CONFIG = 1            # For QM_OUTPUT = 3 (1 = loaded gaussian, 2 = GAUSSIAN PATH)
 # GAUSSIAN_PATH = /path/to/g16   # For GAUSSIAN_CONFIG = 2
-FCHK_FILE = complex2.fchk        # For QM_OUTPUT = 4
+# FCHK_FILE = complex2.fchk      # For QM_OUTPUT = 4
 # GAMESS_OUTPUT = output.dat     # For QM_OUTPUT = 5
+# PSI4 SETTINGS For QM_OUTPUT = 6
+# CPU = 24                       # Number of CPU cores to use
+# MEMORY = 50GB                  # Amount of memory to use formats: 5GB, 500MB, 1000MB
+# METHOD = B3LYP                 # Functional defaults to B3LYP
+# BASIS_SET = 6-31G* ,DEF2-SVP   # Basis set specification (optional) defaults are: 6-31G* (non-metals), LANL2DZ (metals)
 
 # Metalloprotein Configuration
 METALLOPROTEIN = no              # Is this a metalloprotein? (yes/no)
