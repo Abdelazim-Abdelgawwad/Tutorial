@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "References"
-nav_order: 11
+nav_order: 12
 permalink: References
 ---
 
@@ -35,4 +35,5 @@ permalink: References
 
 9. Humphrey, W.; Dalke, A.; Schulten, K. *VMD - Visual Molecular Dynamics.* J. Mol. Graphics **1996**, *14* (1), 33–38.  
    [https://doi.org/10.1016/S0263-7855(96)00018-5](https://doi.org/10.1016/0263-7855(96)00018-5)
-  
+10. Alenaizan A, Burns LA, Sherrill CD. Python implementation of the restrained electrostatic potential charge model. Int J Quantum Chem. 2020; 120:e26035. https://doi.org/10.1002/qua.26035
+11. Neese, F. (2025), Software Update: The ORCA Program System—Version 6.0. WIREs Comput Mol Sci, 15: e70019. https://doi.org/10.1002/wcms.70019
