@@ -151,23 +151,23 @@ These files can be reused with `PSI4 = OFF` to avoid recalculating.
 
 If you are familiar with Psi4, you can modify calculation settings in **`PSI4.py`**:
 
+The following options provide a balanced approach between computational cost and accuracy.
 ```python
 # Psi4 calculation options
-psi4.set_options({
-    'reference': 'UHF' if multiplicity > 1 else 'RHF',
-    'scf_type': 'DF',
-    'maxiter': 300,
-    'e_convergence': 1e-7,
-    'd_convergence': 1e-6,
-    'g_convergence': 'GAU_LOOSE',
-    'geom_maxiter': 300,
-    'dft_nuclear_scheme': 'treutler'
-})
+    psi4.set_options({
+        'reference': 'UHF' if multiplicity > 1 else 'RHF',
+        'scf_type': 'DF',
+        'maxiter': 300,
+        'guess': 'SAD',
+        'e_convergence': 1e-8,
+        'd_convergence': 1e-7,
+        'g_convergence': 'GAU',
+        'geom_maxiter': 300,
+        'dft_nuclear_scheme': 'TREUTLER'
+    })
 ```
 
-Defaults use **DF method** and **loose convergence** for balance cost and efficiency.
-You may adjust these parameters depends on your needs.
-
+Defaults use **DF method** and **GAU convergence** for balance cost and efficiency. You may adjust these parameters depending on your needs. For example, you could modify the auxiliary basis or use **GAU_TIGHT** or increase the threshold for energy and density convergence.
 
 <p align="center">
   <strong>Please report any Psi4-related bugs — this is the first release with Psi4 support.</strong>
