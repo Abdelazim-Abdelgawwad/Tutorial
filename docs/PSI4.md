@@ -48,6 +48,9 @@ conda install conda-forge::ambertools
 # 7. Install RESP method (Alenaizan’s implementation)
 conda install resp -c psi4
 conda install pytest
+
+# 8. Install required packages
+conda install periodictable biopython 
 ````
 
 After installing all required packages, you are ready to run **easyPARM with Psi4 support**.
