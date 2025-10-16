@@ -16,18 +16,18 @@ permalink: Introduction
 
 ### **1. Force Field Parameter Derivation for Metal-Containing Systems**  
 <p align="justify">
-easyPARM derives bond-stretching and bond-angle bending force field parameters for metal-containing molecular systems using the <strong>Seminario method</strong>. This ensures accurate parameter generation tailored for the <strong>AMBER</strong> software suite, based on the Hessian matrix produced by frequency calculation in <strong>Gaussian, Orca,</strong> or <strong>GAMESS</strong> <strong>PSI4</strong>software.
+easyPARM derives bond-stretching and bond-angle bending force field parameters for metal-containing molecular systems using the <strong>Seminario method</strong>. This ensures accurate parameter generation tailored for the <strong>AMBER</strong> software suite, based on the Hessian matrix produced by frequency calculation in <strong>Gaussian, Orca,</strong> or <strong>GAMESS</strong> <strong>PSI4</strong> software.
 </p>  
 
 ### **2. Force Field Parameterization for Metalloproteins**  
 <p align="justify">
-The tool facilitates the derivation of bond-stretching and bond-angle bending force field parameters for <strong>metalloproteins</strong> using the <strong>Seminario method</strong>. This capability streamlines the integration of these parameters into <strong>protein force fields</strong>.
+The tool facilitates the derivation of bond-stretching and bond-angle bending force field parameters for <strong>metalloproteins</strong> using the <strong>Seminario method</strong>. This capability streamlines the integration of these parameters into <strong>ff19SB protein force fields</strong>. Therefore, it is recommended to use the ff19SB during the generation of the final topology to be consistent with the backbone charge preservation scheme done by easyPARM. 
 </p>  
 
 ### **3. Force Field Parameterization of Multi-Metal Metalloproteins**
 
 <p align="justify">
-Our tool enables precise derivation of bond-stretching and bond-angle bending force field parameters for <strong>multi-metal metalloproteins</strong> through the <strong>Seminario method</strong>. This advanced capability seamlessly integrates these parameters into standard <strong>protein force fields</strong>, streamlining the generation of comprehensive parameter libraries.
+Our tool enables precise derivation of bond-stretching and bond-angle bending force field parameters for <strong>multi-metal metalloproteins</strong> through the <strong>Seminario method</strong>. This advanced capability seamlessly integrates these parameters into <strong> ff19SB protein force fields</strong>, streamlining the generation of comprehensive parameter libraries with all the required parameters. It is recommended to use the ff19SB during the generation of the final topology to be consistent with the backbone charge preservation scheme done by easyPARM. 
 </p>
 
 ### **4. Generation of CHARMM Force Field Parameter Format**
