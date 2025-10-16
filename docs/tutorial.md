@@ -44,9 +44,6 @@ For detailed guidance, please navigate to the specific subsections:
   - 1SP2 system example
   - 1RWJ system example
 
-Here’s a polished and formatted version of your text suitable for a **GitHub page** (Markdown format), with clear language, consistent structure, and HTML-based text justification:
-
-<div align="justify">
 
 ### 🔹 Important Information for Metalloprotein Systems
 
@@ -110,8 +107,6 @@ If your metalloprotein contains **multiple metals forming a cluster** (e.g., met
 ### Final Note
 
 The purpose of this section is to emphasize the **importance of correctly adding hydrogens** to all **non-standard residues**, whether they directly contain a metal or are coordinated to one. Proper hydrogenation ensures accuracy in subsequent **QM calculations** and **parameter derivation**.
-
-</div>
 
 ### Support and Guidance
 
