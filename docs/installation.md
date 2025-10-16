@@ -38,12 +38,12 @@ To successfully install and run easyPARM, ensure that the following prerequisite
   - `biopython`: Provides tools for computational biology, which may be required for certain functionalities in easyPARM.
 
 ### **2.2 Granting Execution Permissions**
-If the installation files such as `.sh` scripts (e.g., `easyPARM.sh`, `01_easyPARM.sh`, `04_parmch2_frcmod.sh`, and `readit`) do not have executable permissions, update their permissions with:
+If the scripts files do not have executable permissions, update their permissions with:
 
 ```bash
-chmod +x file_name
+chmod +x ./scripts/*.py
+chmod +x ./scripts/*.sh
 ```
-Replace `file_name` with the actual script name.
 
 ## **3. Running easyPARM**
 Once the installation is complete, you can run easyPARM using one of the following methods:
