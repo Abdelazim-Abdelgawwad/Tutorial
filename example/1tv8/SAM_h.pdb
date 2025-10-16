@@ -1,0 +1,58 @@
+USER  MOD reduce.4.10.230211 H: found=0, std=0, add=22, rem=0, adj=2
+USER  MOD -----------------------------------------------------------------
+USER  MOD scores for adjustable sidechains, with "set" totals for H,N and Q
+USER  MOD "o" means original, "f" means flipped, "180deg" is methyl default
+USER  MOD "!" flags a clash with an overlap of 0.40A or greater
+USER  MOD flip categories: "K"=keep, "C"=clashes, "X"=uncertain, "F"=flip
+USER  MOD Single : A1501 SAM O2' :   rot   37:sc=   0.557
+USER  MOD Single : A1501 SAM O3' :   rot  180:sc=   0.754
+USER  MOD -----------------------------------------------------------------
+HETATM 5281  N   SAM A1501      16.345  71.752  10.748  1.00 54.09           N
+HETATM 5282  CA  SAM A1501      17.650  71.071  10.791  1.00 57.06           C
+HETATM 5283  C   SAM A1501      17.553  69.583  11.095  1.00 56.22           C
+HETATM 5284  O   SAM A1501      16.453  69.182  11.495  1.00 54.30           O
+HETATM 5285  OXT SAM A1501      18.596  68.906  10.913  1.00 54.86           O
+HETATM 5286  CB  SAM A1501      18.614  71.708  11.816  1.00 57.24           C
+HETATM 5287  CG  SAM A1501      17.949  72.246  13.069  1.00 62.39           C
+HETATM 5288  SD  SAM A1501      16.923  71.071  13.985  1.00 65.38           S
+HETATM 5289  CE  SAM A1501      16.364  72.162  15.323  1.00 69.87           C
+HETATM 5290  C5' SAM A1501      18.293  70.288  14.895  1.00 73.35           C
+HETATM 5291  C4' SAM A1501      18.043  68.932  15.558  1.00 74.36           C
+HETATM 5292  O4' SAM A1501      17.250  68.985  16.731  1.00 74.50           O
+HETATM 5293  C3' SAM A1501      17.390  67.882  14.659  1.00 75.89           C
+HETATM 5294  O3' SAM A1501      18.383  66.992  14.170  1.00 75.65           O
+HETATM 5295  C2' SAM A1501      16.392  67.190  15.594  1.00 75.23           C
+HETATM 5296  O2' SAM A1501      16.335  65.796  15.395  1.00 72.32           O
+HETATM 5297  C1' SAM A1501      16.911  67.615  16.982  1.00 74.67           C
+HETATM 5298  N9  SAM A1501      15.926  67.347  18.058  1.00 73.57           N
+HETATM 5299  C8  SAM A1501      14.797  68.082  18.307  1.00 74.84           C
+HETATM 5300  N7  SAM A1501      14.128  67.528  19.351  1.00 75.34           N
+HETATM 5301  C5  SAM A1501      14.810  66.435  19.788  1.00 74.90           C
+HETATM 5302  C6  SAM A1501      14.569  65.501  20.830  1.00 74.27           C
+HETATM 5303  N6  SAM A1501      13.499  65.618  21.617  1.00 70.71           N
+HETATM 5304  N1  SAM A1501      15.470  64.464  21.039  1.00 71.24           N
+HETATM 5305  C2  SAM A1501      16.583  64.361  20.231  1.00 70.85           C
+HETATM 5306  N3  SAM A1501      16.808  65.277  19.219  1.00 70.49           N
+HETATM 5307  C4  SAM A1501      15.948  66.308  18.981  1.00 73.24           C
+HETATM    0 HO3' SAM A1501      18.024  66.414  13.677  1.00 75.65           H   new
+HETATM    0 HO2' SAM A1501      17.104  65.506  15.219  1.00 72.32           H   new
+HETATM    0 HN62 SAM A1501      13.363  65.047  22.245  1.00 70.71           H   new
+HETATM    0 HN61 SAM A1501      12.945  66.265  21.496  1.00 70.71           H   new
+HETATM    0 H5'2 SAM A1501      19.035  70.184  14.280  1.00 73.35           H   new
+HETATM    0 H5'1 SAM A1501      18.581  70.906  15.585  1.00 73.35           H   new
+HETATM    0  HN2 SAM A1501      16.305  72.595  10.583  1.00 54.09           H   new
+HETATM    0  HN1 SAM A1501      15.623  71.307  10.888  1.00 54.09           H   new
+HETATM    0  HG2 SAM A1501      18.640  72.578  13.664  1.00 62.39           H   new
+HETATM    0  HG1 SAM A1501      17.398  73.005  12.822  1.00 62.39           H   new
+HETATM    0  HE3 SAM A1501      17.133  72.491  15.815  1.00 69.87           H   new
+HETATM    0  HE2 SAM A1501      15.876  72.911  14.947  1.00 69.87           H   new
+HETATM    0  HE1 SAM A1501      15.784  71.668  15.923  1.00 69.87           H   new
+HETATM    0  HB2 SAM A1501      19.274  71.046  12.075  1.00 57.24           H   new
+HETATM    0  HB1 SAM A1501      19.093  72.432  11.383  1.00 57.24           H   new
+HETATM    0  HA  SAM A1501      18.001  71.182   9.893  1.00 57.06           H   new
+HETATM    0  H8  SAM A1501      14.520  68.872  17.816  1.00 74.84           H   new
+HETATM    0  H4' SAM A1501      18.952  68.670  15.772  1.00 74.36           H   new
+HETATM    0  H3' SAM A1501      16.952  68.243  13.872  1.00 75.89           H   new
+HETATM    0  H2' SAM A1501      15.468  67.446  15.449  1.00 75.23           H   new
+HETATM    0  H2  SAM A1501      17.215  63.639  20.374  1.00 70.85           H   new
+HETATM    0  H1' SAM A1501      17.669  67.120  17.329  1.00 74.67           H   new

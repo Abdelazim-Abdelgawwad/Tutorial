@@ -1,0 +1,11 @@
+addAtomTypes {
+  { "S1" "S" "sp3" }
+  { "Sa" "S" "sp3" }
+  { "SA" "S" "sp3" }
+  { "no" "N" "sp3" }
+  { "oo" "O" "sp3" }
+  { "SB" "S" "sp3" }
+  { "S2" "S" "sp3" }
+  { "S3" "S" "sp3" }
+  { "S4" "S" "sp3" }
+}

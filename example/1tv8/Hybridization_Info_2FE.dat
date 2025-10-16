@@ -1,0 +1,10 @@
+addAtomTypes {
+  { "S5" "S" "sp3" }
+  { "Sb" "S" "sp3" }
+  { "SC" "S" "sp3" }
+  { "SD" "S" "sp3" }
+  { "S6" "S" "sp3" }
+  { "S7" "S" "sp3" }
+  { "S8" "S" "sp3" }
+  { "so" "S" "sp3" }
+}

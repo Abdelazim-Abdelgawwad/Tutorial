@@ -1,0 +1,28 @@
+USER  MOD reduce.4.10.230211 H: found=0, std=0, add=10, rem=0, adj=4
+USER  MOD -----------------------------------------------------------------
+USER  MOD scores for adjustable sidechains, with "set" totals for H,N and Q
+USER  MOD "o" means original, "f" means flipped, "180deg" is methyl default
+USER  MOD "!" flags a clash with an overlap of 0.40A or greater
+USER  MOD flip categories: "K"=keep, "C"=clashes, "X"=uncertain, "F"=flip
+USER  MOD Single : A1502 DTU O2  :   rot -146:sc=   0.577
+USER  MOD Single : A1502 DTU O3  :   rot    2:sc=   0.691
+USER  MOD Single : A1502 DTU S1  :   rot  180:sc=       0
+USER  MOD Single : A1502 DTU S4  :   rot  180:sc=   0.302
+USER  MOD -----------------------------------------------------------------
+HETATM 5324  S1  DTU A1502      21.748  65.945  19.957  1.00 95.31           S
+HETATM 5325  C1  DTU A1502      21.685  66.090  21.744  1.00 88.74           C
+HETATM 5326  C2  DTU A1502      22.952  66.566  22.459  1.00 87.01           C
+HETATM 5327  O2  DTU A1502      23.350  67.915  22.305  1.00 88.84           O
+HETATM 5328  C3  DTU A1502      22.466  66.398  23.876  1.00 83.90           C
+HETATM 5329  O3  DTU A1502      22.678  65.043  24.225  1.00 88.32           O
+HETATM 5330  C4  DTU A1502      23.113  67.347  24.844  1.00 79.87           C
+HETATM 5331  S4  DTU A1502      21.823  68.536  25.115  1.00 77.19           S
+HETATM    0 H4C2 DTU A1502      23.376  66.904  25.666  1.00 79.87           H   new
+HETATM    0 H4C1 DTU A1502      23.911  67.755  24.473  1.00 79.87           H   new
+HETATM    0 H1C2 DTU A1502      20.966  66.701  21.970  1.00 88.74           H   new
+HETATM    0 H1C1 DTU A1502      21.444  65.223  22.106  1.00 88.74           H   new
+HETATM    0  HB  DTU A1502      23.046  64.643  23.585  1.00 88.32           H   new
+HETATM    0  HA  DTU A1502      24.189  67.962  22.310  1.00 88.84           H   new
+HETATM    0  H3  DTU A1502      21.524  66.622  23.927  1.00 83.90           H   new
+HETATM    0  H2  DTU A1502      23.731  66.090  22.132  1.00 87.01           H   new
+HETATM    0  H1  DTU A1502      20.687  65.562  19.549  1.00 95.31           H   new
