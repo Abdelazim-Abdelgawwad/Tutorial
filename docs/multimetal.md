@@ -117,6 +117,8 @@ Since **protein1.pdb** and **protein2.pdb** produce identical XYZ structures, on
 ---
 
 ## 3. QM Calculation Outputs
+Refer to the [QM Input example](qm_inputs.md) for guidance on preparing your input files. These examples illustrate how to set up the required calculations for each structure extracted using easyPARM Option 2.
+
 ### 3.1 Protein 1 and Protein 2
 - Optimized structure: [**OPTIMIZED1_2.xyz**](/Tutorial/example/1RWJ/OPTIMIZED1.xyz)
 - Frequency calculation log: [**OPT_FREQ1_2.log**](/Tutorial/example/1RWJ/opt_freq_1.log)
