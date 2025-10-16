@@ -52,7 +52,7 @@ We will use the following tool:
   - **Deprotonated form**: [deprotonated.pdb](/Tutorial/example/1RWJ/deprotonated.pdb)
 
 ### 1.2 Manual Preparation
-Once you have the deprotonated PDB, extract the three heme groups (HEC) from [**1RWJ.pdb**](/Tutorial/example/1RWJ/1rwj.pdb), corresponding to residues **90, 91, and 92**:
+Once you have the deprotonated PDB, you only need to extract the non-standard residues to add the missing hydrogens. In this case, the non-standard residues correspond to the three heme groups (HEC) from [**1RWJ.pdb**](/Tutorial/example/1RWJ/1rwj.pdb), corresponding to residues **90, 91, and 92**. This procedure follows [case 3](#-case-3)
 
 1. [**ligand1.pdb**](/Tutorial/example/1RWJ/ligand1.pdb)
 2. [**ligand2.pdb**](/Tutorial/example/1RWJ/ligand2.pdb)
