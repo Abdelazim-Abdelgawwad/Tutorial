@@ -1,24 +1,14 @@
 source leaprc.gaff
 source leaprc.water.tip3p
 loadamberparams frcmod.ionsjc_tip3p
-# Define hybridization
-addAtomTypes {
-        { "Zn"  "Zn" "sp3" }
-        { "s1"  "S" "sp3" }
-        { "s2"  "S" "sp3" }
-        { "n3"  "N" "sp3" }
-        { "n4"  "N" "sp3" }
-}
+
 # Load force field for residues and metal
 loadamberparams COMPLEX.frcmod
 # Load protein force field
 source leaprc.protein.ff19SB
-# Load residues and metal
-CY1 = loadmol2 "CY1.mol2"
-CY2 = loadmol2 "CY2.mol2"
-HI1 = loadmol2 "HI1.mol2"
-HI2 = loadmol2 "HI2.mol2"
-mol = loadmol2 "METAL.mol2"
+# Load library for residues and metal
+loadoff COMPLEX.lib
+
 PRO1 = loadpdb "easyPARM_MetalloProtein.pdb"
 # Define bonds for the metal coordination
 bond PRO1.32.Zn1 PRO1.5.SG
