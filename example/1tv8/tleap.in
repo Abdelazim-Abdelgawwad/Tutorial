@@ -1,0 +1,41 @@
+source leaprc.gaff
+source leaprc.water.tip3p
+loadamberparams frcmod.ionsjc_tip3p
+
+loadamberparams COMPLEX_1FE.frcmod
+loadamberparams COMPLEX_2FE.frcmod
+
+source leaprc.protein.ff19SB
+
+loadoff COMPLEX.lib
+
+PRO = loadpdb "easyPARM_MetalloProtein_final.pdb"
+bond PRO.328.Fe1 PRO.22.SG
+bond PRO.328.Fe2 PRO.29.SG
+bond PRO.328.Fe3 PRO.26.SG
+bond PRO.22.C PRO.23.N
+bond PRO.21.C PRO.22.N
+bond PRO.26.C PRO.27.N
+bond PRO.25.C PRO.26.N
+bond PRO.28.C PRO.29.N
+bond PRO.29.C PRO.30.N
+bond PRO.329.Fe1 PRO.259.SG
+bond PRO.329.Fe2 PRO.276.SG
+bond PRO.329.Fe3 PRO.262.SG
+bond PRO.262.C PRO.263.N
+bond PRO.261.C PRO.262.N
+bond PRO.276.C PRO.277.N
+bond PRO.258.C PRO.259.N
+bond PRO.275.C PRO.276.N
+bond PRO.259.C PRO.260.N
+
+solvateoct  PRO TIP3PBOX 10.0
+
+addions PRO Cl- 0.
+addions PRO Na+ 0
+
+saveamberparm PRO mol3.prmtop mol3.inpcrd
+
+savepdb PRO mol2.pdb
+
+quit  
