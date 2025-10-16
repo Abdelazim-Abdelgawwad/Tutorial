@@ -75,6 +75,8 @@ This step prepares the **XYZ file** [initial_structure.xyz](/Tutorial/example/1S
 - Formatted checkpoint file: [COMPLEX.fchk](/Tutorial/example/1SP2/complex.fchk)
 
 ## 4. Generating Molecular Parameters with easyPARM
+You can run using the non-interactive mode using the template for the input in [non-interactive section](metalloprotein.md), or you can proceed with the interactive mode as described below. 
+
 Run **easyPARM** again and select **option 1**:
 
 ```shell
@@ -205,7 +207,20 @@ Would you like to restrain the charge on specific atoms? (Yes or No): N
 ```
 
 ## 7. Running tleap
-Once parameters are generated, you can proceed with **tleap** to prepare the final topology and coordinate files. Use the appropriate tleap input file:
+Once the parameters are generated, you can proceed with **tleap** to prepare the final topology and coordinate files. Use the appropriate tleap input file to ensure correct setup:
+
+### **Streamlined Metalloprotein Library Integration**
+Our latest implementation now supports the automatic generation of a **library file for metalloproteins**, eliminating the need for manual handling of multiple parameter files. The generated **COMPLEX.lib** file simplifies the tleap process by allowing direct loading with:
+```shell
+loadoff COMPLEX.lib
+```
+With this approach:
+- There is **no need** to use the `Hybridization_Info.dat` file.
+- You **do not** need to load each individual `.mol2` file manually.
+- The metalloprotein setup is now more **efficient** and **automated**.
+
+### **tleap Input File**
+Use the following tleap input file for reference:
 - **tleap input file**: [tleap.in](/Tutorial/example/1SP2/tleap.in)
 
 This completes the parameterization of the metalloprotein.
