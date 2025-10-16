@@ -50,11 +50,11 @@ For detailed guidance, please navigate to the specific subsections:
 After preparing your system following the steps described in each tutorial subsection, please review the following notes.
 If your system corresponds to a **metalloprotein**, you need to consider the specific cases described below.
 
-## Case 1
+## [Case 1](metalloprotein.md)
 
 If your metalloprotein contains a metal linked **only to standard residues** from the protein, use **Option 2** from the **easyPARM** menu.
-This will extract the metal center along with its coordinated residues.
-Next, proceed to the **QM Input** step to perform **optimization**, **frequency**, and **charge** calculations.
+This will extract the metal center along with its coordinated residues. 
+Next, proceed to the **QM Input** step to perform **optimization**, **frequency**, and **charge** calculations. 
 
 ---
 
@@ -70,7 +70,7 @@ If your metalloprotein contains a metal linked to both **standard and non-standa
 
 ---
 
-## Case 3
+## [Case 3](multimetal.md)
 
 If your metalloprotein contains a metal that is part of a **non-standard residue** and also linked to standard residues:
 
@@ -82,7 +82,7 @@ If your metalloprotein contains a metal that is part of a **non-standard residue
 
 ---
 
-## Case 4
+## [Case 4](multimetal.md)
 
 If your metalloprotein contains a metal that is part of a **non-standard residue** and is linked to both **standard and other non-standard residues**:
 
