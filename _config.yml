@@ -41,6 +41,7 @@ nav:
       - title: "Parameterization of Metal Complexes (AMBER Format)"
       - title: "Parameterization of Metalloproteins (AMBER Format)"
       - title: "Parameterization of Multi-Metal Metalloproteins (AMBER Format)"
+      - title: "Parameterizing a Complex Fe4S4 Cluster in Metalloproteins (AMBER Format)"
       - title: "Parameterization of Metal Complexes (CHARMM Format)"
 
 # Navigation sidebar
