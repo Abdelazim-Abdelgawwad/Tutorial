@@ -3,7 +3,7 @@ layout: default
 title: "Parameterizing a Complex Fe4S4 Cluster in Metalloproteins (AMBER Format)"
 parent: "Tutorial"
 nav_order: 4
-permalink: multimetal metalloprotein
+permalink:  /Tutorial/multicenter
 ---
 
 <!-- easyPARM Installation and Usage Guide -->
