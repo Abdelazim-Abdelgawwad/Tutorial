@@ -25,7 +25,7 @@ This tutorial provides a detailed, step-by-step guide for parameterizing a **mul
 This tutorial highlights the capabilities of **easyPARM** by demonstrating how to parameterize a complex metalloprotein structure. The main challenges include:
 
 1. **Multi-Metal System:** The protein contains two Fe4S4 cluster in one monomer linked to the protein through cysteine residues. 
-2. Non standard residues such as **S-adenosylmethionine** and **DTU** are coordinated to the metal.
+2. Non standard residues such as **S-adenosylmethionine** (**SAM**) and **Dithiothreitol** **(DTU)** are coordinated to the metal.
 
 This workflow ensures accurate force field parameters for multi-metal systems, making it easier to simulate metalloproteins with complex coordination environments.
 
