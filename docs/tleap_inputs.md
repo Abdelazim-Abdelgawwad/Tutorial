@@ -173,6 +173,5 @@ quit
 2. Load your metalloprotein frcmod file before loading the protein force field **ff19SB** to ensure tleap will use the standard force field parameters for standard amino acid residues. 
 3. Modify the hybridization section based on the **Hybridization_Info.dat** file, especially if using option 2 for metalloproteins.
 4. If using **COMPLEX.lib**, the *addAtomTypes* section is not needed.
-5. Adjust metal coordination bonds according to the **Bond_Info.dat** file.
+5. **Bond_Info.dat** file contains the metal-coordinated atoms (standard and non standard residues) to be included in the tleap for the metalloprotein system
 6. For solvated systems, modify the box dimensions and ion addition steps as needed.
-
