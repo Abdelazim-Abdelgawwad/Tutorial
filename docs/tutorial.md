@@ -93,7 +93,7 @@ If your metalloprotein contains a metal that is part of a **non-standard residue
 
 ---
 
-## Case 5
+## [Case 5](multicenter.md)
 
 If your metalloprotein contains **multiple metals forming a cluster** (e.g., metal-metal bonds) and these metals are linked to non-standard residues:
 
