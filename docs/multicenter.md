@@ -25,7 +25,7 @@ This tutorial provides a detailed, step-by-step guide for parameterizing a **mul
 This tutorial highlights the capabilities of **easyPARM** by demonstrating how to parameterize a complex metalloprotein structure. The main challenges include:
 
 1. **Multi-Metal System:** The protein contains two Fe4S4 cluster in one monomer linked to the protein through cysteine residues. 
-2. Non standard residues such as **S-adenosylmethionine** (**SAM**) and **Dithiothreitol** **(DTU)** are coordinated to the metal.
+2. Non standard residues such as **S-adenosylmethionine** (**SAM**) and **Dithiothreitol** **(DTT)** are coordinated to the metal.
 
 This workflow ensures accurate force field parameters for multi-metal systems, making it easier to simulate metalloproteins with complex coordination environments.
 
@@ -50,14 +50,14 @@ We will use the following tool:
 > **Warning:** This step is essential to simplify the parameterization process.
 
 #### Step 1. 
-Once you have the deprotonated PDB (and removed the second monomer, keeping only the first). check if your metal center has **non-standard residues** coordinated to it. If it does not, return to the standard *metalloprotein parameterization tutorial* [case 1](metalloprotein.md). In this example, the non-standard residues linked to the metals are **SAM** and **DTU**. Since they come from the crystal structure, their **hydrogens are missing**.  
+Once you have the deprotonated PDB (and removed the second monomer, keeping only the first). check if your metal center has **non-standard residues** coordinated to it. If it does not, return to the standard *metalloprotein parameterization tutorial* [case 1](metalloprotein.md). In this example, the non-standard residues linked to the metals are **SAM** and **DTT**. Since they come from the crystal structure, their **hydrogens are missing**.  
 
 1. [**SAM.pdb**](/Tutorial/example/1tv8/SAM.pdb)
-2. [**DTU.pdb**](/Tutorial/example/1tv8/DTU.pdb)
+2. [**DTT.pdb**](/Tutorial/example/1tv8/DTU.pdb)
 
 Then, use **reduce** from AmberTools to add the missing hydrogen:
 ```shell
-reduce -i DTU.pdb -o DTU_h.pdb
+reduce -i DTT.pdb -o DTT_h.pdb
 reduce -i SAM.pdb -o SAM_h.pdb
 ```
 
@@ -67,7 +67,7 @@ Once you finished this step. You can move to step 2.
 
 #### Step 2.
 
-Because we have two cluster of Fe4S4 (in case of having more, repeat the same procedure), You need to visualize the deprotonated PDB to determine which non-standard residue is linked to which Fe4S4 cluster (or you metal if you have another system). In our case after visualizing, SAM is linked to the first FE4S4 and DTU is linked to the second FE4S4 in the PDB. So now you can create two copies of the deprotonated PDB. 
+Because we have two cluster of Fe4S4 (in case of having more, repeat the same procedure), You need to visualize the deprotonated PDB to determine which non-standard residue is linked to which Fe4S4 cluster (or you metal if you have another system). In our case after visualizing, SAM is linked to the first FE4S4 and DTT is linked to the second FE4S4 in the PDB. So now you can create two copies of the deprotonated PDB. 
 
 For example [Model1](/Tutorial/example/1tv8/MODEL1.pdb) and [Model2](/Tutorial/example/1tv8/MODEL2.pdb). then you just need to keep only one cluster in each model. therefore, 
 
@@ -76,7 +76,7 @@ cp deprotonated.pdb Model1.pdb
 cp deprotonated.pdb Model2.pdb 
 ''
 
-Model 1 should contain the first Fe4S4 cluster along with SAM, and Model 2 should contain the second Fe4S4 cluster with DTU.
+Model 1 should contain the first Fe4S4 cluster along with SAM, and Model 2 should contain the second Fe4S4 cluster with DTT.
 If additional clusters or metals are present, generate separate models to ensure that each metal center is treated independently.
 
 > **Note:** Each file contains exactly protein structure with one FE4S4 cluster. Do not combine multiple cluster or independent metal into a single protein file.
@@ -109,7 +109,7 @@ Repeat this for **Model2.pdb** to obtain:
 After generating the initial structure file you will need to do for them **Optimization**, **Frequency calculations**, and **Charge calculations** using the desired QM software. 
 
 WARNING. Before running any calculation, always visualize the .xyz file to verify that the entire structure is correct.
-Ensure that all hydrogens are properly added, and confirm that no unwanted hydrogens remain on residues such as CYS, HID, or any other amino acids coordinated to the metal center. For example, after visualizing the .xyz file, we observed that one hydrogen attached to sulfur in DTU needed to be removed because this sulfur was coordinated to the metal.
+Ensure that all hydrogens are properly added, and confirm that no unwanted hydrogens remain on residues such as CYS, HID, or any other amino acids coordinated to the metal center. For example, after visualizing the .xyz file, we observed that one hydrogen attached to sulfur in DTT needed to be removed because this sulfur was coordinated to the metal.
 (This correction was applied in Model2.pdb.)
 
 Once you have confirmed that the structure is correct, proceed with QM calculation.
@@ -171,10 +171,10 @@ We first generate a copy of the PDB file created by easyPARM. Open [temp.pdb](/T
 
 We do not want to keep the previous metal in temp.pdb, because we will be adding the other Fe4S4 cluster to parametrize it as well.
 
-Next, open temp.pdb and Model2.pdb and copy Fe4S4 and DTU (In general you copy the metal and its linked non-standard residue).
+Next, open temp.pdb and Model2.pdb and copy Fe4S4 and DTT (In general you copy the metal and its linked non-standard residue).
 
 At this stage, we have:
-1. [**temp.pdb**](/Tutorial/example/1tv8/temp.pdb): Contains protein, and second cluster with DTU.
+1. [**temp.pdb**](/Tutorial/example/1tv8/temp.pdb): Contains protein, and second cluster with DTT.
 2. [**reference.pdb**](/Tutorial/example/1tv8/ref.pdb): Contains the metal atoms (Fe1, Fe2, Fe3 and Fe4) of the first cluster.
 
 > ⚠️ **Caution:**
