@@ -65,7 +65,7 @@ ATOM_TYPE = 3                    # 1 = AMBER, 2 = GAFF, 3 = GAFF2
 
 #CHARGE_OUTPUT = resp_charges.dat    # Charge output file (.log, .out, .vpot, or .dat)
 
-# Quantum Mechanics Output Format
+# Quantum Mechanics Frequencies Output Format
 # 1 = Orca Output, 2 = Gaussian Output, 3 = Gaussian Checkpoint, 
 # 4 = Gaussian Formatted Checkpoint, 5 = Gamess Output, 6= PSI4 Output
 QM_OUTPUT = 6
