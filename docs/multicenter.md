@@ -14,7 +14,7 @@ permalink:  /Tutorial/multicenter
 # Tutorial: Parameterization of Multi-metal Metalloproteins center.
 
 ## Overview
-This tutorial provides a detailed, step-by-step guide for parameterizing a **multi-metal metalloprotein** using **Gaussian** for QM calculations. The same workflow can also be applied to **ORCA** and **GAMESS**. As an example, we will use [**1TV8.pdb**](/Tutorial/example/1tv8/1tv8.pdb), a protein containing a **Fe4S4 cluster** in complex with **S-adenosylmethionine (SAM)**, as shown below. This protein consists of dimer, but in this tutorial, we will focus on one monomer since the procedure is identical for both. 
+This tutorial provides a detailed, step-by-step guide for parameterizing a **multi-metal metalloprotein** using **Gaussian** for QM calculations. The same workflow can also be applied to **ORCA** and **GAMESS**. As an example, we will use [**1TV8.pdb**](/Tutorial/example/1tv8/1tv8.pdb), a protein containing a **Fe4S4 cluster** in complex with **S-adenosylmethionine (SAM)**, as shown below. This protein consists of dimer, but in this tutorial, we will focus on one monomer since the procedure is identical for both. Note:- This tutorial can be applied to any other similar systems.
 
 <p align="center">
   <img src="/Tutorial/example/1tv8/1TV8.bmp" alt="1TV8 protein" width="350"/>
