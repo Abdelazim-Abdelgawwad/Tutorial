@@ -58,7 +58,7 @@ The <strong>easyPARM</strong> code was written by <strong>Abdelazim M. A. Abdelg
 </p>
 
 <p align="justify">
-This code (<strong>version 4.10</strong>) is <strong>free software</strong>: you can redistribute it and/or modify it under the <strong>GNU Lesser General Public License (LGPL) Version 2.1, February 1999</strong>.
+This code (<strong>version 4.15</strong>) is <strong>free software</strong>: you can redistribute it and/or modify it under the <strong>GNU Lesser General Public License (LGPL) Version 2.1, February 1999</strong>.
 </p>
 
 ---
