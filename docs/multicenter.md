@@ -118,13 +118,13 @@ Once you have confirmed that the structure is correct, proceed with QM calculati
 
 ## 3. QM Calculation Outputs
 ### 3.1 Model 1
-- Gaussian input: [**OPT_FREQ1.com**](/Tutorial/example/1tv8/opt_freq_1.com)
+- Gaussian input: [**OPT_FREQ1.com**](/Tutorial/example/1tv8/opt_complex1.com)
 - Optimized structure: [**OPTIMIZED1.xyz**](/Tutorial/example/1tv8/OPTIMIZED1.xyz)
 - Frequency calculation log: [**OPT_FREQ1.log**](/Tutorial/example/1tv8/opt_freq_1.log) (Not exist due to size limit)
 - Charge calculation log: [**CHARGES1.log**](/Tutorial/example/1tv8/charges_1.log)
 - Formatted checkpoint file: [**COMPLEX1.fchk**](/Tutorial/example/1tv8/COMPLEX1.zip) 
 ### 3.2 Model 2
-- Guassian input: [**OPT_FREQ2.com**](/Tutorial/example/1tv8/opt_freq_2.com)
+- Guassian input: [**OPT_FREQ2.com**](/Tutorial/example/1tv8/opt_complex2.com)
 - Optimized structure: [**OPTIMIZED2.xyz**](/Tutorial/example/1tv8/OPTIMIZED2.xyz)
 - Frequency calculation log: [**OPT_FREQ2.log**](/Tutorial/example/1tv8/opt_freq_3.log) (Not exist due to size limit)
 - Charge calculation log: [**CHARGES2.log**](/Tutorial/example/1tv8/charges_2.log)
