@@ -69,10 +69,10 @@ This step prepares the **XYZ file** [initial_structure.xyz](/Tutorial/example/1S
 - **Charge calculations**
 
 ## 3. QM calculation Outputs
-- Optimized structure: [OPTIMIZED.xyz](/Tutorial/example/1SP2/optimized_structure.xyz)
+- Optimized structure: [OPTIMIZED.xyz](/Tutorial/example/1SP2/OPTIMIZED.xyz)
 - Frequency calculation log: [OPT_FREQ.log](/Tutorial/example/1SP2/opt_freq.log)
 - Charge calculation log: [CHARGES.log](/Tutorial/example/1SP2/charges.log)
-- Formatted checkpoint file: [COMPLEX.fchk](/Tutorial/example/1SP2/complex.fchk)
+- Formatted checkpoint file: [COMPLEX.fchk](/Tutorial/example/1SP2/complex2.fchk)
 
 ## 4. Generating Molecular Parameters with easyPARM
 You can run using the non-interactive mode using the template for the input in [non-interactive section](metalloprotein.md), or you can proceed with the interactive mode as described below. 
@@ -190,7 +190,7 @@ Upon completion, easyPARM generates the following files:
   - [METAL.mol2](/Tutorial/example/1SP2/METAL.mol2)
 - **Force Field Parameters:** [COMPLEX.frcmod](/Tutorial/example/1SP2/COMPLEX.frcmod)
 - **Metalloprotein PDB:** [easyPARM_MetalloProtein.pdb](/Tutorial/example/1SP2/easyPARM_MetalloProtein.pdb)
-- **Bond Information:** [Bond_Info.dat](/Tutorial/example/1SP2/Bond_Info.dat)
+- **Bond Information:** [Bond_Info.dat](/Tutorial/example/1SP2/bond_info.dat)
 - **New Atom Type Definitions:** [Hybridization_Info.dat](/Tutorial/example/1SP2/Hybridization_Info.dat)
 
 ### 5.2 Explanation of Output Files
