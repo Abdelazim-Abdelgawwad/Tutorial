@@ -152,7 +152,7 @@ Upon completion, easyPARM generates the following files:
 - **Mol2 files** (Residues & Metal):
   - [CY1.mol2](/Tutorial/example/1tv8/CY1.mol2)
   - [CY2.mol2](/Tutorial/example/1tv8/CY2.mol2)
-  - [CY2.mol2](/Tutorial/example/1tv8/CY3.mol2)
+  - [CY3.mol2](/Tutorial/example/1tv8/CY3.mol2)
   - [1FE.mol2](/Tutorial/example/1tv8/1FE.mol2)
 - **Force Field Parameters:** [COMPLEX_1FE.frcmod](/Tutorial/example/1tv8/COMPLEX_1FE.frcmod)
 - **Library:** [COMPLEX.lib](/Tutorial/example/1tv8/COMPLEX.lib)
