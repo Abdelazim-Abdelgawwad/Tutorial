@@ -35,10 +35,10 @@ Before proceeding with production simulations, it is highly recommended to valid
 We have tested these parameters on two different systems, and they performed well. However, given that **the parameters have not undergone systematic validation against CGenFF benchmarks and each system is unique**, independent validation remains essential. We encourage feedback and contributions to enhance the accuracy of the tool.
 
 ## 1. QM calculation Outputs
-- Optimized structure: [OPTIMIZED.xyz](/Tutorial/example/Ru/optimized_structure.xyz)
+- Optimized structure: [OPTIMIZED.xyz](/Tutorial/example/Ru/OPTIMIZED.xyz)
 - Frequency calculation log: [OPT_FREQ.log](/Tutorial/example/Ru/opt_freq.log)
 - Charge calculation log: [CHARGES.log](/Tutorial/example/Ru/charges.log)
-- Formatted checkpoint file: [COMPLEX.fchk](/Tutorial/example/Ru/complex.fchk)
+- Formatted checkpoint file: [COMPLEX.fchk](/Tutorial/example/Ru/complex2.fchk)
 
 ## 2. Generating Molecular Parameters with easyPARM
 Run **easyPARM** and select **option 1**:
