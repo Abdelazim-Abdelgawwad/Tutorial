@@ -131,6 +131,7 @@ Refer to the [QM Input example](qm_inputs.md) for guidance on preparing your inp
 - Charge calculation log: [**CHARGES3.log**](/Tutorial/example/1RWJ/charges_3.log)
 - Formatted checkpoint file: [**COMPLEX3.fchk**](/Tutorial/example/1RWJ/complex3.fchk)
 
+Use this link to download [fchk files](https://mega.nz/folder/5JN2HD6Q#wsQ5cARiE_BSLWwbjyn6wg]
 ## 4. Generating Molecular Parameters with easyPARM
 
 **Important Notes:**
