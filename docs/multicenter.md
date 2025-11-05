@@ -154,11 +154,11 @@ Upon completion, easyPARM generates the following files:
   - [CY2.mol2](/Tutorial/example/1tv8/CY2.mol2)
   - [CY2.mol2](/Tutorial/example/1tv8/CY3.mol2)
   - [1FE.mol2](/Tutorial/example/1tv8/1FE.mol2)
-- **Force Field Parameters:** [COMPLEX_1FE.frcmod](/Tutorial/example/1RWJ/COMPLEX_1FE.frcmod)
-- **Library:** [COMPLEX.lib](/Tutorial/example/1RWJ/COMPLEX.lib)
-- **Metalloprotein PDB:** [easyPARM_MetalloProtein_1FE.pdb](/Tutorial/example/1RWJ/easyPARM_MetalloProtein_1FE.pdb)
-- **Bond Information:** [Bond_Info_1FE.dat](/Tutorial/example/1RWJ/Bond_Info_1FE.dat)
-- **New Atom Type Definitions:** [Hybridization_Info_1FE.dat](/Tutorial/example/1RWJ/Hybridization_Info_1FE.dat)
+- **Force Field Parameters:** [COMPLEX_1FE.frcmod](/Tutorial/example/1tv8/COMPLEX_1FE.frcmod)
+- **Library:** [COMPLEX.lib](/Tutorial/example/1tv8/COMPLEX.lib)
+- **Metalloprotein PDB:** [easyPARM_MetalloProtein_1FE.pdb](/Tutorial/example/1tv8/easyPARM_MetalloProtein_1FE.pdb)
+- **Bond Information:** [Bond_Info_1FE.dat](/Tutorial/example/1tv8/Bond_Info_1FE.dat)
+- **New Atom Type Definitions:** [Hybridization_Info_1FE.dat](/Tutorial/example/1tv8/Hybridization_Info_1FE.dat)
 
 ### 5.2 Modifications for the Next Step
 Copy the PDB output file:
