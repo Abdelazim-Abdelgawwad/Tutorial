@@ -21,10 +21,10 @@ This tutorial offers a step-by-step guide to parameterizing a metal complex usin
 </p>
 
 ## 1. QM calculation Outputs
-- Optimized structure: [OPTIMIZED.xyz](/Tutorial/example/Ru/optimized_structure.xyz)
+- Optimized structure: [OPTIMIZED.xyz](/Tutorial/example/Ru/OPTIMIZED.xyz)
 - Frequency calculation log: [OPT_FREQ.log](/Tutorial/example/Ru/opt_freq.log)
 - Charge calculation log: [CHARGES.log](/Tutorial/example/Ru/charges.log)
-- Formatted checkpoint file: [COMPLEX.fchk](/Tutorial/example/Ru/complex.fchk)
+- Formatted checkpoint file: [COMPLEX.fchk](/Tutorial/example/Ru/complex2.fchk)
 
 ## 2. Generating Molecular Parameters with easyPARM
 Run **easyPARM** and select **option 1**:
