@@ -52,7 +52,7 @@ We will use the following tool:
 > **Warning:** This step is essential to simplify the parameterization process.
 
 #### Step 1. 
-Once you have the deprotonated PDB (and removed the second monomer, keeping only the first one). Check if your metal center has **non-standard residues** coordinated to it. If it does not, return to the standard *metalloprotein parameterization tutorial* [case 1](metalloprotein.md). In this example, the non-standard residues linked to the metals are **SAM** and **DTT**. Since they come from the crystal structure, their **hydrogens are missing**.  
+Once you have the deprotonated PDB (and removed the second monomer, keeping only the first one). Check if your metal center is coordinated to **non-standard residues**. If it does not, return to the standard *metalloprotein parameterization tutorial* [case 1](metalloprotein.md). In this example, the non-standard residues linked to the metals are **SAM** and **DTT**. Since they come from the crystal structure, their **hydrogens are missing**.  
 
 1. [**SAM.pdb**](/Tutorial/example/1tv8/SAM.pdb)
 2. [**DTT.pdb**](/Tutorial/example/1tv8/DTU.pdb)
@@ -69,7 +69,7 @@ Once you finish this step. Move to step 2.
 
 #### Step 2.
 
-Because we have two clusters of Fe4S4 (in case of having more, repeat the same procedure), you need to visualize the deprotonated PDB to determine which non-standard residue is linked to which Fe4S4 cluster (or your metal if you have another system). In our case, after visualizing the system, it can be seen that SAM is linked to the first FE4S4 and DTT is linked to the second FE4S4 in the PDB. So now you can create two copies of the deprotonated PDB. 
+Because we have two clusters of Fe4S4 (in case of having more, repeat the same procedure), you need to visualize the deprotonated PDB to determine which non-standard residue is linked to which Fe4S4 cluster (or your metal if you have another system). In our case, after visualizing the system, it can be seen that SAM is linked to the first FE4S4, and DTT is linked to the second FE4S4 in the PDB. So now you can create two copies of the deprotonated PDB. 
 
 For example [Model1](/Tutorial/example/1tv8/MODEL1.pdb) and [Model2](/Tutorial/example/1tv8/MODEL2.pdb). Then you just need to keep only one cluster in each model. Therefore, 
 
@@ -110,8 +110,8 @@ Repeat this for **Model2.pdb** to obtain:
 
 After generating the initial structure file, the next steps are **Optimization**, **Frequency calculation**, and **Charge calculation**, using the desired QM software. 
 
-WARNING. Before running any calculation, always visualize the .xyz file to verify that the entire structure is correct.
-Ensure that all hydrogens are properly added, and confirm that no unwanted hydrogens remain on residues such as CYS, HID, or any other amino acids coordinated to the metal center. For example, after visualizing the .xyz file, we observed that one hydrogen attached to sulfur in DTT needed to be removed because this sulfur was coordinated to the metal.
+WARNING. Before running any calculation, always visualize the *.xyz* file to verify that the entire structure is correct.
+Ensure that all hydrogens are properly added, and confirm that no unwanted hydrogens remain on residues such as CYS, HID, or any other amino acids coordinated to the metal center. For example, after visualizing the *.xyz* file, we observed that one hydrogen attached to sulfur in DTT needed to be removed because this sulfur was coordinated to the metal.
 (This correction was applied in Model2.pdb.)
 
 Once you have confirmed that the structure is correct, proceed with the QM calculation.
@@ -122,20 +122,20 @@ Once you have confirmed that the structure is correct, proceed with the QM calcu
 ### 3.1 Model 1
 - Gaussian input: [**OPT_FREQ1.com**](/Tutorial/example/1tv8/opt_complex1.com)
 - Optimized structure: [**OPTIMIZED1.xyz**](/Tutorial/example/1tv8/OPTIMIZED1.xyz)
-- Frequency calculation log: [**OPT_FREQ1.log**](/Tutorial/example/1tv8/opt_freq_1.log) (Not exist due to size limit)
+- Frequency calculation log: [**OPT_FREQ1.log**](/Tutorial/example/1tv8/opt_freq_1.log) (This file cannot be uploaded due to its excessive size)
 - Charge calculation log: [**CHARGES1.log**](/Tutorial/example/1tv8/charges_1.log)
 - Formatted checkpoint file: [**COMPLEX1.fchk**](/Tutorial/example/1tv8/COMPLEX1.zip) 
 ### 3.2 Model 2
 - Gaussian input: [**OPT_FREQ2.com**](/Tutorial/example/1tv8/opt_complex2.com)
 - Optimized structure: [**OPTIMIZED2.xyz**](/Tutorial/example/1tv8/OPTIMIZED2.xyz)
-- Frequency calculation log: [**OPT_FREQ2.log**](/Tutorial/example/1tv8/opt_freq_3.log) (Not exist due to size limit)
+- Frequency calculation log: [**OPT_FREQ2.log**](/Tutorial/example/1tv8/opt_freq_3.log) (This file cannot be uploaded due to its excessive size)
 - Charge calculation log: [**CHARGES2.log**](/Tutorial/example/1tv8/charges_2.log)
 - Formatted checkpoint file: [**COMPLEX2.fchk**](/Tutorial/example/1tv8/COMPLEX2.zip) 
 
 ## 4. Generating Molecular Parameters with easyPARM
 
 **Important Notes:**
-1. We will parameterize each cluster one by one, starting with **Model 1** and finishing with **Model 2**.
+1. We will parameterize each cluster one by one, starting with **Model 1**, and finishing with **Model 2**.
 2. It is **highly recommended** to select the option **Change Residue ID** to assign a unique residue ID for each heme C.
 
 Both non-interactive and interactive modes can be used. In this tutorial, the first one is used. 
