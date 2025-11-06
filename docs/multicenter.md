@@ -172,7 +172,7 @@ cp easyPARM_MetalloProtein_1FE.pdb temp.pdb
 We first generate a copy of the PDB file created by easyPARM. Open [temp.pdb](/Tutorial/example/1tv8/temp.pdb), locate the Fe4S4 cluster corresponding to the selected residue ID (1FE), and move the metal atoms (Fe1, Fe2, Fe3 and Fe4) line to a new file:
 - [**reference.pdb**](/Tutorial/example/1tv8/ref.pdb)
 
-We do not want to keep the previous metal in temp.pdb, because we will be adding the other Fe4S4 cluster to parametrize it as well.
+We do not want to keep the previous metal in temp.pdb, because we will add the new Fe4S4 cluster to parametrize it as well.
 
 Next, open temp.pdb and Model2.pdb and copy Fe4S4 and DTT (in general, you copy the metal and its linked non-standard residue).
 
