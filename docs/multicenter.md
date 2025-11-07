@@ -73,11 +73,10 @@ Because we have two clusters of Fe4S4 (in case of having more, repeat the same p
 
 For example [Model1](/Tutorial/example/1tv8/MODEL1.pdb) and [Model2](/Tutorial/example/1tv8/MODEL2.pdb). Then you just need to keep only one cluster in each model. Therefore, 
 
-''
-shell
+```shell
 cp deprotonated.pdb Model1.pdb 
 cp deprotonated.pdb Model2.pdb 
-''
+```
 
 Model 1 should include the first Fe4S4 cluster together with SAM, while Model 2 should include the second Fe4S4 cluster with DTT. If there are additional clusters or metal centers, create separate models so that each metal center can be parameterized independently..
 
