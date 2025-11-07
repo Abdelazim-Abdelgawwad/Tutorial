@@ -69,11 +69,11 @@ Then, create three copies of **deprotonated.pdb** as:
 - **protein1.pdb**
 - **protein2.pdb**
 - **protein3.pdb**
-- 
+ 
 Each ligand must be added to its corresponding protein file individually. Follow these steps to create three separate protein-ligand complexes:
 
 Ensure you have the following files ready:
-- **ligand1_h.pdb**, **ligand2_h.pdb**, and **ligand3_h.pdb**
+**ligand1_h.pdb**, **ligand2_h.pdb**, and **ligand3_h.pdb**
 Add ligands to corresponding protein files
 ```
 ligand1_h.pdb → protein1.pdb
