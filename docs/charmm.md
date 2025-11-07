@@ -15,7 +15,7 @@ permalink: /Tutorial/charmm/
 
 ## Overview  
 
-This tutorial provides a step-by-step guide to parameterizing a metal complex and generating CHARMM-format parameters using **Gaussian** for quantum mechanical (QM) calculations. The same approach can also be applied to **ORCA** and **GAMESS**.  
+This tutorial provides a step-by-step guide to parameterizing a metal complex and generating CHARMM-format parameters using **Gaussian** for quantum mechanical (QM) calculations. The same workflow can be applied when using **ORCA** and **GAMESS** as quantum-chemistry software  
 
 As an example, this tutorial uses a [**ruthenium complex**](/Tutorial/example/Ru/COMPLEX.pdb), where a ruthenium atom is coordinated by six nitrogen atoms, as illustrated in the figure below.  
 <p align="center">
