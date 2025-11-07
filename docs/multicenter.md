@@ -249,6 +249,11 @@ Use the following tleap input file as a reference for building your system:
 
 * **tleap input file:** [tleap.in](/Tutorial/example/1tv8/tleap.in)
 
----
+## 7. Molecular Dynamics Simulation
 
+<p align="center">
+  <img src="/Tutorial/example/1tv8/simulation.gif" alt="simulation protein" width="400"/>
+</p>
+
+---
 This completes the **metalloprotein parameterization process**, ensuring that your system is correctly defined and ready for further preparation and molecular dynamics simulations.
