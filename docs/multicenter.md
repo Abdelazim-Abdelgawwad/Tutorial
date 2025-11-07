@@ -52,7 +52,7 @@ We will use the following tool:
 > **Warning:** This step is essential to simplify the parameterization process.
 
 #### Step 1. 
-Once you have the deprotonated PDB (and removed the second monomer, keeping only the first one). Check if your metal center is coordinated to **non-standard residues**. If it does not, return to the standard *metalloprotein parameterization tutorial* [case 1](metalloprotein.md). In this example, the non-standard residues linked to the metals are **SAM** and **DTT**. Since they come from the crystal structure, their **hydrogens are missing**.  
+Once you have the deprotonated PDB (and removed the second monomer, keeping only the first one), check if your metal center is coordinated to **non-standard residues**. If it does not, return to the standard *metalloprotein parameterization tutorial* [case 1](metalloprotein.md). In this example, the non-standard residues linked to the metals are **SAM** and **DTT**. Since they come from the crystal structure, their **hydrogens are missing**.  
 
 1. [**SAM.pdb**](/Tutorial/example/1tv8/SAM.pdb)
 2. [**DTT.pdb**](/Tutorial/example/1tv8/DTU.pdb)
@@ -65,13 +65,13 @@ reduce -i SAM.pdb -o SAM_h.pdb
 
 then add the new non-standard residues to the deprotonated PDB. 
 
-Once you finish this step. Move to step 2.
+Once you finish this step, move to step 2.
 
 #### Step 2.
 
 Because we have two clusters of Fe4S4 (in case of having more, repeat the same procedure), you need to visualize the deprotonated PDB to determine which non-standard residue is linked to which Fe4S4 cluster (or your metal if you have another system). In our case, after visualizing the system, it can be seen that SAM is linked to the first FE4S4, and DTT is linked to the second FE4S4 in the PDB. So now you can create two copies of the deprotonated PDB. 
 
-For example [Model1](/Tutorial/example/1tv8/MODEL1.pdb) and [Model2](/Tutorial/example/1tv8/MODEL2.pdb). Then you just need to keep only one cluster in each model. Therefore, 
+For example, [Model1](/Tutorial/example/1tv8/MODEL1.pdb) and [Model2](/Tutorial/example/1tv8/MODEL2.pdb). Then you just need to keep only one cluster in each model. Therefore, 
 
 ```shell
 cp deprotonated.pdb Model1.pdb 
