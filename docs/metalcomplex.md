@@ -15,7 +15,7 @@ permalink: /Tutorial/metal-complexes/
 
 ## Overview
 
-This tutorial offers a step-by-step guide to parameterizing a metal complex using **Gaussian** for QM calculations. The same approach can also be applied to **ORCA** and **GAMESS**. The example used throughout the tutorial is a [**ruthenium complex**](/Tutorial/example/Ru/COMPLEX.pdb), which features a ruthenium atom bonded to six nitrogen atoms, as illustrated in the figure below.
+This tutorial offers a step-by-step guide to parameterizing a metal complex using **Gaussian** for QM calculations. The same workflow can be applied when using **ORCA** and **GAMESS** as quantum-chemistry software. The example used throughout the tutorial is a [**ruthenium complex**](/Tutorial/example/Ru/COMPLEX.pdb), which features a ruthenium atom bonded to six nitrogen atoms, as illustrated in the figure below.
 <p align="center">
   <img src="/Tutorial/example/Ru/RU2.bmp" alt="Ru complex" width="200"/>
 </p>
