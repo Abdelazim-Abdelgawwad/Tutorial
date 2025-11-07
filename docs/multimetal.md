@@ -14,7 +14,7 @@ permalink: multimetal metalloprotein
 # Tutorial: Parameterization of Multi-metal Metalloproteins
 
 ## Overview
-This tutorial provides a step-by-step guide for parameterizing a multi-metal metalloprotein using **Gaussian** for QM calculations. The same workflow can be applied to **ORCA** and **GAMESS** as well. The example used throughout the tutorial is [**1RWJ.pdb**](/Tutorial/example/1RWJ/1rwj.pdb), a protein containing a three-heme c structure, each containing an iron (Fe) atom, as shown in the figure below.
+This tutorial provides a step-by-step guide for parameterizing a multi-metal metalloprotein using **Gaussian** for QM calculations. The same workflow can be applied when using **ORCA** and **GAMESS** as quantum-chemistry software. The example used throughout the tutorial is [**1RWJ.pdb**](/Tutorial/example/1RWJ/1rwj.pdb), a protein containing a three-heme c structure, each containing an iron (Fe) atom, as shown in the figure below.
 
 <p align="center">
   <img src="/Tutorial/example/1RWJ/1RWJ.bmp" alt="1RWJ protein" width="450"/>
@@ -374,7 +374,7 @@ Use the following tleap input file for reference:
 
 This marks the **completion of the metalloprotein parameterization**, ensuring a seamless transition to system preparation and simulation.
 
-## 7. Molecular Dynamic Simulation
+## 7. Molecular Dynamics Simulation
 
 <p align="center">
   <img src="/Tutorial/example/1RWJ/simulation.gif" alt="simulation protein" width="400"/>
