@@ -132,7 +132,7 @@ end
 Coordinates
 *
 ````
-<p align="justify"> The release of <strong>ORCA 6.0</strong> introduces built-in support for RESP charge fitting via the <code>!RESP</code> keyword. Building on this, <strong>easyPARM v4.10</strong> now allows users to select charge fitting using either <strong>CHELPG</strong> or <strong>RESP</strong> directly through ORCA, or alternatively, to provide an electrostatic potential (<code>.vpot</code>) and calculate RESP charges with easyPARM. </p> <p align="justify"> It is important to note that charges obtained from ORCA and those computed via easyPARM may differ slightly, since the fitting procedures are not identical. </p>
+<p align="justify"> The release of <strong>ORCA 6.0</strong> introduces built-in support for RESP charge fitting via the <code>!RESP</code> keyword. Building on this, <strong>easyPARM v4.15</strong> now allows users to select charge fitting using either <strong>CHELPG</strong> or <strong>RESP</strong> directly through ORCA, or alternatively, to provide an electrostatic potential (<code>.vpot</code>) and calculate RESP charges with easyPARM. </p> <p align="justify"> It is important to note that charges obtained from ORCA and those computed via easyPARM may differ slightly, since the fitting procedures are not identical. </p>
 
 ## **3. GAMESS Input**
 
