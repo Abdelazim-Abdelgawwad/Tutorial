@@ -51,8 +51,6 @@ To resolve this issue, increase the maximum bond limit in the AmberTools source 
 3. Change <code>8</code> to the desired number of bonds.
 4. Recompile Amber to apply the changes, allowing Tleap to recognize the new <code>MAXBONDS</code> limit.
 
-Here’s a polished version with a clear and concise title:  
-
 ## <strong>3. Resolving Atom Mismatch Errors in Metalloprotein Parameterization</strong> 
 
 If you encounter the following error while generating parameters for a metalloprotein system:  
