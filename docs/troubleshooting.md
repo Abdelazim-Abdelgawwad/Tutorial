@@ -132,9 +132,6 @@ Correct usage (with empty string as suffix):
 sed -i'' "1s/.*/$first_line/" "$RUN_DIR/esp.in"
 ```
 
-<p align="justify"> ✅ This problem has been resolved in <strong>easyPARM v4.10</strong>, so there is no need to manually add the backup suffix in the latest version. </p>
+<p align="justify"> ✅ This problem has been resolved in <strong>easyPARM v4.15</strong>, so there is no need to manually add the backup suffix in the latest version. </p>
 
 
-``` 
-This version improves clarity, flow, and formatting while making the solution more actionable. Let me know if you need further refinements! 🚀
-```
