@@ -63,7 +63,7 @@ METHOD = 1                       # 1 = RESP, 2 = Mulliken, 3 = ESP, 4 = AM1-BCC
 # Required for all charge methods
 ATOM_TYPE = 3                    # 1 = AMBER, 2 = GAFF, 3 = GAFF2
 
-#CHARGE_OUTPUT = resp_charges.dat    # Charge output file (.log, .out, .vpot, or .dat)
+# CHARGE_OUTPUT = resp_charges.dat    # Charge output file (.log, .out, .vpot, or .dat)
 
 # Quantum Mechanics Frequencies Output Format
 # 1 = Orca Output, 2 = Gaussian Output, 3 = Gaussian Checkpoint, 
@@ -73,9 +73,9 @@ QM_OUTPUT = 6
 # QM output files based on QM_OUTPUT selection
 # Uncomment the appropriate options for your QM_OUTPUT value
 
-# GAUSSIAN_OUTPUT = output.log   # For QM_OUTPUT = 2
 # ORCA_OUTPUT = output.out       # For QM_OUTPUT = 1
 # ORCA_HESS = output.hess        # For QM_OUTPUT = 1
+# GAUSSIAN_OUTPUT = output.log   # For QM_OUTPUT = 2
 # CHK_FILE = output.chk          # For QM_OUTPUT = 3
 # GAUSSIAN_CONFIG = 1            # For QM_OUTPUT = 3 (1 = loaded gaussian, 2 = GAUSSIAN PATH)
 # GAUSSIAN_PATH = /path/to/g16   # For GAUSSIAN_CONFIG = 2
@@ -105,7 +105,7 @@ CHARGE_RESTRAIN = no             # Apply charge restraints? (yes/no)
 # CHARGE_FILE = output.vpot      # Charge file (.vpot, .log, .out, .dat)
 ```
 
-Uncomment and modify the appropriate lines according to your system requirements. Once you have prepared your input file, you can run the code using one of the methods described below.
+Uncomment and adjust the relevant lines according to your system requirements. After preparing your input file, you can run the code using one of the methods described below.
 
 ### Running the Script
 
@@ -120,7 +120,7 @@ To run `easyPARM.sh` directly:
 ../easyPARM.sh INPUT_NAME
 ```
 
-> **⚠️ Important:** If any variable is missing in your input file, check the message that appears at the beginning of the execution.
+> **⚠️ Important:** If your input file lacks any required variable, review the message printed at the beginning of the execution.
 
 #### Method 2: Using an Alias (Recommended)
 
@@ -146,8 +146,8 @@ easyPARM INPUT_NAME
 
 ## Important Notes
 
-- If there is a problem with your input configuration, the code will automatically enter interactive mode
-- If you don't provide an input file, the code will default to interactive mode
-- Make sure to uncomment only the parameters relevant to your chosen configuration
+* If your input configuration contains an error, the code will automatically switch to interactive mode.
+* If no input file is provided, the code will also default to interactive mode.
+* Make sure to uncomment only the parameters relevant to your selected configuration.
 
 For additional support, please consult the [GitHub Issues Page](https://github.com/Abdelazim-Abdelgawwad/easyPARM/issues) or contact the development team.
