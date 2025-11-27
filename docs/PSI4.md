@@ -59,7 +59,7 @@ After installing all required packages, you are ready to run **easyPARM with Psi
 
 It is recommended to run easyPARM in **non-interactive mode** to fully use Psi4 features.
 
-In order to use the non-[interactive mode](noninteractive.md), check the dedicated section and prepare an input file for easyPARM.
+In order to use the [non-interactive mode](noninteractive.md), check the dedicated section and prepare an input file for easyPARM.
 This input must include variables related to Psi4, such as:
 
 1. <strong>CHARGE\_METHOD</strong> and <strong>QM\_OUTPUT</strong> → set `= 6` for Psi4.
