@@ -112,8 +112,6 @@ After implementing the fix, the script should properly handle the case conversio
 Confirm the fix worked by ensuring that all subsequent functionalities, such as residue name changes and parameter file generation, complete without errors.
 </p>
 
-Here’s how you could write that in the same **troubleshooting style** as your earlier example:
-
 ---
 
 ## <strong>5. `sed -i` Command on macOS</strong>
