@@ -12,13 +12,14 @@ permalink: QM Inputs
 
 # **QM inputs**
 
-## Note 
+## Note
+<p align="justify">
 For metalloprotein systems, users should select Option 2 in the easyPARM menu and provide the prepared metalloprotein PDB file.
 This option automatically extracts the correct initial structure, which can then be used in the desired QM software for optimization, frequency, and charge calculations.
-
+</p>  
 Please refer to the tutorial section for specific instructions corresponding to your [metalloprotein case](tutorial.md).
 
-For metal complexes, users can proceed directly with the optimization, frequency, and charge calculations on the full structure.
+<p align="justify"> For metal complexes, users can proceed directly with the optimization, frequency, and charge calculations on the full structure. </p>  
 
 ## **Example for Generating the Required Files**
 
