@@ -32,7 +32,7 @@ Our tool enables precise derivation of bond-stretching and bond-angle bending fo
 
 ### **3. Force Field Parameterization of Metal–Nucleic Acid systems**
 <p align="justify">
-Our tool enables the accurate derivation of bond-stretching and bond-angle bending force field parameters for **metal–nucleic acid systems** using the **Seminario method**. These parameters are seamlessly integrated into the <strong>selected nucleic acid force field</strong>, such as <strong>OL21, OL24, BSC1</strong>, or related variants, thereby streamlining the construction of complete and self-consistent parameter libraries containing all required terms.
+Our tool enables the accurate derivation of bond-stretching and bond-angle bending force field parameters for <strong>metal–nucleic acid systems</strong> using the Seminario method. These parameters are seamlessly integrated into the <strong>selected nucleic acid force field</strong>, such as <strong>OL21, OL24, BSC1</strong>, or related variants, thereby streamlining the construction of complete and self-consistent parameter libraries containing all required terms.
 </p>
 
 ### **4. Generation of CHARMM Force Field Parameter Format**
