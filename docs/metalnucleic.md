@@ -36,7 +36,7 @@ The overall workflow closely follows the metalloprotein parameterization strateg
    easyPARM fixes the charges of the DNA or RNA backbone to the standard values defined in AMBER nucleic acid force fields, such as **OL21**, **OL24**, and related variants. The backbone treated in this step includes the **sugar moiety** and the **complete phosphate terminus**, ensuring full consistency with the selected AMBER force field.
 
 <p align="center">
-  <img src="/Tutorial/example/5bnA/Capping.png" alt="Capping" width="350"/>
+  <img src="/Tutorial/example/5bnA/Capping.png" alt="Capping" width="500"/>
 </p>
 
 The following sections provide a detailed, step-by-step tutorial illustrating this workflow.
