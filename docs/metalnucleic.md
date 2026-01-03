@@ -197,7 +197,7 @@ Upon successful completion, **easyPARM** generates the following outputs.
 
 * **Metallo–nucleic acid PDB:**
 
-  * [easyPARM_MetalloNucleic_LIG.pdb](/Tutorial/example/5bnA/easyPARM_MetalloProtein_LIG.pdb)
+  * [easyPARM_MetalloNucleic_LIG.pdb](/Tutorial/example/5bnA/asyPARM_MetalloNucleic_LIG.pdb)
 
 * **Bond information:**
 
@@ -231,7 +231,7 @@ With this approach:
 
 ### Reference Input
 
-* Example tleap input file: [**tleap.in**](/Tutorial/example/1tv8/tleap.in)
+* Example tleap input file: [**tleap.in**](/Tutorial/example/5bnA/tleap.in)
 
 ---
 
@@ -240,7 +240,7 @@ With this approach:
 Once the topology and coordinates are generated, the system is fully prepared for molecular dynamics simulations.
 
 <p align="center">
-  <img src="/Tutorial/example/1tv8/simulation.gif" alt="Metal–nucleic acid simulation" width="400"/>
+  <img src="/Tutorial/example/5bnA/simulation.gif" alt="Metal–nucleic acid simulation" width="400"/>
 </p>
 
 
