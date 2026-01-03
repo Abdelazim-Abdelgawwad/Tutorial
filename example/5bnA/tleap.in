@@ -1,0 +1,31 @@
+source leaprc.gaff
+source leaprc.water.tip3p
+
+loadamberparams frcmod.ionsjc_tip3p
+
+loadamberparams COMPLEX.frcmod
+
+source leaprc.DNA.bsc1
+
+loadoff COMPLEX.lib
+
+PRO = loadpdb "easyPARM_MetalloNucleic.pdb"
+
+# All bond information for tLeap input file
+# Metal-nucleotide coordination bonds:
+bond PRO.25.Pt1 PRO.16.N7
+
+# Phosphodiester backbone bonds:
+bond PRO.15.O3' PRO.16.P
+bond PRO.16.O3' PRO.17.P
+
+solvateoct  PRO TIP3PBOX 10.0
+
+addions PRO Cl- 0.
+addions PRO Na+ 0
+
+saveamberparm PRO 5BNA_Solvated.prmtop 5BNA_Solvated.inpcrd
+
+savepdb PRO 5BNA_Solvated.pdb
+
+quit  
