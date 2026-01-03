@@ -30,6 +30,11 @@ The tool facilitates the derivation of bond-stretching and bond-angle bending fo
 Our tool enables precise derivation of bond-stretching and bond-angle bending force field parameters for <strong>multi-metal metalloproteins</strong> through the <strong>Seminario method</strong>. This advanced capability seamlessly integrates these parameters into <strong> ff19SB protein force fields</strong>, streamlining the generation of comprehensive parameter libraries with all the required parameters. It is recommended to use the ff19SB during the generation of the final topology to be consistent with the backbone charge preservation scheme done by easyPARM. 
 </p>
 
+### **3. Force Field Parameterization of Metal–Nucleic Acid systems**
+<p align="justify">
+Our tool enables the accurate derivation of bond-stretching and bond-angle bending force field parameters for **metal–nucleic acid systems** using the **Seminario method**. These parameters are seamlessly integrated into the <strong>selected nucleic acid force field</strong>, such as <strong>OL21, OL24, BSC1</strong>, or related variants, thereby streamlining the construction of complete and self-consistent parameter libraries containing all required terms.
+</p>
+
 ### **4. Generation of CHARMM Force Field Parameter Format**
 <p align="justify">
 easyPARM extends its capabilities to the <strong>CHARMM</strong> ecosystem by implementing the <strong>Seminario method</strong> for metal-containing systems. The tool processes Hessian matrices from <strong>Gaussian</strong>, <strong>Orca</strong>, or <strong>GAMESS</strong> quantum chemistry calculations to generate bond and angle parameters in native <strong>CHARMM</strong> format. For organic components, easyPARM seamlessly integrates parameters from the CGenFF force field, creating a complete parameter set for mixed metal-organic systems.
@@ -58,7 +63,7 @@ The <strong>easyPARM</strong> code was written by <strong>Abdelazim M. A. Abdelg
 </p>
 
 <p align="justify">
-This code (<strong>version 4.15</strong>) is <strong>free software</strong>: you can redistribute it and/or modify it under the <strong>GNU Lesser General Public License (LGPL) Version 2.1, February 1999</strong>.
+This code (<strong>version 4.20</strong>) is <strong>free software</strong>: you can redistribute it and/or modify it under the <strong>GNU Lesser General Public License (LGPL) Version 2.1, February 1999</strong>.
 </p>
 
 ---
