@@ -149,11 +149,11 @@ Perform **geometry optimization**, **frequency analysis**, and **charge calculat
 
 ### 3.1 Example QM Outputs (Model 1)
 
-* Gaussian input: [**OPT_FREQ.com**](/Tutorial/example/5bnA/opt_complex1.com)
-* Optimized structure: [**OPTIMIZED.xyz**](/Tutorial/example/5bnA/OPTIMIZED1.xyz)
-* Frequency calculation log: [**OPT_FREQ.log**](/Tutorial/example/5bnA/opt_complex1.log)
-* Charge calculation log: [**CHARGES.log**](/Tutorial/example/5bnA/charges_1.log)
-* Formatted checkpoint file: [**COMPLEX.fchk**](/Tutorial/example/5bnA/COMPLEX1.zip)
+* Gaussian input: [**OPT_FREQ.com**](/Tutorial/example/5bnA/opt_complex.com)
+* Optimized structure: [**OPTIMIZED.xyz**](/Tutorial/example/5bnA/OPTIMIZED.xyz)
+* Frequency calculation log: [**OPT_FREQ.log**](/Tutorial/example/5bnA/opt_complex.log)
+* Charge calculation log: [**CHARGES.log**](/Tutorial/example/5bnA/charges.log)
+* Formatted checkpoint file: [**COMPLEX.fchk**](/Tutorial/example/5bnA/complex1.fchk)
 
 ---
 
