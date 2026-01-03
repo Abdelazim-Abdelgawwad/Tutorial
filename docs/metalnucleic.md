@@ -2,7 +2,7 @@
 layout: default
 title: "Parameterization of Metal–Nucleic Acid Systems (AMBER Format)"
 parent: "Tutorial"
-nav_order: 4
+nav_order: 6
 permalink: /Tutorial/metallonucleicacid
 ---
 
