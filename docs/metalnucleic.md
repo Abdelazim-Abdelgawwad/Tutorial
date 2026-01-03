@@ -103,7 +103,7 @@ In the present example, platinum is coordinated to three nitrogen atoms without 
 
 Use **reduce** from AmberTools:
 
-```bash
+```shell
 reduce -i ligand.pdb -o ligand_H.pdb
 ```
 
@@ -120,7 +120,7 @@ Once this is complete, proceed to the next stage.
 
 Run **easyPARM** and select **Option 3**:
 
-```text
+```shell
 Select your option:
 1- Generate molecular complex parameters
 2- Generate metalloprotein .xyz structure
@@ -131,7 +131,7 @@ Enter your choice: 3
 
 Then provide the prepared PDB file:
 
-```text
+```shell
 Please provide the metal–nucleic acid system pdb file: amber.pdb
 XYZ Output: initial_structure.xyz
 ```
@@ -219,7 +219,7 @@ The latest version of **easyPARM** automatically generates a unified **library f
 
 Load it directly in `tleap`:
 
-```bash
+```shell
 loadoff COMPLEX.lib
 ```
 
