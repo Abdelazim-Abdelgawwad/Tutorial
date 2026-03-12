@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="120" viewBox="0 0 460 120">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e293b"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6"/>
+      <stop offset="100%" style="stop-color:#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#10b981"/>
+      <stop offset="100%" style="stop-color:#34d399"/>
+    </linearGradient>
+    <filter id="glow-blue">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow-green">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background card -->
+  <rect width="460" height="120" rx="14" fill="url(#bg)"/>
+
+  <!-- Border -->
+  <rect width="460" height="120" rx="14" fill="none" stroke="#1e3a5f" stroke-width="1" opacity="0.8"/>
+
+  <!-- Top gradient bar -->
+  <rect width="460" height="3" rx="2" fill="url(#blue)"/>
+
+  <!-- Divider -->
+  <line x1="230" y1="20" x2="230" y2="100" stroke="#1e3a5f" stroke-width="1.5"/>
+
+  <!-- ===== LEFT: Page Views ===== -->
+
+  <!-- Glow dot -->
+  <circle cx="44" cy="58" r="16" fill="#1e3a5f" opacity="0.6"/>
+  <circle cx="44" cy="58" r="8" fill="none" stroke="url(#blue)" stroke-width="2" filter="url(#glow-blue)"/>
+  <circle cx="44" cy="58" r="3" fill="#3b82f6" filter="url(#glow-blue)"/>
+  <!-- Eye lines -->
+  <path d="M36 58 Q44 50 52 58 Q44 66 36 58Z" fill="none" stroke="#3b82f6" stroke-width="1.2" opacity="0.5"/>
+
+  <!-- Label -->
+  <text x="70" y="40" font-family="'Segoe UI', system-ui, sans-serif" font-size="9.5" fill="#64748b" letter-spacing="2" font-weight="600">PAGE VIEWS</text>
+
+  <!-- Value — AUTOUPDATED by GitHub Actions -->
+  <text x="70" y="72" font-family="'Segoe UI', system-ui, sans-serif" font-size="32" font-weight="800" fill="white">19K</text>
+
+  <!-- Sublabel -->
+  <text x="70" y="92" font-family="'Segoe UI', system-ui, sans-serif" font-size="9" fill="#475569" letter-spacing="0.5">total event count · GA4</text>
+
+  <!-- ===== RIGHT: Citations ===== -->
+
+  <!-- Icon -->
+  <circle cx="274" cy="58" r="16" fill="#0f2d1f" opacity="0.7"/>
+  <text x="274" y="64" font-family="'Segoe UI', system-ui, sans-serif" font-size="18" fill="#10b981" text-anchor="middle" filter="url(#glow-green)" font-weight="bold">"</text>
+
+  <!-- Label -->
+  <text x="300" y="40" font-family="'Segoe UI', system-ui, sans-serif" font-size="9.5" fill="#64748b" letter-spacing="2" font-weight="600">CITATIONS</text>
+
+  <!-- Value — AUTOUPDATED by GitHub Actions -->
+  <text x="300" y="72" font-family="'Segoe UI', system-ui, sans-serif" font-size="32" font-weight="800" fill="white">--</text>
+
+  <!-- Sublabel -->
+  <text x="300" y="92" font-family="'Segoe UI', system-ui, sans-serif" font-size="9" fill="#475569" letter-spacing="0.5">Google Scholar · JCTC 2024</text>
+
+  <!-- DOI watermark -->
+  <text x="450" y="113" font-family="'Segoe UI', system-ui, sans-serif" font-size="7.5" fill="#1e3a5f" text-anchor="end" letter-spacing="0.3">10.1021/acs.jctc.4c01272</text>
+</svg>
