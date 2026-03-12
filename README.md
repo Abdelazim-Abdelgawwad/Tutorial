@@ -1,2 +1,2 @@
-#easyPARM 
-[![Citations](https://api.juleskreuer.eu/citation-badge.php?doi=10.1021/acs.jctc.4c01272)](https://scholar.google.com/scholar?q=10.1021/acs.jctc.4c01272)
+![Views](https://hits.sh/github.com/Abdelazim-Abdelgawwad/easyPARM.svg?style=for-the-badge&label=Views&color=0f172a&labelColor=1e3a5f)
+[![Citations](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.juleskreuer.eu%2Fcitation-badge.php%3Fshield%26doi%3D10.1021%2Facs.jctc.4c01272&query=%24.message&style=for-the-badge&label=Citations&color=0f172a&labelColor=1a3a2f&logo=google-scholar&logoColor=white)](https://doi.org/10.1021/acs.jctc.4c01272)
