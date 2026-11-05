@@ -22,3 +22,4 @@ If you use **easyPARM** in your work, please cite the following publications:
 > *easyPARM v4.00: A Python-based tool for the automated parameterization of metalloproteins and metal–organic polyhedra with multiple metal centers.*
 > *Journal of Chemical Physics*, 2025, **163**(22), 222501.
 > [DOI: 10.1063/5.0301038](https://doi.org/10.1063/5.0301038)
+> 
